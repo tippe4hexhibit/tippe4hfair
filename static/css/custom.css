@@ -1,0 +1,121 @@
+/* your styles go here */
+/* Example site test */
+
+#top .dates {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+@media (max-width: 15000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1220px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 14px;
+
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 14px;
+
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 54px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 14px;
+
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 48px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 18px;
+
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 42px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 20px;
+
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 38px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-brand {
+        padding-top: 24px;
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 32px;
+    }
+}
+
+@media (max-width: 970px) {
+    .navbar-brand img {
+        width: auto;
+        height: 32px;
+    }
+}
+
+.navbar-brand img {
+    max-height: 67px;
+}
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}
