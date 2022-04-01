@@ -53,8 +53,15 @@ paginate = 10
     parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 2
+
+
+[[menu.main]]
+    name       = "Fair Info"
+    identifier = "menu.fair_info"
     url        = "/img/template-easy-customize.png"
     weight     = 3
 
@@ -63,7 +70,7 @@ paginate = 10
     identifier = "section.shortcodes"
     url        = ""
     weight     = 1
-    parent     = "menu.features"
+    parent     = "menu.fair_info"
     post       = 1
 
 [[menu.main]]
@@ -71,7 +78,7 @@ paginate = 10
     identifier = "section.headervariations"
     url        = ""
     weight     = 2
-    parent     = "menu.features"
+    parent     = "menu.fair_info"
     post       = 2
 
 [[menu.main]]
@@ -141,8 +148,8 @@ paginate = 10
     parent     = "section.headervariations"
 
 [[menu.main]]
-    name       = "Portfolio"
-    identifier = "menu.portfolio"
+    name       = "Auction"
+    identifier = "menu.auction"
     url        = "/img/template-homepage.png"
     weight     = 3
 
@@ -151,7 +158,7 @@ paginate = 10
     identifier = "section.portfolio"
     url        = ""
     weight     = 1
-    parent     = "menu.portfolio"
+    parent     = "menu.auction"
     post       = 1
 
 [[menu.main]]
@@ -207,7 +214,7 @@ paginate = 10
     identifier = "section.about"
     url        = ""
     weight     = 2
-    parent     = "menu.portfolio"
+    parent     = "menu.auction"
     post       = 2
 
 [[menu.main]]
@@ -227,7 +234,7 @@ paginate = 10
     identifier = "section.marketing"
     url        = ""
     weight     = 3
-    parent     = "menu.portfolio"
+    parent     = "menu.auction"
     post       = 2
 
 [[menu.main]]
@@ -237,8 +244,8 @@ paginate = 10
     parent     = "section.marketing"
 
 [[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
+    name       = "Projects"
+    identifier = "menu.fair_projects"
     url        = ""
     weight     = 4
 
@@ -247,7 +254,7 @@ paginate = 10
     identifier = "section.ap-home"
     url        = ""
     weight     = 1
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 1
 
 [[menu.main]]
@@ -255,7 +262,7 @@ paginate = 10
     identifier = "section.ap-about"
     url        = ""
     weight     = 2
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 1
 
 [[menu.main]]
@@ -263,7 +270,7 @@ paginate = 10
     identifier = "section.ap-marketing"
     url        = ""
     weight     = 3
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 1
 
 [[menu.main]]
@@ -271,7 +278,7 @@ paginate = 10
     identifier = "section.ap-portfolio"
     url        = ""
     weight     = 1
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 2
 
 [[menu.main]]
@@ -279,7 +286,7 @@ paginate = 10
     identifier = "section.ap-userpages"
     url        = ""
     weight     = 2
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 2
 
 [[menu.main]]
@@ -287,7 +294,7 @@ paginate = 10
     identifier = "section.ap-shop"
     url        = ""
     weight     = 1
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 3
 
 [[menu.main]]
@@ -295,7 +302,7 @@ paginate = 10
     identifier = "section.ap-shoporderprocess"
     url        = ""
     weight     = 2
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 3
 
 [[menu.main]]
@@ -303,7 +310,7 @@ paginate = 10
     identifier = "section.ap-contact"
     url        = ""
     weight     = 1
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 4
 
 [[menu.main]]
@@ -311,7 +318,7 @@ paginate = 10
     identifier = "section.ap-pages"
     url        = ""
     weight     = 2
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 4
 
 [[menu.main]]
@@ -319,7 +326,7 @@ paginate = 10
     identifier = "section.ap-blog"
     url        = "/blog/"
     weight     = 3
-    parent     = "menu.allpages"
+    parent     = "menu.fair_projects"
     post       = 4
 
 [[menu.main]]
@@ -329,22 +336,16 @@ paginate = 10
     parent     = "section.ap-blog"
 
 [[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
+    name       = "Exhibit Association"
+    identifier = "menu.exhibit_assoc"
     url        = "/blog/"
     weight     = 5
 
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 6
-
-[[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 7
+#[[menu.main]]
+#    identifier = "contact"
+#    name       = "Contact"
+#    url        = "/contact/"
+#    weight     = 7
 
 
 # Top bar social links menu
@@ -524,3 +525,34 @@ paginate = 10
   category = "categories"
   tag = "tags"
   author = "authors"
+
+############################
+## Deployment
+############################
+[deployment]
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "tippe4hfair_site"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://preview.tippe4hfair.org/?region=us-east-2"
+
+# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+cloudFrontDistributionID = ""
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
