@@ -151,7 +151,7 @@ paginate = 10
     name       = "Auction"
     identifier = "menu.auction"
     url        = "/img/template-homepage.png"
-    weight     = 3
+    weight     = 4
 
 [[menu.main]]
     name       = "Portfolio"
