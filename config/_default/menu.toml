@@ -1,0 +1,352 @@
+# Main menu
+[[main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[main]]
+    name       = "Option 1: Default Page"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.home"
+
+[[main]]
+    name       = "Option 2: Application"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.home"
+
+[[main]]
+    name       = "Option 3: Startup"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.home"
+
+[[main]]
+    name       = "Option 4: Agency"
+    url        = "/"
+    weight     = 4
+    parent     = "menu.home"
+
+[[main]]
+    name       = "Option 5: Portfolio"
+    url        = "/"
+    weight     = 5
+    parent     = "menu.home"
+
+[[main]]
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 2
+
+
+[[main]]
+    name       = "Fair Info"
+    identifier = "menu.fair_info"
+    url        = "/img/template-easy-customize.png"
+    weight     = 3
+
+[[main]]
+    name       = "Shortcodes"
+    identifier = "section.shortcodes"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_info"
+    post       = 1
+
+[[main]]
+    name       = "Header variations"
+    identifier = "section.headervariations"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_info"
+    post       = 2
+
+[[main]]
+    name       = "Accordions"
+    url        = ""
+    weight     = 1
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Alerts"
+    url        = ""
+    weight     = 2
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Buttons"
+    url        = ""
+    weight     = 3
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Content Boxes"
+    url        = ""
+    weight     = 4
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Horizontal Blocks"
+    url        = ""
+    weight     = 5
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Pagination"
+    url        = ""
+    weight     = 6
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Tabs"
+    url        = ""
+    weight     = 7
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Typography"
+    url        = ""
+    weight     = 8
+    parent     = "section.shortcodes"
+
+[[main]]
+    name       = "Default Sticky Header"
+    url        = ""
+    weight     = 1
+    parent     = "section.headervariations"
+
+[[main]]
+    name       = "No Sticky Header"
+    url        = ""
+    weight     = 2
+    parent     = "section.headervariations"
+
+[[main]]
+    name       = "Light Header"
+    url        = ""
+    weight     = 3
+    parent     = "section.headervariations"
+
+[[main]]
+    name       = "Auction"
+    identifier = "menu.auction"
+    url        = "/img/template-homepage.png"
+    weight     = 4
+
+[[main]]
+    name       = "Portfolio"
+    identifier = "section.portfolio"
+    url        = ""
+    weight     = 1
+    parent     = "menu.auction"
+    post       = 1
+
+[[main]]
+    name       = "2 Columns"
+    url        = ""
+    weight     = 1
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "2 Columns With Negative Space"
+    url        = ""
+    weight     = 2
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "3 Columns"
+    url        = ""
+    weight     = 3
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "3 Columns With Negative Space"
+    url        = ""
+    weight     = 4
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "4 Columns"
+    url        = ""
+    weight     = 5
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "4 Columns With Negative Space"
+    url        = ""
+    weight     = 6
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "Portfolio - detail"
+    url        = ""
+    weight     = 7
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "Portfolio - detail 2"
+    url        = ""
+    weight     = 8
+    parent     = "section.portfolio"
+
+[[main]]
+    name       = "About"
+    identifier = "section.about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.auction"
+    post       = 2
+
+[[main]]
+    name       = "About Us"
+    url        = ""
+    weight     = 1
+    parent     = "section.about"
+
+[[main]]
+    name       = "Our Team"
+    url        = ""
+    weight     = 2
+    parent     = "section.about"
+
+[[main]]
+    name       = "Marketing"
+    identifier = "section.marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.auction"
+    post       = 2
+
+[[main]]
+    name       = "Packages"
+    url        = ""
+    weight     = 1
+    parent     = "section.marketing"
+
+[[main]]
+    name       = "Projects"
+    identifier = "menu.fair_projects"
+    url        = ""
+    weight     = 4
+
+[[main]]
+    name       = "Home"
+    identifier = "section.ap-home"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_projects"
+    post       = 1
+
+[[main]]
+    name       = "About"
+    identifier = "section.ap-about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_projects"
+    post       = 1
+
+[[main]]
+    name       = "Marketing"
+    identifier = "section.ap-marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.fair_projects"
+    post       = 1
+
+[[main]]
+    name       = "Portfolio"
+    identifier = "section.ap-portfolio"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_projects"
+    post       = 2
+
+[[main]]
+    name       = "User Pages"
+    identifier = "section.ap-userpages"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_projects"
+    post       = 2
+
+[[main]]
+    name       = "Shop"
+    identifier = "section.ap-shop"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_projects"
+    post       = 3
+
+[[main]]
+    name       = "Shop - Order Process"
+    identifier = "section.ap-shoporderprocess"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_projects"
+    post       = 3
+
+[[main]]
+    name       = "Contact"
+    identifier = "section.ap-contact"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_projects"
+    post       = 4
+
+[[main]]
+    name       = "Pages"
+    identifier = "section.ap-pages"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_projects"
+    post       = 4
+
+[[main]]
+    name       = "Blog"
+    identifier = "section.ap-blog"
+    url        = "/blog/"
+    weight     = 3
+    parent     = "menu.fair_projects"
+    post       = 4
+
+[[main]]
+    name       = "Blog Listing Big"
+    url        = "/blog/"
+    weight     = 1
+    parent     = "section.ap-blog"
+
+[[main]]
+    name       = "Exhibit Association"
+    identifier = "menu.exhibit_assoc"
+    url        = "/blog/"
+    weight     = 5
+
+#[[main]]
+#    identifier = "contact"
+#    name       = "Contact"
+#    url        = "/contact/"
+#    weight     = 7
+
+
+# Top bar social links menu
+
+[[topbar]]
+    weight = 1
+    name = "Phone"
+    url = "tel:765-430-4188"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[topbar]]
+    weight = 3
+    name = "Facebook"
+    url = "https://www.facebook.com/TippecanoeCounty4HFair"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+[[topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:tippy4exhibit@gmail.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"

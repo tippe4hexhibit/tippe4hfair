@@ -1,0 +1,6 @@
+######################################
+# Production-specific Configuration
+######################################
+
+baseurl = "https://tippe4hfair.org"
+googleAnalytics = "G-FLZ6TQTPV0"
