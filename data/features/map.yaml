@@ -1,0 +1,5 @@
+weight: 1
+name: "Map"
+icon: "fas fa-map-location-dot"
+url: "/map"
+description: "Interactive map of the fairgrounds."
