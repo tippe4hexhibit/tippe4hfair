@@ -1,0 +1,10 @@
+weight: 4
+title: "Livestock Auction"
+description: >
+  <ul class="list-style-none">
+    <li>Cattle</li>
+    <li>Pork</li>
+    <li>Goats</li>
+  </ul>
+image: "img/carousel/auction.jpg"
+href: "/2022/auction"

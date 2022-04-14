@@ -1,0 +1,13 @@
+weight: 2
+title: "Tippecanoe County Fairgrounds"
+description: >
+  <p>
+    1406 Teal Road<br>
+    Lafayette, IN 47905
+  </p>
+  <br>
+  <ul class="list-style-none">
+     <li>On-site Parking</li>
+     <li>Shuttle Service (See Schedule)</li>
+   </ul>
+image: "img/carousel/fairground-building.webp"

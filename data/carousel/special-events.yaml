@@ -1,0 +1,10 @@
+weight: 3
+title: "Special Events"
+description: >
+  <ul class="list-style-none">
+    <li>Kiddie Tractor Pull (Saturday)</li>
+    <li>Worship Service (Sunday)</li>
+    <li>Pie Eating Contest (Monday)</li>
+    <li>Greased Watermelon Contest (Thursday)</li>
+  </ul>
+image: "img/carousel/pie-contest.jpg"

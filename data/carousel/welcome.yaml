@@ -1,0 +1,11 @@
+weight: 1
+title: "Welcome to the Fair!"
+description: >
+  <ul class="list-style-none">
+     <li>Livestock Shows</li>
+     <li>Project Exhibits</li>
+     <li>Pageantry</li>
+     <li>Carnival</li>
+     <li>And so much more!</li>
+  </ul>
+image: "img/carousel/2022-logo-transparent.png"
