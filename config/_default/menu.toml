@@ -1,4 +1,8 @@
+
+
+#################################################
 # Main menu
+
 [[main]]
     name       = "Home"
     identifier = "menu.home"
@@ -6,331 +10,397 @@
     weight     = 1
 
 [[main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
-
-[[main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
-
-[[main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
     weight     = 2
 
-
 [[main]]
     name       = "Fair Info"
     identifier = "menu.fair_info"
-    url        = "/img/template-easy-customize.png"
+    url        = "/img/menu-fair.jpg"
     weight     = 3
-
-[[main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
-    url        = ""
-    weight     = 1
-    parent     = "menu.fair_info"
-    post       = 1
-
-[[main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
-    url        = ""
-    weight     = 2
-    parent     = "menu.fair_info"
-    post       = 2
-
-[[main]]
-    name       = "Accordions"
-    url        = ""
-    weight     = 1
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Alerts"
-    url        = ""
-    weight     = 2
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Buttons"
-    url        = ""
-    weight     = 3
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Content Boxes"
-    url        = ""
-    weight     = 4
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Horizontal Blocks"
-    url        = ""
-    weight     = 5
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Pagination"
-    url        = ""
-    weight     = 6
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Tabs"
-    url        = ""
-    weight     = 7
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
-
-[[main]]
-    name       = "Default Sticky Header"
-    url        = ""
-    weight     = 1
-    parent     = "section.headervariations"
-
-[[main]]
-    name       = "No Sticky Header"
-    url        = ""
-    weight     = 2
-    parent     = "section.headervariations"
-
-[[main]]
-    name       = "Light Header"
-    url        = ""
-    weight     = 3
-    parent     = "section.headervariations"
 
 [[main]]
     name       = "Auction"
     identifier = "menu.auction"
-    url        = "/img/template-homepage.png"
+    url        = "/img/menu-auction.jpg"
     weight     = 4
 
 [[main]]
-    name       = "Portfolio"
-    identifier = "section.portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.auction"
-    post       = 1
-
-[[main]]
-    name       = "2 Columns"
-    url        = ""
-    weight     = 1
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "2 Columns With Negative Space"
-    url        = ""
-    weight     = 2
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "3 Columns"
-    url        = ""
-    weight     = 3
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "3 Columns With Negative Space"
-    url        = ""
-    weight     = 4
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "4 Columns"
-    url        = ""
+    name       = "Giving"
+    identifier = "menu.fair_support"
+    url        = "/img/menu-giving.jpg"
     weight     = 5
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "4 Columns With Negative Space"
-    url        = ""
-    weight     = 6
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "Portfolio - detail"
-    url        = ""
-    weight     = 7
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "Portfolio - detail 2"
-    url        = ""
-    weight     = 8
-    parent     = "section.portfolio"
-
-[[main]]
-    name       = "About"
-    identifier = "section.about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.auction"
-    post       = 2
-
-[[main]]
-    name       = "About Us"
-    url        = ""
-    weight     = 1
-    parent     = "section.about"
-
-[[main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
-
-[[main]]
-    name       = "Marketing"
-    identifier = "section.marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.auction"
-    post       = 2
-
-[[main]]
-    name       = "Packages"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
-
-[[main]]
-    name       = "Projects"
-    identifier = "menu.fair_projects"
-    url        = ""
-    weight     = 4
-
-[[main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.fair_projects"
-    post       = 1
-
-[[main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.fair_projects"
-    post       = 1
-
-[[main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.fair_projects"
-    post       = 1
-
-[[main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.fair_projects"
-    post       = 2
-
-[[main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.fair_projects"
-    post       = 2
-
-[[main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.fair_projects"
-    post       = 3
-
-[[main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.fair_projects"
-    post       = 3
-
-[[main]]
-    name       = "Contact"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.fair_projects"
-    post       = 4
-
-[[main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.fair_projects"
-    post       = 4
-
-[[main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.fair_projects"
-    post       = 4
-
-[[main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
 
 [[main]]
     name       = "Exhibit Association"
     identifier = "menu.exhibit_assoc"
-    url        = "/blog/"
+    url        = "/img/menu-exhibit.jpg"
+    weight     = 6
+
+#################################################
+
+
+#################################################
+# Fair Info submenu
+
+[[main]]
+    name       = "Schedule of Events"
+    identifier = "section.fair_schedule"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_info"
+    post       = 1
+
+[[main]]
+    name       = "Getting to the Fair"
+    identifier = "section.fair_arrival"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_info"
+    post       = 1
+
+[[main]]
+    name       = "At the Fair"
+    identifier = "section.at_fair"
+    url        = ""
+    weight     = 3
+    parent     = "menu.fair_info"
+    post       = 1
+
+[[main]]
+    name       = "Shows and Pageants"
+    identifier = "section.shows"
+    url        = ""
+    weight     = 3
+    parent     = "menu.fair_info"
+    post       = 2
+
+[[main]]
+    name       = "Must See"
+    identifier = "section.exhibits"
+    url        = ""
+    weight     = 4
+    parent     = "menu.fair_info"
+    post       = 2
+
+[[main]]
+    name       = "Carnival"
+    identifier = "section.carnival"
+    url        = ""
     weight     = 5
+    parent     = "menu.fair_info"
+    post       = 2
 
-#[[main]]
-#    identifier = "contact"
-#    name       = "Contact"
-#    url        = "/contact/"
-#    weight     = 7
+[[main]]
+    name       = "Pre-fair Schedule"
+    url        = "/2022/prefair-schedule"
+    weight     = 1
+    parent     = "section.fair_schedule"
+
+[[main]]
+    name       = "Fair Schedule"
+    url        = "/2022/schedule"
+    weight     = 2
+    parent     = "section.fair_schedule"
+
+[[main]]
+    name       = "Location and Address"
+    url        = "/location"
+    weight     = 1
+    parent     = "section.fair_arrival"
+
+[[main]]
+    name       = "Parking and Shuttle"
+    url        = "/parking"
+    weight     = 2
+    parent     = "section.fair_arrival"
+
+[[main]]
+    name       = "Fairgrounds Map"
+    url        = "/2022/map"
+    weight     = 1
+    parent     = "section.at_fair"
+
+[[main]]
+    name       = "Dining Options"
+    url        = "/2022/dining"
+    weight     = 2
+    parent     = "section.at_fair"
+
+[[main]]
+    name       = "Special Events"
+    url        = ""
+    weight     = 3
+    parent     = "section.at_fair"
+
+[[main]]
+    name       = "Animal Shows"
+    url        = ""
+    weight     = 1
+    parent     = "section.shows"
+
+[[main]]
+    name       = "Queen Contest"
+    url        = ""
+    weight     = 2
+    parent     = "section.shows"
+
+[[main]]
+    name       = "Little Miss/Mr Tippecanoe County"
+    url        = ""
+    weight     = 3
+    parent     = "section.shows"
+
+[[main]]
+    name       = "Animals"
+    url        = ""
+    weight     = 1
+    parent     = "section.exhibits"
+
+[[main]]
+    name       = "Exhibits"
+    url        = ""
+    weight     = 2
+    parent     = "section.exhibits"
+
+[[main]]
+    name       = "Home and Family Arts Show"
+    url        = ""
+    weight     = 3
+    parent     = "section.exhibits"
+
+[[main]]
+    name       = "Commercial Booths"
+    url        = ""
+    weight     = 4
+    parent     = "section.exhibits"
+
+[[main]]
+    name       = "Carnival"
+    url        = ""
+    weight     = 1
+    parent     = "section.carnival"
+
+#################################################
 
 
+#################################################
+# Auction submenu
+
+[[main]]
+    name       = "Auction"
+    identifier = "section.auction"
+    url        = ""
+    weight     = 1
+    parent     = "menu.auction"
+    post       = 1
+
+[[main]]
+    name       = "Auction Information"
+    url        = ""
+    weight     = 1
+    parent     = "section.auction"
+
+[[main]]
+    name       = "Registration"
+    url        = ""
+    weight     = 2
+    parent     = "section.auction"
+
+[[main]]
+    name       = "Submit Your Photos"
+    url        = ""
+    weight     = 3
+    parent     = "section.auction"
+
+[[main]]
+    name       = "Livestream"
+    url        = ""
+    weight     = 4
+    parent     = "section.auction"
+
+[[main]]
+    name       = "Kudos and Thank Yous"
+    url        = ""
+    weight     = 5
+    parent     = "section.auction"
+
+#################################################
+
+#################################################
+# Giving submenu
+
+[[main]]
+    name       = "Sponsors and Sponsorship"
+    identifier = "section.sponsors"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_support"
+    post       = 1
+
+[[main]]
+    name       = "Volunteering"
+    identifier = "section.volunteering"
+    url        = ""
+    weight     = 2
+    parent     = "menu.fair_support"
+    post       = 1
+
+[[main]]
+    name       = "Donors and Donations"
+    identifier = "section.donors"
+    url        = ""
+    weight     = 1
+    parent     = "menu.fair_support"
+    post       = 2
+
+[[main]]
+    name       = "Our Sponsors"
+    url        = "/sponsors"
+    weight     = 1
+    parent     = "section.sponsors"
+
+[[main]]
+    name       = "Become a Sponsor"
+    url        = "/sponsorship"
+    weight     = 2
+    parent     = "section.sponsors"
+
+[[main]]
+    name       = "Our Wonderful Volunteers"
+    url        = "/volunteers"
+    weight     = 1
+    parent     = "section.volunteering"
+
+[[main]]
+    name       = "Volunteer with Us!"
+    url        = "/volunteering"
+    weight     = 2
+    parent     = "section.volunteering"
+
+[[main]]
+    name       = "Our Donors"
+    url        = "/donors"
+    weight     = 1
+    parent     = "section.donors"
+
+[[main]]
+    name       = "Auction Buyers"
+    url        = "/donors"
+    weight     = 2
+    parent     = "section.donors"
+
+[[main]]
+    name       = "Donate Today!"
+    url        = "/donate"
+    weight     = 3
+    parent     = "section.donors"
+
+#################################################
+
+#################################################
+# Exhibit Association submenu
+
+[[main]]
+    name       = "Exhibit Association"
+    identifier = "section.exhibit_assoc"
+    url        = ""
+    weight     = 1
+    parent     = "menu.exhibit_assoc"
+    post       = 1
+
+[[main]]
+    name       = "Tippecanoe County Extension"
+    identifier = "section.tippe_extension"
+    url        = ""
+    weight     = 2
+    parent     = "menu.exhibit_assoc"
+    post       = 1
+
+[[main]]
+    name       = "Projects"
+    identifier = "section.projects"
+    url        = ""
+    weight     = 3
+    parent     = "menu.exhibit_assoc"
+    post       = 2
+
+[[main]]
+    name       = "About the Exhibit Association"
+    url        = "/association/about"
+    weight     = 1
+    parent     = "section.exhibit_assoc"
+
+[[main]]
+    name       = "Who We Are"
+    url        = "/association/people"
+    weight     = 2
+    parent     = "section.exhibit_assoc"
+
+[[main]]
+    name       = "Getting Involved"
+    url        = "/association/get-involved"
+    weight     = 3
+    parent     = "section.exhibit_assoc"
+
+[[main]]
+    name       = "Contact Us"
+    url        = "/contact"
+    weight     = 4
+    parent     = "section.exhibit_assoc"
+
+[[main]]
+    name       = "About Extension"
+    url        = "https://extension.purdue.edu/county/tippecanoe/index.html"
+    weight     = 1
+    parent     = "section.tippe_extension"
+
+[[main]]
+    name       = "Meet the Team"
+    url        = "https://extension.purdue.edu/county/tippecanoe/about.html"
+    weight     = 2
+    parent     = "section.tippe_extension"
+
+[[main]]
+    name       = "Homemakers"
+    url        = "https://extension.purdue.edu/county/tippecanoe/Tippecanoe-County-Extension-Homemakers.html"
+    weight     = 3
+    parent     = "section.tippe_extension"
+
+[[main]]
+    name       = "Livestock"
+    url        = "/projects/livestock"
+    weight     = 1
+    parent     = "section.projects"
+
+[[main]]
+    name       = "Static Projects"
+    url        = "/projects/static"
+    weight     = 2
+    parent     = "section.projects"
+
+[[main]]
+    name       = "Mini 4-H"
+    url        = "/projects/minis"
+    weight     = 3
+    parent     = "section.projects"
+
+[[main]]
+    name       = "Handbook"
+    url        = "/files/2022-handbook.pdf"
+    weight     = 4
+    parent     = "section.projects"
+
+#################################################
+
+# End of nav menu structures
+#################################################
+#################################################
+
+
+#################################################
 # Top bar social links menu
 
 [[topbar]]

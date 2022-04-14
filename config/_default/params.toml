@@ -1,6 +1,6 @@
 viewMorePostLink = "/blog/"
-author = "DevCows"
-defaultKeywords = ["devcows", "hugo", "go"]
+author = "Tippecanoe County Exhibit Association"
+defaultKeywords = ["tippecanoe", "4-H", "fair"]
 mainSections = ["blog"]
 defaultDescription = "Site template made by devcows using hugo"
 
@@ -16,7 +16,7 @@ googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 latitude = "-12.043333"
 longitude = "-77.028333"
 
-# Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+# Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
 style = "green"
 
 # Since this template is static, the contact form uses www.formspree.io as a
@@ -94,7 +94,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 
 [carouselTestimonials]
     items = 4
-    auto_play = false
+    auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
@@ -109,6 +109,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 
 [features]
     enable = true
+    title = "Fair at a Glance"
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
@@ -119,11 +120,11 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Senior Spotlight"
+    subtitle = "Each year we recognize our Seniors and Ten-year Members as they proceed into the next chapter of their lives."
 
 [see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -139,10 +140,10 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     subtitle = ""
 
 [recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [footer.recent_posts]
-    enable = true
+    enable = false
