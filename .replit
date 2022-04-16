@@ -1,0 +1,2 @@
+language = "nix"
+run = "hugo server --buildDrafts --buildFuture --bind 0.0.0.0 --port 443"
