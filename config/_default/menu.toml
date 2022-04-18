@@ -28,7 +28,7 @@
     weight     = 4
 
 [[main]]
-    name       = "Giving"
+    name       = "Engagement"
     identifier = "menu.fair_support"
     url        = "/img/menu-giving.jpg"
     weight     = 5
