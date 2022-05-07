@@ -1,0 +1,7 @@
+<ul class="csscolumn">
+{{ if .IsNamedParams }}
+    {{ range .Page.Param ( .Get "foo" ) }}
+    <li>{{ .name }} </li>
+    {{ end }}
+{{ end }}
+</ul>
