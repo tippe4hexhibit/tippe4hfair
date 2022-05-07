@@ -88,20 +88,26 @@
 [[main]]
     name       = "Carnival"
     identifier = "section.carnival"
-    url        = ""
+    url        = "/2022/carnival"
     weight     = 5
     parent     = "menu.fair_info"
     post       = 2
 
 [[main]]
     name       = "Pre-fair Schedule"
-    url        = "/2022/prefair-schedule"
+    url        = "/2022/prefair"
     weight     = 1
     parent     = "section.fair_schedule"
 
 [[main]]
     name       = "Fair Schedule"
     url        = "/2022/schedule"
+    weight     = 2
+    parent     = "section.fair_schedule"
+
+[[main]]
+    name       = "Livestock Checkout"
+    url        = "/2022/livestock-checkout"
     weight     = 2
     parent     = "section.fair_schedule"
 
@@ -198,34 +204,43 @@
     post       = 1
 
 [[main]]
-    name       = "Auction Information"
-    url        = ""
+    name       = "About the Auction"
+    url        = "/auction"
     weight     = 1
     parent     = "section.auction"
 
 [[main]]
-    name       = "Registration"
-    url        = ""
+    name       = "Buyers"
+    identifier = "section.auction_buyers"
     weight     = 2
-    parent     = "section.auction"
+    parent     = "menu.auction"
+    post       = 1
 
 [[main]]
-    name       = "Submit Your Photos"
-    url        = ""
+    name       = "Buyer Information"
+    url        = "/auction/buyers"
+    weight     = 1
+    parent     = "section.auction_buyers"
+
+[[main]]
+    name       = "Our Buyers"
+    url        = "/auction/buyers/2021"
+    weight     = 2
+    parent     = "section.auction_buyers"
+
+[[main]]
+    name       = "Exhibitors"
+    identifier = "section.auction_exhibitors"
     weight     = 3
-    parent     = "section.auction"
+    parent     = "menu.auction"
+    post       = 1
 
 [[main]]
-    name       = "Livestream"
-    url        = ""
-    weight     = 4
-    parent     = "section.auction"
+    name       = "Exhibitor Resources"
+    url        = "/auction/exhibitors"
+    weight     = 3
+    parent     = "section.auction_exhibitors"
 
-[[main]]
-    name       = "Kudos and Thank Yous"
-    url        = ""
-    weight     = 5
-    parent     = "section.auction"
 
 #################################################
 
@@ -302,6 +317,11 @@
 
 #################################################
 # Exhibit Association submenu
+
+# Additional Items
+# * How to get involved with 4-H?
+# * Place to put results from livestock and static projects (with photos)
+# * Resources to draw people to the website throughout the year
 
 [[main]]
     name       = "Exhibit Association"

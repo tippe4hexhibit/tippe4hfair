@@ -1,6 +1,53 @@
 /* your styles go here */
 /* Example site test */
 
+
+body {
+    font-size: 22px;    
+}
+
+header {
+    font-size: 14px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* FIXME: New photo collage */
+.home-carousel {
+    background: none;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+img[src$='#center'] {
+  display: block;
+  margin: 1.0rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+    
+    .csscolumn {
+      -webkit-column-count: 2;  /* Chrome, Safari, Opera */
+      -moz-column-count: 2;     /* Firefox */
+      column-count: 2;
+    }
+    
+    .csscolumn {
+      width: 100%;
+    }
+    .csscolumn + .csscolumn {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid;
+    }
+}
+
 #top .dates {
     font-size: 16pt;
     font-weight: bold;

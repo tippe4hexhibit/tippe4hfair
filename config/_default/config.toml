@@ -1,5 +1,5 @@
 title = "Tippecanoe County 4-H Fair"
-theme = "universal"
+theme = ["universal", "osm"]
 languageCode = "en-us"
 defaultContentLanguage = "en"
 
