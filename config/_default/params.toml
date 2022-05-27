@@ -84,7 +84,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 [widgets]
     categories = true
     tags = true
-    search = true
+    search = false
 
 [carouselCustomers]
     items = 6
@@ -116,7 +116,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # For more information take a look at the README.
 
 [testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
@@ -137,7 +137,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
     title = "Our Sponsors"
-    subtitle = ""
+    subtitle = "We are able to have the fair each year and support youth in our community beause of the generosity of our wonderful sponsors! Don't see your name on the list? [Contact Us](/contact) to become a sponsor today!"
 
 [recent_posts]
     enable = false

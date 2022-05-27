@@ -1,0 +1,15 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
+<iframe onload="resizeIframe(this);"
+  src="https://tally.so/embed/{{ index .Params 0 }}?alignLeft=1&hideTitle=1&transparentBackground=1"
+  width="100%"
+  height="{{ index .Params 1 }}"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+  title="{{ index .Params 2 }}">
+</iframe>

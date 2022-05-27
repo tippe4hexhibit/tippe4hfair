@@ -137,26 +137,32 @@
 
 [[main]]
     name       = "Special Events"
-    url        = ""
+    url        = "/2022/special-events"
     weight     = 3
     parent     = "section.at_fair"
 
 [[main]]
-    name       = "Animal Shows"
-    url        = ""
+    name       = "10-year Member Recognition Program"
+    url        = "/2022/shows/10-year"
     weight     = 1
     parent     = "section.shows"
 
 [[main]]
-    name       = "Queen Contest"
-    url        = ""
+    name       = "Animal Shows"
+    url        = "/2022/shows/animal"
     weight     = 2
     parent     = "section.shows"
 
 [[main]]
-    name       = "Little Miss/Mr Tippecanoe County"
-    url        = ""
+    name       = "Queen Contest"
+    url        = "/2022/shows/queen"
     weight     = 3
+    parent     = "section.shows"
+
+[[main]]
+    name       = "Little Miss/Mr. Tippecanoe County"
+    url        = "/2022/shows/little-miss-mr"
+    weight     = 4
     parent     = "section.shows"
 
 [[main]]
@@ -179,7 +185,7 @@
 
 [[main]]
     name       = "Commercial Booths"
-    url        = ""
+    url        = "/2022/commercial"
     weight     = 4
     parent     = "section.exhibits"
 
@@ -245,7 +251,7 @@
 #################################################
 
 #################################################
-# Giving submenu
+# Engagement submenu
 
 [[main]]
     name       = "Sponsors and Sponsorship"
@@ -273,7 +279,7 @@
 
 [[main]]
     name       = "Our Sponsors"
-    url        = "/sponsors"
+    url        = "/2022/sponsors"
     weight     = 1
     parent     = "section.sponsors"
 
@@ -285,7 +291,7 @@
 
 [[main]]
     name       = "Our Wonderful Volunteers"
-    url        = "/volunteers"
+    url        = "/2022/volunteers"
     weight     = 1
     parent     = "section.volunteering"
 
@@ -297,13 +303,13 @@
 
 [[main]]
     name       = "Our Donors"
-    url        = "/donors"
+    url        = "/2022/donors"
     weight     = 1
     parent     = "section.donors"
 
 [[main]]
     name       = "Auction Buyers"
-    url        = "/donors"
+    url        = "/auction/buyers/2021/"
     weight     = 2
     parent     = "section.donors"
 
@@ -391,19 +397,19 @@
 
 [[main]]
     name       = "Livestock"
-    url        = "/projects/livestock"
+    url        = "/files/2022-handbook.pdf#page%3D197"
     weight     = 1
     parent     = "section.projects"
 
 [[main]]
     name       = "Static Projects"
-    url        = "/projects/static"
+    url        = '/files/2022-handbook.pdf#page%3D53'
     weight     = 2
     parent     = "section.projects"
 
 [[main]]
     name       = "Mini 4-H"
-    url        = "/projects/minis"
+    url        = "/files/2022-handbook.pdf#page%3D257"
     weight     = 3
     parent     = "section.projects"
 
@@ -426,7 +432,7 @@
 [[topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:765-430-4188"
+    url = "tel:1-765-430-4188"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[topbar]]

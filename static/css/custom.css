@@ -14,13 +14,20 @@ header {
     text-align: center;
 }
 
-/* FIXME: New photo collage */
-.home-carousel {
-    background: none;
+#content p {
+    margin-top: 25px;
+    margin-left: 1.5em;
 }
 
-p {
-    margin-bottom: 50px;
+#content h1 {
+    margin-top: 50px;
+    text-decoration: underline solid #6aae7a 20%;
+}
+
+
+#content h2 {
+    margin-top: 30px;
+    margin-left: 0.5em;
 }
 
 img[src$='#center'] {
@@ -49,7 +56,7 @@ img[src$='#center'] {
 }
 
 #top .dates {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
 }
 
