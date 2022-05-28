@@ -1,0 +1,25 @@
+on:
+  push:
+    tags:
+      - production-*
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      environment: production
+
+      steps:
+        - name: Check out main
+          uses: actions/checkout@main
+
+        - name: Checkout submodules
+          run: git submodule update --init --recursive
+
+        - name: Deploy site
+          uses: seliger/hugo-s3-action@v1.4.0
+          
+          env:
+            AWS_REGION: ${{ secrets.AWS_REGION }}
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            MINIFY: 'true'
