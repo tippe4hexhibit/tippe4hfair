@@ -12,5 +12,27 @@ If you are interested in having a booth at the fair this year, please contact Ti
 
 ## Our Commercial Vendors
 
-* List coming soon!
+* Indiana Army National Guard, Lafayette Armory
+* Cutco Cuttlery
+* Color Street
+* Gideon's International
+* Lafayette SDA Church
+* Midwest Rentals Inc
+* Rabb/Kinetico Water Systems
+* Sho-Pro of Indiana
+* Tippecanoe County Democratic Party
+* Tippecanoe County Republican Party
+* Tippecanoe County Right to Life Indiana
+* Tippecanoe Farm Bureau
+* West Side Tractor Sales
+* Tipmont REMC
+* The Homestead
+* Venture Logistics
+* The Excel Center/Goodwill
+* Randy Young - Libertarian Party
+* Tippecanoe County Sheriff
+* US Army
+* Leaf Filter
+* Peterman Heating Cooling & Plumbing
+* Yoder's Outdoor Buildings
 

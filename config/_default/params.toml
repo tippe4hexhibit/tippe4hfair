@@ -115,6 +115,12 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
 
+[sponsors]
+    enable = true
+    title = "Our Sponsors"
+    cols = 3 # Default: 3, Available values 2,3,4,6
+
+
 [testimonials]
     enable = false
     # All testimonials are defined in their own files. You can find example items
