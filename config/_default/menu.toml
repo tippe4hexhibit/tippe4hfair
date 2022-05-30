@@ -179,7 +179,7 @@
 
 [[main]]
     name       = "Home and Family Arts Show"
-    url        = ""
+    url        = "/2022/home-arts"
     weight     = 3
     parent     = "section.exhibits"
 
@@ -297,7 +297,7 @@
 
 [[main]]
     name       = "Volunteer with Us!"
-    url        = "/volunteering"
+    url        = "/volunteer"
     weight     = 2
     parent     = "section.volunteering"
 
