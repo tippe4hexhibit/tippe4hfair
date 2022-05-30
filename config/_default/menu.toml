@@ -167,13 +167,13 @@
 
 [[main]]
     name       = "Animals"
-    url        = ""
+    url        = "/projects/animals"
     weight     = 1
     parent     = "section.exhibits"
 
 [[main]]
     name       = "Exhibits"
-    url        = ""
+    url        = "/projects/exhibits"
     weight     = 2
     parent     = "section.exhibits"
 
