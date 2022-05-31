@@ -1,0 +1,30 @@
+on:
+    schedule:
+        - cron: '01 00 * * *'
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      environment: preview
+
+      steps:
+        - name: Check out main
+          uses: actions/checkout@main
+
+        - name: Checkout latest release tag
+          run: |
+              LATEST_TAG=$(git tag | grep preview- | tail -1)
+              git checkout $LATEST_TAG
+
+        - name: Checkout submodules
+          run: git submodule update --init --recursive
+
+        - name: Deploy site
+          uses: seliger/hugo-s3-action@v1.4.0
+          
+          env:
+            AWS_REGION: ${{ secrets.AWS_REGION }}
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            HUGO_ENVIRONMENT: 'preview'
+            MINIFY: 'false'
