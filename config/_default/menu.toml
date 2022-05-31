@@ -191,7 +191,7 @@
 
 [[main]]
     name       = "Carnival"
-    url        = ""
+    url        = "/2022/carnival"
     weight     = 1
     parent     = "section.carnival"
 

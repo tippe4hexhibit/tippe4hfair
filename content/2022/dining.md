@@ -75,8 +75,19 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
     * Enchiladas
 
 
-## Dinner
+## Friday, July 22
+
+### Dinner
 * End Zone Bar and Grill
     * Pulled Chicken Sandwich
     * Coney Dog
     * French Fries
+
+
+## Other Options
+
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+
+* During Carnival hours, several food trailers are available. See the [Carnival](/2022/carnival) page for information regarding hours.
