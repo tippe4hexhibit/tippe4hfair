@@ -14,13 +14,24 @@ keywords = ["Special", "Events", "Special Events"]
 * 10:00 am
     * Worship Service
     * Location: TBD
+* 6:30 pm
+    * Tractor Parade
+
 
 ## Monday, July 18
 * 5:30 pm
     * Pie Eating Contest
     * Location: Coliseum
+* 6:30 pm
+    * Tractor Parade
 
 (Sign ups for the Pie Eating Contest will be located in the Extension Office, West Wing, in the Main Building.)
+
+
+## Wednesday, July 20
+* 6:30 pm
+    * Tractor Parade
+
 
 ## Thursday, July 21
 * 8:00 pm

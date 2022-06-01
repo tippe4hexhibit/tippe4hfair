@@ -21,7 +21,8 @@ keywords = ["Schedule", "Events", "Daily"]
 * Pygmy Goats
 * Goat Night Show
 * Rabbits (in Rabbit Barn)
-* Carinval Open
+* **4:00 pm - 10:00 pm**
+    * Carinval Open
 
 ## Sunday, July 17
 * Sheep
@@ -29,7 +30,11 @@ keywords = ["Schedule", "Events", "Daily"]
 * Sheep Night Show
 * Horse and Pony First Year Member Show
 * Horse and Pony Contesting
-* Carnival Open
+* **1:00 pm - 10:00 pm**
+    * Carnival Open
+* **6:30 pm**
+    * Tractor Parade
+
 
 ## Monday, July 18
 * Dairy Cattle
@@ -38,7 +43,12 @@ keywords = ["Schedule", "Events", "Daily"]
 * Scholarship/Special Awards
 * Horse and Pony Ranch show
 * Horse and Pony Contesting
-* Carnival Open
+* **4:00 pm - 10:00 pm**
+    * Carnival Open
+* **6:30 pm**
+    * Tractor Parade
+
+
 
 ## Tuesday, July 19
 * Beef cattle
@@ -47,23 +57,30 @@ keywords = ["Schedule", "Events", "Daily"]
 * Beef Night Show
 * Poultry (in rabbit barn)
 * Horse and Pony English Show
-* Carnival Open – Family Day
+* **12:00 pm - 10:00 pm**
+    * Carnival Open - FAMILY BARGAIN DAY!
 
 ## Wednesday, July 20
 * Swine
 * Horse and Pony Western Show
-* Carnival Open
+* **4:00 pm - 10:00  pm**
+    * Carnival Open
+* **6:30 pm**
+    * Tractor Parade
+
 
 ## Thursday, July 21
 * Mini 4-H Livestock Showmanship
 * Supreme Showmanship
 * Greased Watermelon
-* Carnival Open
+* **4:00 pm - 10:00 pm**
+    * Carnival Open
 
 ## Friday, July 22
 * Livestock Auction
-* Carnival Open
+* **5:00 pm - 10:00 pm**
+    * Carnival Open
 
 ## Saturday, July 23
-* Carnival Open
-
+* **5:00 pm - ?**
+    * Carnival Open

@@ -65,7 +65,8 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 * Junior Leaders Pop Stand
 
 ### Dinner
-* [need info]()
+* [BT Humble's Catering](http://bthumbles.com)
+    * Chicken and Noodles
 
 
 ## Wednesday, July 20
