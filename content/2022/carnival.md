@@ -32,7 +32,7 @@ Once again, Luehr's Ideal Rides will be on the midway with rides and carnival fa
 * 5 pm - 10 pm
 
 ## Saturday, July 23
-* 5 pm - 10 pm
-* **Last Night Fair Special** - Al rides take ONE TICKET!
+* 5 pm - ?
+* **Last Night Fair Special** - All rides take ONE TICKET!
 
 **ALL TIMES WEATHER PERMITTING!**

@@ -10,3 +10,13 @@ keywords:
 
 ## Date: Friday, July 22, 2022
 ## Location: Colliseum
+
+# Auction Animals and Sale Order
+
+* Beef
+* Swine
+* Dairy
+* Poultry
+* Rabbits
+* Goats
+* Sheep

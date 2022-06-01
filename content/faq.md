@@ -20,6 +20,12 @@ We will continue to monitor local health requirements as necessary. Currently, t
 
 # Projects
 
+## How do I register my projects and what is the timeline?
+
+All projects need to be entered into FairEntry (different than 4-H Online!) no later than June 22, 2022. Please use the link below to access FairEntry.
+
+* [FairEntry for the 2022 Tippecanoe County Fair](https://fairentry.com/Fair/SignIn/16398)
+
 ## Where do I enter to drop off my 4-H project?
 
 The main door on the south side of the coliseum.
@@ -50,4 +56,15 @@ Operating hours for the fair and carnival vary slightly throughout the week. Ple
 
 Family Day is Tuesday, all rides take one ticket each!
 
-## 
+# Auction
+
+## What is the sale order for this year's auction?
+
+The sale order is as follows:
+* Beef
+* Swine
+* Dairy
+* Poultry
+* Rabbits
+* Goats
+* Sheep

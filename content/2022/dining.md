@@ -4,6 +4,8 @@ description = "Dining"
 keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 +++
 
+**COMING SOON:** Dinner menus for each night of the fair!
+
 ## Friday, July 15
 
 ### Dinner
@@ -15,10 +17,13 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ### Breakfast
 * [BT Humble's Catering](http://www.bthumbles.com/)
 
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+
 ### Dinner
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
-    * Brisket Nachos
-    * Loaded Baked Potato
 
 
 ## Sunday, July 17
@@ -26,8 +31,11 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ### Breakfast
 * [BT Humble's Catering](http://www.bthumbles.com/)
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
-    * Italian Sausage Sandwich
-    * Loaded Baked Potato
+
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
 
 
 ## Monday, July 18
@@ -35,9 +43,13 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ### Breakfast
 * [BT Humble's Catering](http://www.bthumbles.com/)
 
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+
 ### Dinner
 * [The Homestead](https://homesteadbuttery.com/)
-    * TBD
 
 
 ## Tuesday, July 19
@@ -47,9 +59,13 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 * Farmers' Market
     * TBD
 
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+
 ### Dinner
 * [need info]()
-    * Chicken & Noodles
 
 
 ## Wednesday, July 20
@@ -57,37 +73,38 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ### Breakfast
 * [BT Humble's Catering](http://www.bthumbles.com/)
 
-## Dinner
-* End Zone Bar and Grill
-    * Pulled Chicken Sandwich
-    * Coney Dog
-    * French Fries
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
 
+### Dinner
+* End Zone Bar and Grill
 
 ## Thursday, July 21
 
 ### Breakfast
 * [BT Humble's Catering](http://www.bthumbles.com/)
 
-## Dinner
+### Throughout the Day
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+
+### Dinner
 * End Zone Bar and Grill
-    * Tacos
-    * Enchiladas
 
 
 ## Friday, July 22
 
-### Dinner
-* End Zone Bar and Grill
-    * Pulled Chicken Sandwich
-    * Coney Dog
-    * French Fries
-
-
-## Other Options
-
+### Throughout the Day
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+
+### Dinner
+* End Zone Bar and Grill
+
+## Other Options
 
 * During Carnival hours, several food trailers are available. See the [Carnival](/2022/carnival) page for information regarding hours.
