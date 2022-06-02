@@ -142,8 +142,8 @@
     parent     = "section.at_fair"
 
 [[main]]
-    name       = "10-year Member Recognition Program"
-    url        = "/2022/shows/10-year"
+    name       = "Senior Member Recognition Program"
+    url        = "/2022/shows/senior"
     weight     = 1
     parent     = "section.shows"
 
