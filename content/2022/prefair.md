@@ -6,7 +6,7 @@ keywords = ["Pre-Fair","Prefair", "Schedule", "Judging", "Setup", "Livestock", "
 
 **NOTE:** Dates, times, and locations subject to change. We will keep this page updated if changes occur.
 
-# Static Project Judging
+# 4-H Project Judging
 
 ## Saturday, June 25
 * Consumer Meats - Fairview Community Center

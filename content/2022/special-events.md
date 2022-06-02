@@ -4,6 +4,9 @@ description = "Special Events"
 keywords = ["Special", "Events", "Special Events"]
 +++
 
+**NOTE:** Times are still tentative. Check back soon!
+
+
 ## Saturday, July 16 
 * 5:00 pm
     * Kiddie Tractor Pull
@@ -26,6 +29,11 @@ keywords = ["Special", "Events", "Special Events"]
     * Tractor Parade
 
 (Sign ups for the Pie Eating Contest will be located in the Extension Office, West Wing, in the Main Building.)
+
+
+## Tuesday, July 19
+* 6:00 pm
+    * Pet and Hobby Parade - Coliseum
 
 
 ## Wednesday, July 20

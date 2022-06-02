@@ -6,6 +6,16 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 
 **COMING SOON:** Dinner menus for each night of the fair!
 
+
+# Thank you to our Breakfast Sponsor:
+## BT Humble's Catering
+
+
+
+
+
+# Daily Dining
+
 ## Friday, July 15
 
 ### Dinner

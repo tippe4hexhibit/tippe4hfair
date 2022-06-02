@@ -6,13 +6,14 @@ keywords = ["Schedule", "Events", "Daily"]
 
 # Fair Events by Day
 
-**NOTE:** The schedule is still being finalized. Event dates may change. Times will be provided closer to the fair.
+**NOTE:** The schedule is still being finalized. Event times may change and will be finalized soon.
 
 ## Friday, July 15
 * Cat Show
 * 10 Year member Recognition
 * Little Miss/Mister Contest
 * Queen Contest
+
 
 ## Saturday, July 16
 * Meat Goats
@@ -23,6 +24,7 @@ keywords = ["Schedule", "Events", "Daily"]
 * Rabbits (in Rabbit Barn)
 * **4:00 pm - 10:00 pm**
     * Carinval Open
+
 
 ## Sunday, July 17
 * Sheep
@@ -49,16 +51,19 @@ keywords = ["Schedule", "Events", "Daily"]
     * Tractor Parade
 
 
-
 ## Tuesday, July 19
 * Beef cattle
 * Llama
 * Pet & Hobby
-* Beef Night Show
 * Poultry (in rabbit barn)
 * Horse and Pony English Show
 * **12:00 pm - 10:00 pm**
     * Carnival Open - FAMILY BARGAIN DAY!
+* **6:00 pm**
+    * Pet and Hobby Parade
+* **8:00 pm**
+    * Beef Night Show - Coliseum
+
 
 ## Wednesday, July 20
 * Swine
@@ -76,10 +81,13 @@ keywords = ["Schedule", "Events", "Daily"]
 * **4:00 pm - 10:00 pm**
     * Carnival Open
 
+
 ## Friday, July 22
-* Livestock Auction
+* 1:00 pm
+    * Livestock Auction - Coliseum
 * **5:00 pm - 10:00 pm**
     * Carnival Open
+
 
 ## Saturday, July 23
 * **5:00 pm - ?**
