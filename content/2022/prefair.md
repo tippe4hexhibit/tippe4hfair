@@ -36,6 +36,9 @@ keywords = ["Pre-Fair","Prefair", "Schedule", "Judging", "Setup", "Livestock", "
 * Greenware Ceramic - Coliseum
 * Painting & Drawing - Coliseum
 * Dogs - TBD
+* 3:00 pm
+    * Little Miss/Mister Contest - Coliseum
+
 
 ## Monday, July 11
 * Foods - North & West Wings

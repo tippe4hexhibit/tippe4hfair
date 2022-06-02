@@ -10,8 +10,7 @@ keywords = ["Schedule", "Events", "Daily"]
 
 ## Friday, July 15
 * Cat Show
-* 10 Year member Recognition
-* Little Miss/Mister Contest
+* Senior Member Recognition
 * Queen Contest
 
 
