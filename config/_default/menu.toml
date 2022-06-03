@@ -442,7 +442,19 @@
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[topbar]]
+    weight = 4
+    name = "Twitter"
+    url = "https://twitter.com/tippe4hfair"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[topbar]]
     weight = 5
+    name = "Instagram"
+    url = "https://www.instagram.com/tippe4hfair/"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
+
+[[topbar]]
+    weight = 6
     name = "Email"
     url = "mailto:tippy4exhibit@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"

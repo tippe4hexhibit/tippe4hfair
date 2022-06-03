@@ -6,7 +6,8 @@ defaultDescription = "Site template made by devcows using hugo"
 
 # Social media
 facebook_site = "TippecanoeCounty4HFair" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-twitter_site = "" # the Twitter handle of your site (without the '@')
+twitter_site = "tippe4hfair" # the Twitter handle of your site (without the '@')
+instagram_site = "tippe4hfair"
 default_sharing_image = "img/sharing-default.png"
 
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
