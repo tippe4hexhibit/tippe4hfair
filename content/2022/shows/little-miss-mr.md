@@ -1,6 +1,6 @@
 +++
-title = "Little Miss (and Mister) Tippecanoe Contest"
-description = "Little Miss (and Mister) Tippecanoe Contest"
+title = "Little Miss and Mister Tippecanoe Contest"
+description = "Little Miss and Mister Tippecanoe Contest"
 keywords = ["Shows", "Contest", "Little", "Miss", "Mister", "Little Miss", "Little Mister", "Tippecanoe"]
 +++
 
