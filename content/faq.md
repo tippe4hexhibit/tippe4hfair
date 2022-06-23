@@ -61,10 +61,9 @@ Family Day is Tuesday, all rides take one ticket each!
 ## What is the sale order for this year's auction?
 
 The sale order is as follows:
-* Beef
-* Swine
-* Dairy
-* Poultry
 * Rabbits
+* Poultry
 * Goats
+* Swine
+* Beef and Dairy
 * Sheep

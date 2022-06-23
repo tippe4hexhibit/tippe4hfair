@@ -13,10 +13,9 @@ keywords:
 
 # Auction Animals and Sale Order
 
-* Beef
-* Swine
-* Dairy
-* Poultry
 * Rabbits
+* Poultry
 * Goats
+* Swine
+* Beef and Dairy
 * Sheep

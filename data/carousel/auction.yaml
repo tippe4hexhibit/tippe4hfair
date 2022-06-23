@@ -2,12 +2,11 @@ weight: 4
 title: "Livestock Auction"
 description: >
   <ul class="list-style-none">
-    <li>Beef</li>
-    <li>Swine</li>
-    <li>Dairy</li>
-    <li>Poultry</li>
     <li>Rabbits</li>
+    <li>Poultry</li>
     <li>Goats</li>
+    <li>Swine</li>
+    <li>Beef and Dairy</li>
     <li>Sheep</li>
   </ul>
 image: "img/carousel/auction.jpg"
