@@ -28,3 +28,4 @@ jobs:
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             HUGO_ENVIRONMENT: 'preview'
             MINIFY: 'false'
+            TZ: America/New_York
