@@ -9,7 +9,7 @@ keywords:
 # Welcome to the Livestock Auction
 
 ## Date: Friday, July 22, 2022
-## Location: Colliseum
+## Location: Coliseum
 
 # Auction Animals and Sale Order
 

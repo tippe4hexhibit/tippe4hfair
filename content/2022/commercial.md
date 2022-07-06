@@ -10,7 +10,7 @@ Each year, various businesses and organizations host booths at the fair to inter
 ## Our Commercial Vendors
 
 * Indiana Army National Guard, Lafayette Armory
-* Cutco Cuttlery
+* Cutco Cutlery
 * Color Street
 * Gideon's International
 * Lafayette SDA Church

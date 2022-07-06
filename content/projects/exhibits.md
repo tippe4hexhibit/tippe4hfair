@@ -30,7 +30,6 @@ keywords = ["Exhibits", "Projects"]
 * Crops
 * Electric
 * Entomology
-* Extension Office Staff
 * Farm Animals
 * Farm Scene
 * Fashion Revue Activity
@@ -44,7 +43,6 @@ keywords = ["Exhibits", "Projects"]
 * Gift Wrapping
 * Health
 * Home Environment
-* Junior Leaders
 * LEGO Toy Construction
 * Mini Tractor Pulling
 * Models including Legos
@@ -57,7 +55,6 @@ keywords = ["Exhibits", "Projects"]
 * Sport Fishing
 * Sports Posters
 * Tractor
-* Trips and Workshops
 * Veterinary Science
 * Weather and Climate Science
 * Wildlife

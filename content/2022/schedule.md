@@ -22,7 +22,7 @@ keywords = ["Schedule", "Events", "Daily"]
 * Goat Night Show
 * Rabbits (in Rabbit Barn)
 * **4:00 pm - 10:00 pm**
-    * Carinval Open
+    * Carnival Open
 
 
 ## Sunday, July 17

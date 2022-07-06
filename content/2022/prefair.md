@@ -71,7 +71,7 @@ keywords = ["Pre-Fair","Prefair", "Schedule", "Judging", "Setup", "Livestock", "
   - **9:00 am:** Project judging begins for all grades
 
 
-### Baskets, Counted Cross Stich, Misc. Needlecraft
+### Baskets, Counted Cross Stitch, Misc. Needlecraft
 #### West Wing, Fairgrounds
   - **7:30 am - 8:00 am:** Check in grades 3-4
   - **8:00 am - 8:30 am:** Check in grades 5-6
@@ -195,7 +195,7 @@ keywords = ["Pre-Fair","Prefair", "Schedule", "Judging", "Setup", "Livestock", "
   - **12:30 pm - 12:45 pm:** Check in for **all** Senior Categories
   - **1:00 pm: Project Judging begins in the following order:**
   1. Dress up Wear
-  2. Causal Wear
+  2. Casual Wear
   3. Suits/Coats
   4. Separates
   5. Formals
@@ -242,7 +242,7 @@ keywords = ["Pre-Fair","Prefair", "Schedule", "Judging", "Setup", "Livestock", "
 
 # Livestock Check-in
 
-## Thursdsay, July 14
+## Thursday, July 14
 * **Goats:**  2 pm - 8 pm
 * **Rabbits:** 6 pm - 8 pm
 * **Poultry:** 6 pm - 8 pm

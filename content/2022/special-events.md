@@ -7,7 +7,7 @@ keywords = ["Special", "Events", "Special Events"]
 **NOTE:** Times are still tentative. Check back soon!
 
 
-## Saturday, July 16 
+## Saturday, July 16
 * 5:00 pm
     * Kiddie Tractor Pull
     * Location: TBD
