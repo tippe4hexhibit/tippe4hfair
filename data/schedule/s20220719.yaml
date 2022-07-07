@@ -1,0 +1,78 @@
+longdate: Tuesday, July 19, 2022
+
+sponsors:
+  - sponsor: Tipmont/Wintek
+    link: https://tipmont.org/
+
+times:
+  - time: 6:00 am
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Breakfast by BT Humble's Catering
+
+  - time: 8:00 am
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Beef Cattle Show
+
+  - time: 9:00 am
+    locations:
+      - location: Horse Arena
+        events:
+          - 4-H Horse English Show
+      - location: Rabbit/Poultry Barn
+        events:
+          - 4-H Poultry Show
+
+  - time: 10:00 am
+    locations:
+      - location: North Wing / East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+
+  - time: 11:00 am
+    locations:
+      - location: Dining Court
+        events:
+          - Food Vendors Open **(until 8:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Gallery / East Wing
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
+      - location: East Field
+        events:
+          - Carnival Open - **FAMILY DAY** **(until 10:00 pm)**
+
+  - time: 5:00 pm - 8:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Chicken and Noodle Dinner by Life Church and BT Humble's Catering
+
+  - time: 5:30 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - Family Fun Night by Cornerstone Baptist Church
+
+  - time: 6:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - Pet & Hobby Parade
+
+  - time: 7:00 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - Clogging by Wildcat Valley Cloggers
+
+  - time: 8:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Beef Night Show

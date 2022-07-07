@@ -1,0 +1,71 @@
+longdate: Monday, July 18, 2022
+
+sponsors:
+  - sponsor: PuroClean of Lafayette
+    link: https://www.puroclean.com/lafayette-in-puroclean-lafayette/
+
+times:
+  - time: 6:00 am
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Breakfast by BT Humble's Catering
+
+  - time: 8:00 am
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Dairy Cattle Show
+
+  - time: 9:00 am
+    locations:
+      - location: Horse Arena
+        events:
+          - 4-H Horse Ranch Show
+
+
+  - time: 10:00 am
+    locations:
+      - location: North Wing / East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+
+  - time: 11:00 am
+    locations:
+      - location: Dining Court
+        events:
+          - Food Vendors Open **(until 8:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Gallery / East Wing
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
+
+  - time: 4:00 pm
+    locations:
+      - location: East Field
+        events:
+          - Carnival Open **(until 10:00 pm)**
+
+  - time: 5:00 pm - 8:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - BBQ Cheddar Meat Loaves Dinner by The Homestead
+
+  - time: 6:00 pm
+    locations:
+      - location: Fairgrounds (outside)
+        events:
+          - Antique Tractor Parade
+      - location: Horse Arena
+        events:
+          - 4-H Horse & Pony Contesting
+
+  - time: 6:30 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - Story Time with Tippecanoe Public Library
+

@@ -1,0 +1,37 @@
+longdate: Friday, July 15, 2022
+
+sponsors:
+  - sponsor: Kirby Risk Corporation
+    link: https://www.kirbyrisk.com/
+
+times:
+  - time: 8:00 am
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Cat Show
+
+  - time: 4:00 pm - 9:00 pm
+    locations:
+      - location: Dining Court
+        events:
+          - Tippy Livestock Producers
+
+  - time: 4:30 pm - 8:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Fish Fry Dinner by Dan's Fish Fry & BT Humble's Catering
+
+  - time: 7:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - Member Recognition & Awards Presentation
+
+  - time: 8:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - Miss Tippecanoe Queen Pageant
+

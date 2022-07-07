@@ -2,27 +2,29 @@
 title = "Fair Schedule"
 description = "Fair Schedule"
 keywords = ["Schedule", "Events", "Daily"]
+type = "schedule"
 +++
-
-# Fair Events by Day
-
-**NOTE:** The schedule is still being finalized. Event times may change and will be finalized soon.
-
-## Friday, July 15
-* Cat Show
-* Senior Member Recognition
-* Queen Contest
 
 
 ## Saturday, July 16
-* Meat Goats
-* Dairy Goats
-* Fiber Goats
-* Pygmy Goats
+### 8:00 am
+#### Coliseum
+* Goat Show
+
+### 8:30 am
+#### Rabbit/Poultry Barn
+* Rabbit Show
+
+### 4:00 pm
+* Carnival Open
+
+### 6:30 PM
+#### Special Events Tent
+* Medieval Reenactment by Barony of Rivenstar 
+
+### TBD
 * Goat Night Show
-* Rabbits (in Rabbit Barn)
-* **4:00 pm - 10:00 pm**
-    * Carnival Open
+
 
 
 ## Sunday, July 17

@@ -1,0 +1,63 @@
+longdate: Thursday, July 21, 2022
+
+sponsors:
+  - sponsor: FBi Buildings
+    link: https://www.fbibuildings.com/
+
+times:
+  - time: 6:00 am
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Breakfast by BT Humble's Catering
+
+  - time: 8:00 am
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Minis Livestock Show
+
+  - time: 10:00 am
+    locations:
+      - location: North Wing / East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+      - location: Coliseum
+        events:
+          - 4-H Showmanship
+
+  - time: 11:00 am
+    locations:
+      - location: Dining Court
+        events:
+          - Food Vendors Open **(until 8:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Gallery / East Wing
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
+
+  - time: 4:00 pm
+    locations:
+      - location: East Field
+        events:
+          - Carnival Open **(until 10:00 pm)**
+
+  - time: 5:00 pm - 8:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Beef Tacos or Enchiladas Dinner by The End Zone Sports Bar and Grill
+
+  - time: 6:30 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Supreme Showmanship
+
+  - time: 8:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - Greased Watermelon Contest
