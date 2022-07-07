@@ -11,27 +11,36 @@ times:
         events:
           - 4-H Cat Show
 
-  - time: 4:00 pm - 9:00 pm
+  - time: 10:00 am
+    locations:
+      - location: East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
+
+  - time: 4:00 pm
     locations:
       - location: Dining Court
         events:
-          - Tippy Livestock Producers
-
-  - time: 4:30 pm - 8:00 pm
-    locations:
+          - Tippy Livestock Producers **(until 9:00 pm)**
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Fish Fry Dinner by Dan's Fish Fry & BT Humble's Catering
+          - Fish Fry Dinner by Dan's Fish Fry & BT Humble's Catering **(until 7:00 pm)**
 
   - time: 7:00 pm
     locations:
       - location: Coliseum
         events:
-          - Member Recognition & Awards Presentation
+          - Senior Member Recognition & Awards Presentation
 
   - time: 8:00 pm
     locations:
       - location: Coliseum
         events:
-          - Miss Tippecanoe Queen Pageant
+          - 4-H Fair Queen Pageant
 

@@ -1,5 +1,8 @@
 longdate: Tuesday, July 19, 2022
 
+specials:
+  - "**Family Bargain Day** -- All carnival rides take ONE ticket!"
+
 sponsors:
   - sponsor: Tipmont/Wintek
     link: https://tipmont.org/
@@ -9,28 +12,31 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering
+          - Breakfast by BT Humble's Catering **(until 10:30 am)**
 
-  - time: 8:00 am
+  - time: 9:00 am
     locations:
       - location: Coliseum
         events:
           - 4-H Beef Cattle Show
-
-  - time: 9:00 am
-    locations:
       - location: Horse Arena
         events:
-          - 4-H Horse English Show
+          - 4-H Horse English Judging
       - location: Rabbit/Poultry Barn
         events:
           - 4-H Poultry Show
 
   - time: 10:00 am
     locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
       - location: North Wing / East Wing
         events:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+      - location: East Wing
+        events:
+          - Tippecanoe County Homemakers Flower and Vegetable Judging
 
   - time: 11:00 am
     locations:
@@ -40,18 +46,21 @@ times:
 
   - time: 12:00 pm
     locations:
-      - location: Gallery / East Wing
-        events:
-          - Commercial Exhibits Open **(until 9:00 pm)**
       - location: East Field
         events:
           - Carnival Open - **FAMILY DAY** **(until 10:00 pm)**
 
-  - time: 5:00 pm - 8:00 pm
+  - time: 4:30 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Llama Costume and Fun Show
+
+  - time: 5:00 pm
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Chicken and Noodle Dinner by Life Church and BT Humble's Catering
+          - Chicken and Noodle Dinner by Life Church and BT Humble's Catering **(until 8:30 pm)**
 
   - time: 5:30 pm
     locations:
@@ -63,7 +72,7 @@ times:
     locations:
       - location: Coliseum
         events:
-          - Pet & Hobby Parade
+          - Little Farmer Pet & Hobby Parade
 
   - time: 7:00 pm
     locations:
@@ -75,4 +84,4 @@ times:
     locations:
       - location: Coliseum
         events:
-          - 4-H Beef Night Show
+          - 4-H Grand Champion Beef Selection

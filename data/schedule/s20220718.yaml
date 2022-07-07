@@ -9,7 +9,7 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering
+          - Breakfast by BT Humble's Catering **(until 10:30 am)**
 
   - time: 8:00 am
     locations:
@@ -21,11 +21,14 @@ times:
     locations:
       - location: Horse Arena
         events:
-          - 4-H Horse Ranch Show
+          - 4-H Horse & Pony Trail, Western, Ranch Riding Judging
 
 
   - time: 10:00 am
     locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
       - location: North Wing / East Wing
         events:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
@@ -36,11 +39,6 @@ times:
         events:
           - Food Vendors Open **(until 8:00 pm)**
 
-  - time: 12:00 pm
-    locations:
-      - location: Gallery / East Wing
-        events:
-          - Commercial Exhibits Open **(until 9:00 pm)**
 
   - time: 4:00 pm
     locations:
@@ -48,11 +46,11 @@ times:
         events:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 5:00 pm - 8:00 pm
+  - time: 5:00 pm
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - BBQ Cheddar Meat Loaves Dinner by The Homestead
+          - BBQ Cheddar Meat Loaves Dinner by The Homestead **(until 8:30 pm)**
 
   - time: 5:30 pm
     locations:
@@ -64,7 +62,11 @@ times:
     locations:
       - location: Horse Arena
         events:
-          - 4-H Horse & Pony Contesting
+          - 4-H Horse & Pony Contesting Competition
+      - location: Coliseum
+        events:
+          - 4-H Sewing Fashion Revue
+          - (immediately following) 4-H Consumer Clothing Fashion Revue
 
   - time: 6:30 pm
     locations:

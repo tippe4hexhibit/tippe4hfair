@@ -23,7 +23,6 @@ header {
     text-decoration: underline solid #6aae7a 20%;
 }
 
-
 #content h2 {
     margin-top: 30px;
     margin-left: 0.5em;
@@ -49,7 +48,7 @@ header {
     margin-left: 2em;
 }
 
-#content *:not(li) > ol {
+#content:not(li) > ol {
     margin-left: 3em;
 }
 
@@ -71,11 +70,35 @@ header {
 }
 
 
+#schedule p {
+    font-size: 12pt;
+}
+
 #schedule ul {
-    padding-top: 5px;
+    font-size: 12pt;
+}
+
+#schedule:not(li) > ul {
+    margin-top: 10px;
+    margin-left: 1em;
+}
+
+#schedule h1 {
+    font-size: 20pt;
+}
+
+#schedule h2 {
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+
+#schedule h3 {
+    font-size: 14pt;
 }
 
 #schedule h4 {
+    font-size: 12pt;
+    margin-top: 10px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -108,6 +131,7 @@ img[src$='#center'] {
       padding-top: 10px;
       border-top: 1px solid;
     }
+
 }
 
 #top .dates {
