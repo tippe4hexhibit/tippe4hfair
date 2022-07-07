@@ -9,7 +9,7 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering
+          - Breakfast by BT Humble's Catering **(until 10:30 am)**
 
   - time: 9:00 am
     locations:
@@ -22,12 +22,12 @@ times:
       - location: Special Events Tent
         events:
           - Worship Service by Faith Church
-      - location: Coliseum
-        events:
-          - Sheep Show
       - location: North Wing / East Wing
         events:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+      - location: Coliseum
+        events:
+          - 4-H Sheep Show
 
   - time: 11:00 am
     locations:
@@ -37,9 +37,9 @@ times:
 
   - time: 12:00 pm
     locations:
-      - location: Gallery / East Wing
+      - location: Gallery / Food Court
         events:
-          - Commercial Exhibits Open **(until 9:00 pm)**
+          - Commercial Exhibits Open **(until 8:00 pm)**
 
 
   - time: 1:00 pm
@@ -51,11 +51,11 @@ times:
         events:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 5:00 pm - 8:00 pm
+  - time: 5:00 pm
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Italian Sausage Sandwich Dinner by Trish's Red Bird Cafe
+          - Italian Sausage Sandwich Dinner by Trish's Red Bird Cafe **(until 8:30 pm)**
 
   - time: 6:00 pm
     locations:

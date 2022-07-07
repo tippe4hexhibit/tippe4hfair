@@ -1,5 +1,9 @@
 longdate: Thursday, July 21, 2022
 
+specials:
+  - 4-H Alumni Day
+  - "**Two for Thursday:** Two people ride for the price of ONE!"
+
 sponsors:
   - sponsor: FBi Buildings
     link: https://www.fbibuildings.com/
@@ -9,22 +13,23 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering
+          - Breakfast by BT Humble's Catering **(until 10:30 am)**
 
-  - time: 8:00 am
-    locations:
-      - location: Coliseum
-        events:
-          - 4-H Minis Livestock Show
 
   - time: 10:00 am
     locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
       - location: North Wing / East Wing
         events:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
       - location: Coliseum
         events:
-          - 4-H Showmanship
+          - Mini 4-H Livestock Showmanship
+      - location: Jr Leader Popstand
+        events:
+          - 4-H Alumni Registration
 
   - time: 11:00 am
     locations:
@@ -32,32 +37,26 @@ times:
         events:
           - Food Vendors Open **(until 8:00 pm)**
 
-  - time: 12:00 pm
-    locations:
-      - location: Gallery / East Wing
-        events:
-          - Commercial Exhibits Open **(until 9:00 pm)**
-
   - time: 4:00 pm
     locations:
       - location: East Field
         events:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 5:00 pm - 8:00 pm
+  - time: 5:00 pm
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Beef Tacos or Enchiladas Dinner by The End Zone Sports Bar and Grill
+          - Beef Tacos or Enchiladas Dinner by The End Zone Sports Bar and Grill **(until 8:30 pm)**
 
   - time: 6:30 pm
     locations:
       - location: Coliseum
         events:
-          - 4-H Supreme Showmanship
+          - 4-H Supreme Livestock Showmanship Contest
 
   - time: 8:00 pm
     locations:
       - location: Coliseum
         events:
-          - Greased Watermelon Contest
+          - 43rd Annual Greased Watermelon Contest

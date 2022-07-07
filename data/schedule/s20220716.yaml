@@ -9,7 +9,7 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering
+          - Breakfast by BT Humble's Catering **(until 10:30 am)**
 
   - time: 8:00 am
     locations:
@@ -25,9 +25,12 @@ times:
 
   - time: 10:00 am
     locations:
-      - location: North Wing / East Wing
+      - location: East Wing
         events:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+          - Tippecanoe County Homemakers Foods Judging
+          - _(after Judging)_ Tippecanoe County Homemakers Food Auction
+
 
   - time: 11:00 am
     locations:
@@ -37,21 +40,24 @@ times:
 
   - time: 12:00 pm
     locations:
-      - location: Gallery / East Wing
+      - location: Rabbit/Poultry barn
         events:
-          - Commercial Exhibits Open **(until 9:00 pm)**
+            - Mini 4-H Rabbit Showmanship
 
   - time: 4:00 pm
     locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
       - location: East Field
         events:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 5:00 pm - 8:00 pm
+  - time: 5:00 pm
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Brisket Nachos Dinner by Trish's Red Bird Cafe
+          - Brisket Nachos Dinner by Trish's Red Bird Cafe **(until 8:30 pm)**
 
   - time: 6:30 pm
     locations:
@@ -63,5 +69,5 @@ times:
     locations:
       - location: Coliseum
         events:
-          - 4-H Goat Night Show
+          - 4-H Grand Champion Meat & Dairy Goat Selection
 

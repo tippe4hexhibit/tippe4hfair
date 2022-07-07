@@ -21,7 +21,7 @@
 
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9" id="blog-post">
+                    <div class="col-md-3" id="blog-post">
 
                         <div id="schedule">
                             {{ $date := now.Format "s20060102"}}
@@ -36,22 +36,29 @@
                                     {{ end }}
                                 {{ end }}
 
+                                {{ if .specials }}
+                                    <h2>Specials & Notes:</h2>
+                                    {{ range .specials }}
+                                        <p>&#8212; {{ . | markdownify }}</p>
+                                    {{ end }}
+                                {{ end }}
+
                                 {{ range .times }}
                                     <h3>{{ .time }}</h3>
                                     {{ range .locations }}
                                         <h4>{{ .location }}</h4>
+                                            <ul>
                                             {{ range .events }}
-                                            <p>&#8212; {{ . | markdownify }}</p>
+                                                <li>{{ . | markdownify }}</li>
                                             {{ end }}
+                                            </ul>
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
                             {{ if not $data }}
                                 <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
-                                <div style="width: 30%">
                                 <h2 class="center">No events found for today!</h2>
-                                <p class="center"><a href="/schedule">Click here to see our full schedule!</a></p>
-                                </div>
+                                <p class="center"><a href="/schedule">View Full Schedule</a></p>
                             {{ end }}
                         </div>
                         <!-- /#post-content -->
