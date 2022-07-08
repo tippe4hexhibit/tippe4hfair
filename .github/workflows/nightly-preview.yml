@@ -12,9 +12,7 @@ jobs:
           uses: actions/checkout@main
 
         - name: Checkout latest release tag
-          run: |
-              LATEST_TAG=$(git tag | grep preview- | tail -1)
-              git checkout $LATEST_TAG
+          run: git checkout $(git tag | grep preview- | tail -1)
 
         - name: Checkout submodules
           run: git submodule update --init --recursive
