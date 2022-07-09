@@ -12,7 +12,7 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Breakfast by BT Humble's Catering **(until 10:30 am)**
+          - Breakfast by BT Humbles Catering **(until 10:30 am)**
 
   - time: 9:00 am
     locations:
@@ -60,7 +60,7 @@ times:
     locations:
       - location: Dining Court (Commercial Kitchen Window)
         events:
-          - Chicken and Noodle Dinner by Life Church and BT Humble's Catering **(until 8:30 pm)**
+          - Chicken and Noodle Dinner by Life Church and BT Humbles Catering **(until 8:30 pm)**
 
   - time: 5:30 pm
     locations:
