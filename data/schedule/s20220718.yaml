@@ -63,13 +63,13 @@ times:
       - location: Horse Arena
         events:
           - 4-H Horse & Pony Contesting Competition
+
+  - time: 6:30 pm
+    locations:
       - location: Coliseum
         events:
           - 4-H Sewing Fashion Revue
           - (immediately following) 4-H Consumer Clothing Fashion Revue
-
-  - time: 6:30 pm
-    locations:
       - location: Fairgrounds (outside)
         events:
           - Antique Tractor Parade
