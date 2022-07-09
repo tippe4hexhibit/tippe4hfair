@@ -41,7 +41,6 @@ times:
         events:
           - Commercial Exhibits Open **(until 8:00 pm)**
 
-
   - time: 1:00 pm
     locations:
       - location: Special Events Tent
@@ -50,6 +49,12 @@ times:
       - location: East Field
         events:
           - Carnival Open **(until 10:00 pm)**
+
+  - time: 3:30 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Llama Show
 
   - time: 5:00 pm
     locations:
