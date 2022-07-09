@@ -42,6 +42,8 @@ type = "page"
 
 ### Breakfast
 * [BT Humbles Catering](http://www.bthumbles.com/)
+
+### Dinner
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
 
 ### Throughout the Day
