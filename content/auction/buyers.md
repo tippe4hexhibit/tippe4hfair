@@ -4,6 +4,19 @@ description = "Buyer Information"
 keywords = ["Auction","Letter", "Information"]
 +++
 
+# Online Registration Information
+
+Our online registration system is now open. The link below will take you to our Auction website:
+
+* [Buyer Registration](https://tippecanoe.fairwire.com/default.aspx)
+
+## Help with Registering and Updating Your Information
+
+* [New Registration Guide](/auction/buyers/register)
+* [Update Registration Guide](/auction/buyers/update)
+
+
+
 # Save the Date Letter
 
 {{< center-lines >}}
