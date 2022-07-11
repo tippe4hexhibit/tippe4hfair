@@ -27,6 +27,7 @@ keywords = ["Special", "Events", "Special Events"]
 
 
 (**NOTE 1:** The sign up sheet will be locate in the Extension Office, East Wing, in the Main Building approximately one hour before the Kiddie Tractor Pull.)
+
 (**NOTE 2:** Sign ups for the Pie Eating Contest will be located in the Extension Office, East Wing, in the Main Building. First come, first serve. You must fill out a form and the sign-up sheet.)
 
 
@@ -61,6 +62,9 @@ keywords = ["Special", "Events", "Special Events"]
 
 
 ## Thursday, July 21
+* 7:00 pm
+    - Barbershop Quartet & Choir, Tippecanotes
+        + **Location:** Special Events Tent
 * 8:00 pm
     - Greased Watermelon Contest
         + **Location:** Coliseum
