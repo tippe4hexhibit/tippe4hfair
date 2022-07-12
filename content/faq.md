@@ -14,6 +14,10 @@ The 2022 Tippecanoe County 4-H Fair will be held on July 15 through July 23.
 
 Yes, the fair will once again be open to the public. Bring your friends and family!
 
+## How much does it cost to attend the fair?
+
+The fair itself is free. Parking is free and our shuttle service is also free. Other activities at the fair (carnival, dining, etc.) have additional costs associated with them. 
+
 ## Is there a masking requirement?
 
 We will continue to monitor local health requirements as necessary. Currently, there is no mask requirement.
