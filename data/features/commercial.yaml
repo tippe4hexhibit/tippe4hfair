@@ -1,5 +1,5 @@
 weight: 5
 name: "Commercial"
-icon: "fas fa-arrows-to-eye"
+icon: "/img/icons/icon-commercial.png"
 url: "/2022/commercial"
 description: "Visit our commercial sponsor booths."

@@ -1,5 +1,5 @@
 weight: 4
 name: "Exhibits"
-icon: "fas fa-screwdriver-wrench"
+icon: "/img/icons/icon-exhibits.png"
 url: "/projects/exhibits"
 description: "Explore the hard work of our 4-H'ers."
