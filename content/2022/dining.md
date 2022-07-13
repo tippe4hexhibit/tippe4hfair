@@ -114,7 +114,7 @@ type = "page"
 
 ### Dinner
 {{< figure src="/img/sponsor-lc_bthumbles.png" width="300px" class="bumped-2" >}}
-* [BT Humbles Catering](http://bthumbles.com)
+* [Life Church](https://thelc.church/) & [BT Humbles Catering](http://bthumbles.com)
     - Chicken and Noodles
     - Assorted Desserts
 
