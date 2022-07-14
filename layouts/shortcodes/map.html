@@ -30,6 +30,11 @@
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
+
+  setInterval(() => {
+    map.locate({setView: true, maxZoom: 16});
+  }, 5000);
+
   function onLocationFound(e) {
       var radius = e.accuracy;
 
