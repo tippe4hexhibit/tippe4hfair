@@ -4,7 +4,7 @@ description = "Mini 4-H"
 keywords = ["Mini","Minis"]
 +++
 
-Mini 4-H is a program designed to encourage children’s positive development. The NON-COMPETITIVE learningenvironment for Mini 4-H includes workshop opportunities, club participation, simple, interesting activities thatare fun,exhibiting projects and preparation for the regular 4-H program.
+Mini 4-H is a program designed to encourage children’s positive development. The NON-COMPETITIVE learning environment for Mini 4-H includes workshop opportunities, club participation, simple, interesting activities that are fun,exhibiting projects and preparation for the regular 4-H program.
 
 This project is for youth who are currently in kindergarten, first or second grade As of January 1st of the current year. This program is intended to prepare youth for the regular 4-H program. Special workshops are planned to help the Mini 4-Hers. A postcard will be mailed to each youth with the dates and location(s)of each workshop.
 

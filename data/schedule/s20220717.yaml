@@ -1,0 +1,90 @@
+longdate: Sunday, July 17, 2022
+
+sponsors:
+  - sponsor: Franciscan Health Sports Medicine
+    link: https://www.franciscanhealth.org/conditions-and-services/sports-medicine#
+
+times:
+  - time: 6:00 am
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Breakfast by BT Humbles Catering **(until 10:30 am)**
+
+  - time: 9:00 am
+    locations:
+      - location: Horse Arena
+        events:
+          - 4-H Horse and Pony 1st Year Member Show
+
+  - time: 10:00 am
+    locations:
+      - location: Special Events Tent
+        events:
+          - Worship Service by Faith Church
+      - location: North Wing / East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+      - location: Coliseum
+        events:
+          - 4-H Sheep Show
+
+  - time: 11:00 am
+    locations:
+      - location: Dining Court
+        events:
+          - Food Vendors Open **(until 8:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 8:00 pm)**
+
+  - time: 1:00 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - Kiddie Tractor Pull
+      - location: East Field
+        events:
+          - Carnival Open **(until 10:00 pm)**
+
+  - time: 3:30 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Llama Show
+
+  - time: 5:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Italian Sausage Sandwich Dinner by Trish's Red Bird Cafe **(until 8:30 pm)**
+
+  - time: 6:00 pm
+    locations:
+      - location: Horse Arena
+        events:
+          - 4-H Horse & Pony Contesting
+
+  - time: 6:30 pm
+    locations:
+      - location: Coliseum
+        events:
+          - Pie Eating Contest
+      - location: Fairgrounds (outside)
+        events:
+          - Antique Tractor Parade
+
+  - time: 7:15 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - County Meet Gospel Singing, Fulton County Music Show
+
+  - time: 8:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Sheep Night Show

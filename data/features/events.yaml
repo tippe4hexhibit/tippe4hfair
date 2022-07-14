@@ -1,5 +1,5 @@
 weight: 2
 name: "Events"
-icon: "fas fa-calendar-check"
-url: "/2022/schedule"
-description: "What's happening a the fair today?"
+icon: "/img/icons/icon-events.png"
+url: "/schedule/today"
+description: "What's happening at the fair today?"

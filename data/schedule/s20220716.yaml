@@ -1,0 +1,73 @@
+longdate: Saturday, July 16, 2022
+
+sponsors:
+  - sponsor: 1st Source Bank
+    link: https://www.1stsource.com/
+
+times:
+  - time: 6:00 am
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Breakfast by BT Humbles Catering **(until 10:30 am)**
+
+  - time: 8:00 am
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Goat Show
+
+  - time: 8:30 am
+    locations:
+      - location: Rabbit/Poultry Barn
+        events:
+          - 4-H Rabbit Show
+
+  - time: 10:00 am
+    locations:
+      - location: North Wing / East Wing
+        events:
+          - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
+          - Tippecanoe County Homemakers Foods Judging
+          - _(after Judging)_ Tippecanoe County Homemakers Food Auction
+
+
+  - time: 11:00 am
+    locations:
+      - location: Dining Court
+        events:
+          - Food Vendors Open **(until 9:00 pm)**
+
+  - time: 12:00 pm
+    locations:
+      - location: Rabbit/Poultry barn
+        events:
+            - Mini 4-H Rabbit Showmanship
+
+  - time: 4:00 pm
+    locations:
+      - location: Gallery / Food Court
+        events:
+          - Commercial Exhibits Open **(until 9:00 pm)**
+      - location: East Field
+        events:
+          - Carnival Open **(until 10:00 pm)**
+
+  - time: 5:00 pm
+    locations:
+      - location: Dining Court (Commercial Kitchen Window)
+        events:
+          - Brisket Nachos Dinner by Trish's Red Bird Cafe **(until 8:30 pm)**
+
+  - time: 6:30 pm
+    locations:
+      - location: Special Events Tent
+        events:
+          - Medieval Re-enactment by Barony of Rivenstar
+
+  - time: 8:00 pm
+    locations:
+      - location: Coliseum
+        events:
+          - 4-H Grand Champion Meat & Dairy Goat Selection
+

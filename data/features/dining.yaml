@@ -1,5 +1,5 @@
 weight: 3
 name: "Dining"
-icon: "fas fa-utensils"
+icon: "/img/icons/icon-dining.png"
 url: "/2022/dining"
 description: "Discover all of our different food options."

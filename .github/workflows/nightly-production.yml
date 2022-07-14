@@ -10,11 +10,11 @@ jobs:
       steps:
         - name: Check out main
           uses: actions/checkout@main
+          with:
+            fetch-depth: 0
 
         - name: Checkout latest release tag
-          run: |
-              LATEST_TAG=$(git tag | grep production- | tail -1)
-              git checkout $LATEST_TAG
+          run: git checkout $(git tag | grep production- | tail -1)
 
         - name: Checkout submodules
           run: git submodule update --init --recursive
@@ -27,3 +27,4 @@ jobs:
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             MINIFY: 'false'
+            TZ: America/New_York

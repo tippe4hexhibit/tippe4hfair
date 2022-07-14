@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-3" id="blog-post">
+
+                        <div id="schedule">
+                            {{ $date := now.Format "s20060102"}}
+                            {{ $data := (index .Site.Data.schedule $date) }}
+
+                            {{ with $data }}
+                                <h1>{{ .longdate }}</h1>
+                                {{ if .sponsors }}
+                                    <h2>Sponsors of the Day:</h2>
+                                    {{ range .sponsors }}
+                                        <p>&#8212; <a href="{{ .link }}">{{ .sponsor }}</a></p>
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if .specials }}
+                                    <h2>Specials & Notes:</h2>
+                                    {{ range .specials }}
+                                        <p>&#8212; {{ . | markdownify }}</p>
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ range .times }}
+                                    <h3>{{ .time }}</h3>
+                                    {{ range .locations }}
+                                        <h4>{{ .location }}</h4>
+                                            <ul>
+                                            {{ range .events }}
+                                                <li>{{ . | markdownify }}</li>
+                                            {{ end }}
+                                            </ul>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                            {{ if not $data }}
+                                <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
+                                <h2 class="center">No events found for today!</h2>
+                            {{ end }}
+                            <p class="center"><a href="/schedule">View Full Schedule</a></p>
+                        </div>
+                        <!-- /#post-content -->
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
+
+                    </div>
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+                    <!-- *** RIGHT COLUMN *** -->
+
+                    <div class="col-md-3">
+
+                        <!-- *** MENUS AND WIDGETS *** -->
+
+                        {{ partial "sidebar.html" . }}
+
+                        <!-- *** MENUS AND FILTERS END *** -->
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <!-- *** RIGHT COLUMN END *** -->
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

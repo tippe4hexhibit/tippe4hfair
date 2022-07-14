@@ -9,14 +9,13 @@ keywords:
 # Welcome to the Livestock Auction
 
 ## Date: Friday, July 22, 2022
-## Location: Colliseum
+## Location: Coliseum
 
 # Auction Animals and Sale Order
 
-* Beef
-* Swine
-* Dairy
-* Poultry
 * Rabbits
+* Poultry
 * Goats
+* Swine
+* Beef and Dairy
 * Sheep

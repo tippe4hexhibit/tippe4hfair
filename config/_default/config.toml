@@ -2,6 +2,7 @@ title = "Tippecanoe County 4-H Fair"
 theme = ["universal", "osm"]
 languageCode = "en-us"
 defaultContentLanguage = "en"
+timeZone = "America/New_York"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70

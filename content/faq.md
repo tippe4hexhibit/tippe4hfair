@@ -1,5 +1,5 @@
 +++
-title = "Fequently Asked Questions"
+title = "Frequently Asked Questions"
 description = "Frequently Asked Questions"
 keywords = ["Questions","FAQ"]
 +++
@@ -14,9 +14,22 @@ The 2022 Tippecanoe County 4-H Fair will be held on July 15 through July 23.
 
 Yes, the fair will once again be open to the public. Bring your friends and family!
 
+## How much does it cost to attend the fair?
+
+The fair itself is free. Parking is free and our shuttle service is also free. Other activities at the fair (carnival, dining, etc.) have additional costs associated with them. 
+
 ## Is there a masking requirement?
 
 We will continue to monitor local health requirements as necessary. Currently, there is no mask requirement.
+
+# Dining
+
+## I bought Dinner Event Tickets through the BT Humble's website. Where can I use them?
+
+There are two options available from the BT Humble's [website](http://www.bthumbles.com/event-tickets/):
+
+* **2022 Tippecanoe County Prepaid Fair Cash** - These are only usable for the breakfasts and dinners hosted by BT Humble's Catering. You cannot use them with the other food vendors on property. 
+* **Dan's Fish Fry** - These are only usable on Friday when dinner is hosted by Dan's Fish Fry and BT Humble's Catering. They cannot be used at other times with BT Humble's or with any other food vendor on property.
 
 # Projects
 
@@ -38,11 +51,11 @@ Submit them in the green crate in the 4-H office (east hallway). Green folders a
 
 ## When is the Pie Eating Contest and how do I sign up?
 
-Date/time TBD. The sign up form will be in the Exhibit Association Office.
+Date/time TBD. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ## When is the Kiddie Tractor Pull and how do I sign up?
 
-Date/time TBD. The sign up form will be in the Exhibit Association Office.
+Date/time TBD. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 # Carnival
 
@@ -61,10 +74,9 @@ Family Day is Tuesday, all rides take one ticket each!
 ## What is the sale order for this year's auction?
 
 The sale order is as follows:
-* Beef
-* Swine
-* Dairy
-* Poultry
 * Rabbits
+* Poultry
 * Goats
+* Swine
+* Beef and Dairy
 * Sheep

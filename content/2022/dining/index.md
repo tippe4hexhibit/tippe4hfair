@@ -2,17 +2,19 @@
 title = "Dining"
 description = "Dining"
 keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
+type = "page"
 +++
 
-**COMING SOON:** Dinner menus for each night of the fair!
-
-
 # Thank you to our Breakfast Sponsor:
-## BT Humble's Catering
 
+{{< figure src="/img/sponsor-bt-humbles.png" class="center" >}}
 
+[BT Humbles Catering](http://bthumbles.com) is proudly serving breakfast throughout the entire Fair, and lunch to our 4-H family during Pre-Fair activities. 
 
-
+* Pre-fair Dining
+    - July 8 - 9
+    - July 11 - 13
+* [Full Breakfast Menu](bt-humbles-breakfast)
 
 # Daily Dining
 
@@ -25,7 +27,7 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ## Saturday, July 16
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
 
 ### Throughout the Day
 * Tippecanoe Livestock Producers
@@ -39,7 +41,9 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ## Sunday, July 17
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
+
+### Dinner
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
 
 ### Throughout the Day
@@ -51,7 +55,7 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ## Monday, July 18
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
 
 ### Throughout the Day
 * Tippecanoe Livestock Producers
@@ -65,7 +69,7 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ## Tuesday, July 19
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
 * Farmers' Market
     * TBD
 
@@ -75,14 +79,14 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 * Junior Leaders Pop Stand
 
 ### Dinner
-* [BT Humble's Catering](http://bthumbles.com)
+* [BT Humbles Catering](http://bthumbles.com)
     * Chicken and Noodles
 
 
 ## Wednesday, July 20
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
 
 ### Throughout the Day
 * Tippecanoe Livestock Producers
@@ -95,7 +99,7 @@ keywords = ["Dining", "Menu", "Food", "Breakfast", "Dinner"]
 ## Thursday, July 21
 
 ### Breakfast
-* [BT Humble's Catering](http://www.bthumbles.com/)
+* [BT Humbles Catering](http://www.bthumbles.com/)
 
 ### Throughout the Day
 * Tippecanoe Livestock Producers
