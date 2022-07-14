@@ -14,8 +14,8 @@
   var map = L.map('map').setView([40.3967, -86.8816], 19);
 
   // map.setMaxBounds(imageBounds);
-  map.setMaxZoom(22);
-  map.setMinZoom(19);
+  // map.setMaxZoom(22);
+  // map.setMinZoom(19);
 
   L.imageOverlay(imageUrl, imageBounds, imageOptions).addTo(map);
 
@@ -23,6 +23,12 @@
   L.marker([40.3968, -86.8796]).addTo(map)
       .bindPopup('<b>Horse Arena</b><br>Somewhere near the center.')
       .openPopup();
+
+  var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 25,
+    opacity: 1,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
 
   function onLocationFound(e) {
       var radius = e.accuracy;
@@ -34,11 +40,5 @@
   }
 
   map.on('locationfound', onLocationFound);
-
-  var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 25,
-    opacity: 0,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo(map);
 
 </script>
