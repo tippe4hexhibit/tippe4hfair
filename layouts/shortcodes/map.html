@@ -1,0 +1,34 @@
+
+<div id="map" style="width: 1200px; height: 800px;"></div>
+<script>
+
+  // 40.397674516978164, -86.88353016570049
+  // 40.39558617779395, -86.87673634707778
+  var imageUrl = '{{ "/img/fairgrounds-map.png" | absURL }}',
+    imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
+    imageOptions = {
+      opacity: 1,
+    };
+
+  // 40.396731869878025, -86.88160169310576
+  var map = L.map('map').setView([40.3967, -86.8816], 19);
+
+  map.setMaxBounds(imageBounds);
+  map.setMaxZoom(22);
+  map.setMinZoom(19);
+
+  L.imageOverlay(imageUrl, imageBounds, imageOptions).addTo(map);
+
+  // 40.39687107555382, -86.87963779555744
+  L.marker([40.3968, -86.8796]).addTo(map)
+      .bindPopup('<b>Horse Arena</b><br>Somewhere near the center.')
+      .openPopup();
+
+
+  // var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  //   maxZoom: 25,
+  //   opacity: 0,
+  //   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  // }).addTo(map);
+
+</script>
