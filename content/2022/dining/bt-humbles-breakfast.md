@@ -14,6 +14,15 @@ type = "page"
   - July 11 - 13
 * Fair Week (Full Breakfast)
   - July 15 - 22
+  
+## Barn Breakfast Delivery Service (NEW!)
+### Text your name and order to:
+* **765-413-5678**
+* Credit/Debit Card only at Delivery
+
+### Delivery to Designated Barn Area
+* Look for **"BT DELIVERY"** sign
+
 
 ## Daily Features
 
