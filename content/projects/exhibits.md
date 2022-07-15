@@ -4,58 +4,65 @@ description = "Exhibits at the Fair"
 keywords = ["Exhibits", "Projects"]
 +++
 
-* Aerospace
-* Aquatic Science
-* Arts and Crafts
-    * Baskets
-    * Counted Cross-Stitch
-    * Greenware Ceramics
-    * Miscellaneous Crafts
-    * Miscellaneous Needlecraft
-    * Models
-    * Fine Arts
-    * Pottery - Freeform
-* Bees
-* Bicycle
-* Bugs
-* Cake Decorating
-* Child Development
-* Communications
-* Computers
-* Consumer Clothing
-* Consumer Meats
-* Cookie Decorating
-* County Awards
-* Creative And Expressive Arts
-* Crops
-* Electric
-* Entomology
-* Farm Animals
-* Farm Scene
-* Fashion Revue Activity
+
+## North Wing
+* Animal Posters (excluding Llamas)
+* Crafts
+    - Models
+    - Baskets
+    - Miscellaneous Needlecraft
+* Dog Show Results
 * Fire Safety
 * Floriculture
-* Foods
 * Forestry
-* Garden
-* Genealogy
+* Food & Food Preservation Results
+* Gardening
+* Genealogy Results
 * Geology
-* Gift Wrapping
-* Health
-* Home Environment
-* LEGO Toy Construction
-* Mini Tractor Pulling
-* Models including Legos
+* Health & Safety
+* LEGO
 * Photography
-* Poster Requirements
+* Pocket Pets
+* Mini 4-H
+* Soil & Water
+* Sports Fishing
+* Sports Posters
+* Tractors
+* Veterinary Science
+* Weather
+* Wildlife
+
+## East Wing 1
+#### Southeast Corner
+* Home & Family Arts Open Show
+    - Collectibles
+    - Creative Recycling
+    - Fiber Arts
+    - Flowers & Gardening
+    - Foods
+    - Hobbies & Crafts
+    - Photography
+    - Quilting
+    - Sewing
+* Home Environment
+* Woodworking
+
+## East Wing 2
+#### Southeast Side (closer to Coliseum)
+* Aerospace
+* Aquatic Science
+* Bee Keeping
+* Cake Decorating
+* Child Development
+* Communications Results
+* Computers
+* Consumer Clothing
+* Creative Writing
+* Electric
+* Entomology
+* Farm Scenes
+* Gift Wrapping
+* Llama Crafts & Posters
 * Scrapbooking
 * Sewing
 * Shooting Sports
-* Soil & Water Conservation
-* Sport Fishing
-* Sports Posters
-* Tractor
-* Veterinary Science
-* Weather and Climate Science
-* Wildlife
-* Woodworking

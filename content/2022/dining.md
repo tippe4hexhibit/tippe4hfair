@@ -24,6 +24,8 @@ type = "page"
 #### 11:00 am - 9:00 pm
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 #### 4:00 pm - 9:00 pm
@@ -48,6 +50,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 {{< figure src="/img/sponsor-redbirdcafe.png" width="150px" class="bumped-4" >}}
@@ -63,18 +67,20 @@ type = "page"
 #### 6:00 am - 10:30 am
 * [BT Humbles Catering](http://www.bthumbles.com/)
 
+### Throughout the Day
+#### 11:00 am - 9:00 pm
+* Tippecanoe Livestock Producers
+* Dairy Milkshakes
+* Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
+
 ### Dinner
 {{< figure src="/img/sponsor-redbirdcafe.png" width="150px" class="bumped-4" >}}
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
     - Brisket Nachos
     - Loaded Tots
     - Pie
-
-### Throughout the Day
-#### 11:00 am - 9:00 pm
-* Tippecanoe Livestock Producers
-* Dairy Milkshakes
-* Junior Leaders Pop Stand
 
 
 ## Monday, July 18
@@ -88,6 +94,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 {{< figure src="/img/sponsor-homestead.png" width="200px" class="bumped-3" >}}
@@ -111,6 +119,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 {{< figure src="/img/sponsor-lc_bthumbles.png" width="300px" class="bumped-2" >}}
@@ -130,6 +140,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 {{< figure src="/img/sponsor-endzone.png" width="300px" class="bumped-2" >}}
@@ -149,6 +161,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 ### Dinner
 {{< figure src="/img/sponsor-endzone.png" width="300px" class="bumped-2" >}}
@@ -169,6 +183,8 @@ type = "page"
 * Tippecanoe Livestock Producers
 * Dairy Milkshakes
 * Junior Leaders Pop Stand
+* Mullen's Concessions
+* Kiwanis
 
 
 ## Other Options
