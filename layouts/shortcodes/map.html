@@ -43,7 +43,7 @@
     };
 
   // 40.396731869878025, -86.88160169310576
-  var map = L.map('map').setView([40.3967, -86.8816], 20);
+  var map = L.map('map').setView([40.3959, -86.88144], 18);
 
   map.setMaxBounds(maxImageBounds);
   map.setMaxZoom(23);
@@ -92,9 +92,9 @@
   L.marker([40.3971, -86.8814]).addTo(map)
           .bindPopup('<b>Commercial Booths</b>', {closeOnClick: false, autoClose: false})
           .openPopup();
-    L.marker([40.3964, -86.8820]).addTo(map)
-          .bindPopup('<b>West Wing</b><br>Swine', {closeOnClick: false, autoClose: false})
-          .openPopup();
+  L.marker([40.3964, -86.8820]).addTo(map)
+        .bindPopup('<b>West Wing</b><br>Swine', {closeOnClick: false, autoClose: false})
+        .openPopup();
 
   var indoor_pins = [
     L.marker([40.3967, -86.8815])
