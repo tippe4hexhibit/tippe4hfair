@@ -17,7 +17,7 @@
 </div>
 <div id="map"/></div>
 <script>
-  var marker, circle, lat, long, accuracy;
+  var marker, circle, lat, long, accuracy, err;
 
   var imageUrl1 = '{{ "/img/fairgrounds-map-1.png" | absURL }}',
     imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
@@ -172,7 +172,7 @@
   } else {
       setInterval(() => {
           if (document.getElementById("findme").checked) {
-            navigator.geolocation.getCurrentPosition(getPosition, {
+            navigator.geolocation.getCurrentPosition(getPosition, err, {
               timeout: 6000,
               maximumAge: 1000,
               enableHighAccuracy: true
