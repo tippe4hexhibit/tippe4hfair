@@ -24,7 +24,7 @@ header {
 
 #map-heading {
     display: block;
-    z-index: 2000;
+    z-index: 999;
     position: sticky;
     top: 61px;
     background-color: white;

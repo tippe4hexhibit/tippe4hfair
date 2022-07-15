@@ -43,7 +43,7 @@
     };
 
   // 40.396731869878025, -86.88160169310576
-  var map = L.map('map').setView([40.3967, -86.8816], 19);
+  var map = L.map('map').setView([40.3967, -86.8816], 20);
 
   map.setMaxBounds(maxImageBounds);
   map.setMaxZoom(23);
@@ -121,18 +121,9 @@
             .bindPopup('<b>Extension Office</b>', {closeOnClick: false, autoClose: false}),
     L.marker([40.3965, -86.88176])
             .bindPopup('<b>Exhibit Association Office</b>', {closeOnClick: false, autoClose: false}),
-      L.marker([40.39638, -86.8811])
-            .bindPopup('<b>Extension Office</b>', {closeOnClick: false, autoClose: false}),
     L.marker([40.39638, -86.88177])
             .bindPopup('<b>Flex Room</b><br>(closed to public)', {closeOnClick: false, autoClose: false}),
 ];
-
-  // indoor_pins.forEach((pin) => {
-  //   if (! map.hasLayer(pin)) {
-  //     map.addLayer(pin)
-  //     pin.openPopup()
-  //   }
-  // });
 
   // var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   //   maxZoom: 19,
