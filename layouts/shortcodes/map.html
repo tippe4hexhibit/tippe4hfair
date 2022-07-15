@@ -58,6 +58,14 @@
       }, 5000);
   };
 
+
+  map.on('click', onLocationClicked)
+
+  function onLocationClicked(e) {
+    L.marker(e.latlng).addTo(map)
+      .bindPopup("Lat: " + e.latlng.lat + "<br>Lng: "+ e.latlng.lng).openPopup();
+  }
+
   var marker, circle, lat, long, accuracy;
 
   function getPosition(position) {

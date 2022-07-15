@@ -38,6 +38,10 @@ header {
     max-height: 100%;
 }
 
+.leaflet-popup-content {
+    font-size: 12pt;
+}
+
 .leaflet-top .leaflet-control {
     margin-top: 130px;
 }
