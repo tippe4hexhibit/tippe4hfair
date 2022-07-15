@@ -48,7 +48,7 @@ keywords = ["Special", "Events", "Special Events"]
     - Little Farmer Pet & Hobby Parade
         + **Location:** Coliseum
 * 7:00 pm
-    - Clogging (Wildcat Valley Cloggers)
+    - Clogging (Prairie Grass Cloggers)
         + **Location:** Special Events Tent
 
 
