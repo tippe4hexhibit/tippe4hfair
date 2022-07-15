@@ -5,6 +5,6 @@ keywords = ["Fairgrounds", "Map", "Fairgrounds Map"]
 type = "map"
 +++
 
-## Coming Soon!
+## Fair Map
 
 {{< map >}}

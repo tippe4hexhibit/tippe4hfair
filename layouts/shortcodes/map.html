@@ -5,6 +5,9 @@
 
 <div id="map-heading">
   <p class="center">
+    Zoom in to see locations within the main building
+  </p>
+  <p class="center">
     <label class="switch">
       <input type="checkbox" id="findme">
       <span class="slider round"></span>
@@ -43,14 +46,93 @@
   var map = L.map('map').setView([40.3967, -86.8816], 19);
 
   map.setMaxBounds(maxImageBounds);
-  map.setMaxZoom(26);
-  map.setMinZoom(19);
+  map.setMaxZoom(23);
+  map.setMinZoom(18);
 
 
-  // 40.39687107555382, -86.87963779555744
-  L.marker([40.3968, -86.8796]).addTo(map)
-      .bindPopup('<b>Horse Arena</b><br>Somewhere near the center.')
+  L.marker([40.3969, -86.8825]).addTo(map)
+      .bindPopup('<b>Antique Tractor Exhibit</b>', {closeOnClick: false, autoClose: false})
       .openPopup();
+
+  L.marker([40.39673, -86.8831]).addTo(map)
+      .bindPopup('<b>Dairy Cow & Llama Barn</b>', {closeOnClick: false, autoClose: false})
+      .openPopup();
+
+  L.marker([40.3965, -86.8832]).addTo(map)
+      .bindPopup('<b>Rabbits & Poultry</b>', {closeOnClick: false, autoClose: false})
+      .openPopup();
+
+  L.marker([40.39608, -86.8832]).addTo(map)
+      .bindPopup('<b>Cattle Barn</b>', {closeOnClick: false, autoClose: false})
+      .openPopup();
+
+  L.marker([40.39633, -86.88265]).addTo(map)
+        .bindPopup('<b>West Pavilion</b><br>Goats & Sheep', {closeOnClick: false, autoClose: false})
+        .openPopup();
+
+  L.marker([40.3959, -86.88144]).addTo(map)
+        .bindPopup('<b>Main Entrance</b>', {closeOnClick: false, autoClose: false})
+        .openPopup();
+
+  L.marker([40.39716, -86.8785]).addTo(map)
+        .bindPopup('<b>Horse & Pony Barn</b>', {closeOnClick: false, autoClose: false})
+        .openPopup();
+
+  L.marker([40.3968, -86.8796]).addTo(map)
+          .bindPopup('<b>Horse & Pony Arena</b>', {closeOnClick: false, autoClose: false})
+          .openPopup();
+
+  L.marker([40.39643, -86.8806]).addTo(map)
+          .bindPopup('<b>Special Events</b>', {closeOnClick: false, autoClose: false})
+          .openPopup();
+
+  L.marker([40.3962, -86.8782]).addTo(map)
+          .bindPopup('<b>Carnival</b>', {closeOnClick: false, autoClose: false})
+          .openPopup();
+  L.marker([40.3971, -86.8814]).addTo(map)
+          .bindPopup('<b>Commercial Booths</b>', {closeOnClick: false, autoClose: false})
+          .openPopup();
+    L.marker([40.3964, -86.8820]).addTo(map)
+          .bindPopup('<b>West Wing</b><br>Swine', {closeOnClick: false, autoClose: false})
+          .openPopup();
+
+  var indoor_pins = [
+    L.marker([40.3967, -86.8815])
+            .bindPopup('<b>North Wing</b><br>4-H Projects', {closeOnClick: false, autoClose: false}),
+    L.marker([40.3967, -86.88128])
+            .bindPopup('<b>North Wing</b><br>Commercial Booths', {closeOnClick: false, autoClose: false}),
+    L.marker([40.3962, -86.8814])
+            .bindPopup('<b>Coliseum</b>', {closeOnClick: false, autoClose: false}),
+    L.marker([40.3962, -86.88098])
+            .bindPopup('<b>East Wing 2</b><br>4-H Projects', {closeOnClick: false, autoClose: false}),
+    L.marker([40.3962, -86.88079])
+            .bindPopup('<b>East Wing 1</b><br>4-H Projects<br>Home and Arts Show', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39605, -86.8814])
+            .bindPopup('<b>Gallery</b><br>Commercial Booths', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39637, -86.8811])
+            .bindPopup('<b>Popstand</b>', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39644, -86.88105])
+            .bindPopup('<b>Breakfast & Dinner</b>', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39642, -86.8808])
+            .bindPopup('<b>Milkshake Stand</b><br>Dairy Producers', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39669, -86.88089])
+            .bindPopup("<b>Food Vendors</b><br>Tippecanoe Livestock Producers<br>Mullen's Concessions<br>Kiwanis", {closeOnClick: false, autoClose: false}),
+    L.marker([40.39659, -86.88115])
+            .bindPopup('<b>Extension Office</b>', {closeOnClick: false, autoClose: false}),
+    L.marker([40.3965, -86.88176])
+            .bindPopup('<b>Exhibit Association Office</b>', {closeOnClick: false, autoClose: false}),
+      L.marker([40.39638, -86.8811])
+            .bindPopup('<b>Extension Office</b>', {closeOnClick: false, autoClose: false}),
+    L.marker([40.39638, -86.88177])
+            .bindPopup('<b>Flex Room</b><br>(closed to public)', {closeOnClick: false, autoClose: false}),
+];
+
+  // indoor_pins.forEach((pin) => {
+  //   if (! map.hasLayer(pin)) {
+  //     map.addLayer(pin)
+  //     pin.openPopup()
+  //   }
+  // });
 
   // var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   //   maxZoom: 19,
@@ -67,6 +149,11 @@
   var zoomlevel = map.getZoom();
       if (zoomlevel  <20){
           if (map.hasLayer(ovl2)) {
+              indoor_pins.forEach((pin) => {
+                if (map.hasLayer(pin)) {
+                  map.removeLayer(pin);
+                }
+              });
               map.removeLayer(ovl2);
           } else {
               console.log("no point layer active");
@@ -77,6 +164,12 @@
               console.log("layer already added");
           } else {
               map.addLayer(ovl2);
+              indoor_pins.forEach((pin) => {
+                if (! map.hasLayer(pin)) {
+                  map.addLayer(pin);
+                  pin.openPopup();
+                }
+              });
           }
       }
   console.log("Current Zoom Level =" + zoomlevel)
