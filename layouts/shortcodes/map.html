@@ -15,9 +15,21 @@
 <div id="map"/></div>
 <script>
 
+
+  var imageUrl1 = '{{ "/img/fairgrounds-map-1.png" | absURL }}',
+    imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
+    maxImageBounds = [[40.39790, -86.8837], [40.3948, -86.87626]],
+    imageOptions = {
+      opacity: 1,
+    },
+    mapOptions = {
+      enableHighAccuracy: true
+    };
+
+
   // 40.397674516978164, -86.88353016570049
   // 40.39558617779395, -86.87673634707778
-  var imageUrl = '{{ "/img/fairgrounds-map.png" | absURL }}',
+  var imageUrl2 = '{{ "/img/fairgrounds-map-2.png" | absURL }}',
     imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
     maxImageBounds = [[40.39790, -86.8837], [40.3948, -86.87626]],
     imageOptions = {
@@ -31,7 +43,7 @@
   var map = L.map('map').setView([40.3967, -86.8816], 19);
 
   map.setMaxBounds(maxImageBounds);
-  map.setMaxZoom(22);
+  map.setMaxZoom(26);
   map.setMinZoom(19);
 
 
@@ -46,7 +58,29 @@
   //   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   // }).addTo(map);
 
-  L.imageOverlay(imageUrl, imageBounds, imageOptions).addTo(map);
+  ovl1 = L.imageOverlay(imageUrl1, imageBounds, imageOptions);
+  ovl2 = L.imageOverlay(imageUrl2, imageBounds, imageOptions);
+
+  ovl1.addTo(map);
+
+  map.on('zoomend', function() {
+  var zoomlevel = map.getZoom();
+      if (zoomlevel  <20){
+          if (map.hasLayer(ovl2)) {
+              map.removeLayer(ovl2);
+          } else {
+              console.log("no point layer active");
+          }
+      }
+      if (zoomlevel >= 20){
+          if (map.hasLayer(ovl2)){
+              console.log("layer already added");
+          } else {
+              map.addLayer(ovl2);
+          }
+      }
+  console.log("Current Zoom Level =" + zoomlevel)
+  });
 
   if (!navigator.geolocation) {
       console.log("Your browser doesn't support geolocation feature!")
