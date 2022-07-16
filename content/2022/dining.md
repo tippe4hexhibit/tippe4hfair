@@ -54,6 +54,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-redbirdcafe.png" width="150px" class="bumped-4" >}}
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
     - Brisket Nachos
@@ -76,6 +77,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-redbirdcafe.png" width="150px" class="bumped-4" >}}
 * [Trish's Red Bird Cafe](https://www.redbirddayton.com/)
     - Brisket Nachos
@@ -98,6 +100,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-homestead.png" width="200px" class="bumped-3" >}}
 * [The Homestead](https://homesteadbuttery.com/)
     - Cheddar Meat Loaves
@@ -123,6 +126,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-lc_bthumbles.png" width="300px" class="bumped-2" >}}
 * [Life Church](https://thelc.church/) & [BT Humbles Catering](http://bthumbles.com)
     - Chicken and Noodles
@@ -144,6 +148,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-endzone.png" width="300px" class="bumped-2" >}}
 * End Zone Bar and Grill
     - Pulled Chicken Sandwich w/Fries
@@ -165,6 +170,7 @@ type = "page"
 * Kiwanis
 
 ### Dinner
+#### 5:00 pm - 8:30 pm
 {{< figure src="/img/sponsor-endzone.png" width="300px" class="bumped-2" >}}
 * End Zone Bar and Grill
     - Beef Tacos Dinner (or)
