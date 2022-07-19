@@ -399,3 +399,12 @@ input:checked + .slider:before {
     height: 200px;
     align-items: center;
 }
+
+.customers .item img {
+    display: inline-block;
+    filter: none;
+    -webkit-filter: none
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
