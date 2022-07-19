@@ -1,0 +1,39 @@
+{{ $url := "/static/data/2022-seniors.csv" }}
+{{ $sep := "," }}
+{{ range $i, $r := getCSV $sep $url }}
+    <h2>{{ (index $r 3) }}</h2>
+    <h3>{{ (index $r 6) }}-year Member</h3>
+    {{ if (index $r 8) }}
+      <h4> What are your plans after graduation? </h4>
+      <p>{{ (index $r 8) }}</p>
+    {{ end }}
+    {{ if (index $r 9) }}
+      <h4> What was your favorite project and why? </h4>
+      <p>{{ (index $r 9) }}</p>
+    {{ end }}
+    {{ if (index $r 10) }}
+      <h4> What leadership positions or experiences have you had in 4-H? </h4>
+      <p>{{ (index $r 10) }}</p>
+    {{ end }}
+    {{ if (index $r 11) }}
+      <h4> What memorable experiences have you had with your local club? </h4>
+      <p>{{ (index $r 11) }}</p>
+    {{ end }}
+    {{ if (index $r 12) }}
+      <h4> What memorable county/state/national activities have you had? </h4>
+      <p>{{ (index $r 12) }}</p>
+    {{ end }}
+    {{ if (index $r 13) }}
+      <h4> Tell us about your activities outside of 4-H (extracurricular, jobs, volunteering, etc.):  </h4>
+      <p>{{ (index $r 13) }}</p>
+    {{ end }}
+    {{ if (index $r 14) }}
+      <h4> What have you learned through 4-H that you will use in the future?  </h4>
+      <p>{{ (index $r 14) }}</p>
+    {{ end }}
+    {{ if (index $r 15) }}
+      <h4> What advice would you give others about staying active in 4-H until they graduate?  </h4>
+      <p>{{ (index $r 15) }}</p>
+    {{ end }}
+{{ end }}
+
