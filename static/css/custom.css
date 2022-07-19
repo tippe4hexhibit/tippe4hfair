@@ -400,6 +400,23 @@ input:checked + .slider:before {
     align-items: center;
 }
 
+.box-simple a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-simple h3 {
+    text-align: center;
+    margin: auto;
+}
+
+.box-simple a img {
+    display: flex;
+    width: 75%;
+}
+
 .customers .item img {
     display: inline-block;
     filter: none;
