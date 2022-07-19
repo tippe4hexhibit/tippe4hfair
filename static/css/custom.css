@@ -393,3 +393,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.owl-carousel.customers.owl-theme .owl-item {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
