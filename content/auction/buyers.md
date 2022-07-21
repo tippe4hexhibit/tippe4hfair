@@ -4,6 +4,15 @@ description = "Buyer Information"
 keywords = ["Auction","Letter", "Information"]
 +++
 
+# Auction Bill Now Available
+
+The link below contains the current auction bill for tomorrow's auction. 
+
+**NOTE:** This is subject to change. 
+
+* [Auction Bill](/files/2022-auction-bill.pdf)
+
+
 # Online Registration Information
 
 Our online registration system is now open. The link below will take you to our Auction website:
