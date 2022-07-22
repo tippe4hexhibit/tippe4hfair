@@ -8,7 +8,7 @@ keywords = ["Auction","Letter", "Information"]
 
 Use the following link to place add-on orders. **This link will be available for add-on until 11:59 pm on July 29th.**
 
-* [Online Site for Add-ons](https://auction.showorks.cloud/fair/tippecanoe)
+* [Online Site for Add-ons](https://auction.showorks.cloud/fair/tippecanoe/auction)
 
 ### Help Documentation
 
