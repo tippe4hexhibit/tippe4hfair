@@ -4,6 +4,19 @@ description = "Buyer Information"
 keywords = ["Auction","Letter", "Information"]
 +++
 
+# Online Auctin (Add-ons)
+
+Use the following link to place add-on orders. **This link will be available for add-on until 11:59 pm on July 29th.**
+
+* [Online Site for Add-ons](https://auction.showorks.cloud/fair/tippecanoe)
+
+### Help Documentation
+
+Need help? Follow this tutorial video:
+
+* [Add-on Tutorial](https://www.youtube.com/watch?v=dFT9SNHtBRY)
+
+
 # Auction Bill Now Available
 
 The link below contains the current auction bill for tomorrow's auction. 
