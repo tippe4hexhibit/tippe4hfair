@@ -30,7 +30,7 @@ The link below contains the current auction bill for tomorrow's auction.
 
 Our online registration system is now open. The link below will take you to our Auction website:
 
-* [Buyer Registration](https://tippecanoe.fairwire.com/default.aspx)
+* Buyer Registration (deactivated)
 
 ## Help with Registering and Updating Your Information
 

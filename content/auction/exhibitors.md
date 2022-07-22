@@ -10,7 +10,7 @@ This page is the one-stop-shop for registering and submitting auction informatio
 
 ## Online Entry Portal
 
-* [Exhibitor Registration](https://tippecanoe.fairwire.com/default.aspx)
+* Exhibitor Registration (deactivated)
 
 ## Step-by-Step Instructions
 
