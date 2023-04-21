@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+  <body>
+    <div id="all">
+      {{ partial "nav.html" . }}
+      {{ partial "breadcrumbs.html" . }}
+      <div id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" id="blog-post">
+              {{ $data := (index .Site.Data.sponsorship "tiers") }}
+              <div id="post-content">
+                {{ .Content }}
+                <div class="row center-row-cols same-height-row">
+                  {{ with $data }}
+                  {{ range .tiers }}
+                  <div class="col-xs-12 col-md-4">
+                    <div class="box-simple box-white same-height" style="height: 318px;">
+                      <div class="icon">
+                        <img src="{{ .icon }}">
+                      </div>
+                      <h3>{{ .tier }}</h3>
+                      <h2>{{ .range }}</h2>
+                      <ul>
+                        {{ range .benefits }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                      </ul>
+                    </div>
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if not $data }}
+                <h2 class="center">Sponsorship tiers currently unavailable.</h2>
+                {{ end }}  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#content -->
+    {{ partial "footer.html" . }}
+    </div>
+    <!-- /#all -->
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

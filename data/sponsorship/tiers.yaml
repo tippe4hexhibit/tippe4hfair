@@ -1,0 +1,50 @@
+tiers:
+  - tier: Friends of the Fair
+    icon: /img/icons/clovers/ico_clovers_1.png
+    range: $100 - $249
+    benefits:
+      - Name on Website
+
+  - tier: Bronze
+    icon: /img/icons/clovers/ico_clovers_2.png
+    range: $250 - $999
+    benefits:
+      - Name on Website & Social Media
+      - Name on T-shirt
+      - Name/Logo on One Banner
+      
+  - tier: Silver
+    icon: /img/icons/clovers/ico_clovers_3.png
+    range: $1,000 - $2,499
+    benefits:
+      - Name on Website & Social Media
+      - Name on T-shirt
+      - Name Announced 1x/day
+      - Individual 2.5' x 4' Banner on South Wall
+      - (optional) Booth Space for Week (10' x 10')
+
+  - tier: Gold
+    icon: /img/icons/clovers/ico_clovers_4.png
+    range: $2,500 - $4,999
+    benefits:
+      - Name on Website & Social Media
+      - Name on T-shirt
+      - Name Announced 2x/day
+      - Individual 4' x 6' Banner on South Wall
+      - Banner in Food Court
+      - Booth Space for Week (10' x 20')
+      - Additional Signage TBD
+
+
+  - tier: Platinum
+    icon: /img/icons/rosettes/ico_rosette_purple_1.png
+    range: $5,000+
+    benefits:
+      - Name on Website & Social Media
+      - Name on T-shirt
+      - Name Announced 3x/day
+      - Individual 4' x 6' Banner on South Wall
+      - Banner in Food Court
+      - Booth Space for Week (10' x 20')
+      - Additional Signage TBD
+      - Additional Advertisement Opportunities

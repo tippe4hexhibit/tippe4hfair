@@ -31,6 +31,11 @@ header {
     padding-left: 15px;
 }
 
+.icon {
+    height: 190px;
+    width: 190px;
+}
+
 .leaflet-container {
     height: 400px;
     width: 600px;
@@ -65,6 +70,7 @@ header {
     margin-left: 4em;
 }
 
+
 #content figure {
     margin-top: 35px;
 }
@@ -81,8 +87,8 @@ header {
 
 #content h3 {
     margin-top: 30px;
-    margin-left: 1em;
     margin-bottom: 0px;
+    margin-left: 0.5em;
 }
 
 #content h4 {
@@ -94,12 +100,12 @@ header {
     margin-left: 2em;
 }
 
-#content *:not(li) > ul {
+#content *:not(li, .box-simple) > ul {
     margin-top: 10px;
     margin-left: 2em;
 }
 
-#content:not(li) > ol {
+#content:not(li, .box-simple) > ol {
     margin-left: 3em;
 }
 
@@ -193,7 +199,7 @@ img[src$='#center'] {
 
 @media (max-width: 15000px) {
     .container {
-        width: 100%;
+        width: 85%;
     }
 }
 
@@ -203,7 +209,7 @@ img[src$='#center'] {
 
 @media (max-width: 1385px) {
     .container {
-        width: 100%;
+        width: 85%;
     }
     .navbar-brand {
         padding-top: 14px;
@@ -415,6 +421,23 @@ input:checked + .slider:before {
 .box-simple a img {
     display: flex;
     width: 75%;
+}
+
+.box-simple ul {
+    text-align: left;
+    color: #999999;
+    list-style: square;
+    min-width: 85%;
+    display: block;
+}
+
+.box-simple ul li {
+    padding-top: 5  px;
+}
+.center-row-cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .customers .item img {
