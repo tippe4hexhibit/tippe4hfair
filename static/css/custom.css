@@ -31,7 +31,12 @@ header {
     padding-left: 15px;
 }
 
-.icon {
+.box-simple .icon {
+    height: 190px;
+    width: 190px;
+}
+
+.box-simple .icon img {
     height: 190px;
     width: 190px;
 }
