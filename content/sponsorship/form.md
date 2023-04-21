@@ -8,4 +8,4 @@ Thank you for your desire to be a sponsor for the Tippecanoe 4-H fair. Sponsorsh
 
 Need more information? Review our [sponsorship levels](/sponsorship).
 
-{{< tally-form-inline mRxZ1j "1000px" "Contact Us!" >}}
+{{< tally-form-inline mRxZ1j "1800px" "Contact Us!" >}}
