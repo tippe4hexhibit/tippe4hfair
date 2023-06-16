@@ -10,10 +10,9 @@ jobs:
 
       steps:
         - name: Check out main
-          uses: actions/checkout@main
-
-        - name: Checkout submodules
-          run: git submodule update --init --recursive
+          uses: actions/checkout@v3
+          with:
+            submodules: 'recursive'
 
         - name: Deploy site
           uses: seliger/hugo-s3-action@v1.4.1
