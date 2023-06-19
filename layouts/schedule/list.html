@@ -40,12 +40,12 @@
                                     {{ end }}
                                 {{ end }}
 
-                                {{ range .times }}
-                                    <h3>{{ .time }}</h3>
-                                    {{ range .locations }}
-                                        <h4>{{ .location }}</h4>
+                                {{ range $time, $venues := .times }}
+                                    <h3>{{ $time }}</h3>
+                                    {{ range $venue, $events := $venues }}
+                                        <h4>{{ $venue }}</h4>
                                             <ul>
-                                            {{ range .events }}
+                                            {{ range $event := $events }}
                                                 <li>{{ . | markdownify }}</li>
                                             {{ end }}
                                             </ul>
