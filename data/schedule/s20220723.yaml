@@ -7,8 +7,6 @@ specials:
   - "**Last Night Fair Special:** All rides take ONE ticket!"
 
 times:
-  - time: 5:00 pm
-    locations:
-      - location: East Field
-        events:
+  5:00 pm:
+      East Field:
           - Carnival Open

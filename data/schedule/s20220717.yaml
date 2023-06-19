@@ -5,86 +5,58 @@ sponsors:
     link: https://www.franciscanhealth.org/conditions-and-services/sports-medicine#
 
 times:
-  - time: 6:00 am
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  6:00 am:
+      Dining Court (Commercial Kitchen Window):
           - Breakfast by BT Humbles Catering **(until 10:30 am)**
 
-  - time: 9:00 am
-    locations:
-      - location: Horse Arena
-        events:
+  9:00 am:
+      Horse Arena:
           - 4-H Horse and Pony 1st Year Member Show
 
-  - time: 10:00 am
-    locations:
-      - location: Special Events Tent
-        events:
+  10:00 am:
+      Special Events Tent:
           - Worship Service by Faith Church
-      - location: North Wing / East Wing
-        events:
+      North Wing / East Wing:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
-      - location: Coliseum
-        events:
+      Coliseum:
           - 4-H Sheep Show
 
-  - time: 11:00 am
-    locations:
-      - location: Dining Court
-        events:
+  11:00 am:
+      Dining Court:
           - Food Vendors Open **(until 8:00 pm)**
 
-  - time: 12:00 pm
-    locations:
-      - location: Gallery / Food Court
-        events:
+  12:00 pm:
+      Gallery / Food Court:
           - Commercial Exhibits Open **(until 8:00 pm)**
 
-  - time: 1:00 pm
-    locations:
-      - location: Special Events Tent
-        events:
+  1:00 pm:
+      Special Events Tent:
           - Kiddie Tractor Pull
-      - location: East Field
-        events:
+      East Field:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 3:30 pm
-    locations:
-      - location: Coliseum
-        events:
+  3:30 pm:
+      Coliseum:
           - 4-H Llama Show
 
-  - time: 5:00 pm
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  5:00 pm:
+      Dining Court (Commercial Kitchen Window):
           - Italian Sausage Sandwich Dinner by Trish's Red Bird Cafe **(until 8:30 pm)**
 
-  - time: 6:00 pm
-    locations:
-      - location: Horse Arena
-        events:
+  6:00 pm:
+      Horse Arena:
           - 4-H Horse & Pony Contesting
 
-  - time: 6:30 pm
-    locations:
-      - location: Coliseum
-        events:
+  6:30 pm:
+      Coliseum:
           - Pie Eating Contest
-      - location: Fairgrounds (outside)
-        events:
+      Fairgrounds (outside):
           - Antique Tractor Parade
 
-  - time: 7:15 pm
-    locations:
-      - location: Special Events Tent
-        events:
+  7:15 pm:
+      Special Events Tent:
           - County Meet Gospel Singing, Fulton County Music Show
 
-  - time: 8:00 pm
-    locations:
-      - location: Coliseum
-        events:
+  8:00 pm:
+      Coliseum:
           - 4-H Sheep Night Show

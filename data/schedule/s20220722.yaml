@@ -1,35 +1,24 @@
 longdate: Friday, July 22, 2022
 
 times:
-  - time: 6:00 am
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  6:00 am:
+      Dining Court (Commercial Kitchen Window):
           - Breakfast by BT Humbles Catering **(until 10:30 am)**
 
-  - time: 10:00 am
-    locations:
-      - location: North Wing / East Wing
-        events:
+  10:00 am:
+      North Wing / East Wing:
           - 4-H Project Exhibit Displays Open **(until 3:00 pm)**
 
-  - time: 11:00 am
-    locations:
-      - location: Dining Court
-        events:
+  11:00 am:
+      Dining Court:
           - Food Vendors Open **(until 5:00 pm)**
-      - location: Coliseum
-        events:
+      Coliseum:
           - 4-H Livestock Auction Check-in
 
-  - time: 1:00 pm
-    locations:
-      - location: Coliseum
-        events:
+  1:00 pm:
+      Coliseum:
           - 4-H Livestock Auction
 
-  - time: 5:00 pm
-    locations:
-      - location: East Field
-        events:
+  5:00 pm:
+      East Field:
           - Carnival Open **(until 10:00 pm)**

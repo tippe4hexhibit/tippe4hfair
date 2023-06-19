@@ -8,80 +8,54 @@ sponsors:
     link: https://tipmont.org/
 
 times:
-  - time: 6:00 am
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  6:00 am:
+      Dining Court (Commercial Kitchen Window):
           - Breakfast by BT Humbles Catering **(until 10:30 am)**
 
-  - time: 9:00 am
-    locations:
-      - location: Coliseum
-        events:
+  9:00 am:
+      Coliseum:
           - 4-H Beef Cattle Show
-      - location: Horse Arena
-        events:
+      Horse Arena:
           - 4-H Horse English Judging
-      - location: Rabbit/Poultry Barn
-        events:
+      Rabbit/Poultry Barn:
           - 4-H Poultry Show
 
-  - time: 10:00 am
-    locations:
-      - location: Gallery / Food Court
-        events:
+  10:00 am:
+      Gallery / Food Court:
           - Commercial Exhibits Open **(until 9:00 pm)**
-      - location: North Wing / East Wing
-        events:
+      North Wing / East Wing:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
-      - location: East Wing
-        events:
+      East Wing:
           - Tippecanoe County Homemakers Flower and Vegetable Judging
 
-  - time: 11:00 am
-    locations:
-      - location: Dining Court
-        events:
+  11:00 am:
+      Dining Court:
           - Food Vendors Open **(until 8:00 pm)**
 
-  - time: 12:00 pm
-    locations:
-      - location: East Field
-        events:
+  12:00 pm:
+      East Field:
           - Carnival Open - **FAMILY DAY** **(until 10:00 pm)**
 
-  - time: 4:30 pm
-    locations:
-      - location: Coliseum
-        events:
+  4:30 pm:
+      Coliseum:
           - 4-H Llama Costume and Fun Show
 
-  - time: 5:00 pm
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  5:00 pm:
+      Dining Court (Commercial Kitchen Window):
           - Chicken and Noodle Dinner by Life Church and BT Humbles Catering **(until 8:30 pm)**
 
-  - time: 5:30 pm
-    locations:
-      - location: Special Events Tent
-        events:
+  5:30 pm:
+      Special Events Tent:
           - Family Fun Night by Cornerstone Baptist Church
 
-  - time: 6:00 pm
-    locations:
-      - location: Coliseum
-        events:
+  6:00 pm:
+      Coliseum:
           - Little Farmer Pet & Hobby Parade
 
-  - time: 7:00 pm
-    locations:
-      - location: Special Events Tent
-        events:
+  7:00 pm:
+      Special Events Tent:
           - Clogging by Prairie Grass Cloggers
 
-  - time: 8:00 pm
-    locations:
-      - location: Coliseum
-        events:
+  8:00 pm:
+      Coliseum:
           - 4-H Grand Champion Beef Selection

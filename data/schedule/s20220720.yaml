@@ -5,66 +5,45 @@ sponsors:
     link: https://legacy-courts.com/
 
 times:
-  - time: 6:00 am
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  6:00 am:
+      Dining Court (Commercial Kitchen Window):
           - Breakfast by BT Humbles Catering **(until 10:30 am)**
 
-  - time: 7:00 am
-    locations:
-      - location: Coliseum
-        events:
+  7:00 am:
+      Coliseum:
           - 4-H Swine Show
 
-  - time: 9:00 am
-    locations:
-      - location: Horse Arena
-        events:
+  9:00 am:
+      Horse Arena:
           - 4-H Horse & Pony Western Show
 
-  - time: 10:00 am
-    locations:
-      - location: Gallery / Food Court
-        events:
+  10:00 am:
+      Gallery / Food Court:
           - Commercial Exhibits Open **(until 9:00 pm)**
-      - location: North Wing / East Wing
-        events:
+      North Wing / East Wing:
           - 4-H Project Exhibit Displays Open **(until 8:00 pm)**
 
-  - time: 11:00 am
-    locations:
-      - location: Dining Court
-        events:
+  11:00 am:
+      Dining Court:
           - Food Vendors Open **(until 8:00 pm)**
 
 
-  - time: 4:00 pm
-    locations:
-      - location: East Field
-        events:
+  4:00 pm:
+      East Field:
           - Carnival Open **(until 10:00 pm)**
 
-  - time: 5:00 pm
-    locations:
-      - location: Dining Court (Commercial Kitchen Window)
-        events:
+  5:00 pm:
+      Dining Court (Commercial Kitchen Window):
           - Pulled Chicken Sandwich Dinner by The End Zone Sports Bar and Grill **(until 8:30 pm)**
 
-  - time: 6:30 pm
-    locations:
-      - location: Fairgrounds (outside)
-        events:
+  6:30 pm:
+      Fairgrounds (outside):
           - Antique Tractor Parade
 
-  - time: 7:00 pm
-    locations:
-      - location: Special Events Tent
-        events:
+  7:00 pm:
+      Special Events Tent:
           - Fulton County Music Show
 
-  - time: 8:00 pm
-    locations:
-      - location: Coliseum
-        events:
+  8:00 pm:
+      Coliseum:
           - 4-H Grand Champion Barrow & Gilt Selection
