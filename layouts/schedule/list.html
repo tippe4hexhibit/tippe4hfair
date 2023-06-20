@@ -24,31 +24,33 @@
                     <div class="col-md-4" id="blog-post">
 
                         <div id="schedule">
-                            {{ range .Site.Data.schedule }}
-                                <h1>{{ .longdate }}</h1>
-                                {{ if .sponsors }}
-                                    <h2>Sponsors of the Day:</h2>
-                                    {{ range .sponsors }}
-                                        <p>&#8212; <a href="{{ .link }}">{{ .sponsor }}</a></p>
+                            {{ range $a, $b := .Site.Data.schedule }}
+                                {{ if eq (substr $a 0 5) (now.Format "s2006") }}
+                                    <h1>{{ .longdate }}</h1>
+                                    {{ if .sponsors }}
+                                        <h2>Sponsors of the Day:</h2>
+                                        {{ range .sponsors }}
+                                            <p>&#8212; <a href="{{ .link }}">{{ .sponsor }}</a></p>
+                                        {{ end }}
                                     {{ end }}
-                                {{ end }}
 
-                                {{ if .specials }}
-                                    <h2>Specials & Notes:</h2>
-                                    {{ range .specials }}
-                                        <p>&#8212; {{ . | markdownify }}</p>
+                                    {{ if .specials }}
+                                        <h2>Specials & Notes:</h2>
+                                        {{ range .specials }}
+                                            <p>&#8212; {{ . | markdownify }}</p>
+                                        {{ end }}
                                     {{ end }}
-                                {{ end }}
 
-                                {{ range $time, $venues := .times }}
-                                    <h3>{{ $time }}</h3>
-                                    {{ range $venue, $events := $venues }}
-                                        <h4>{{ $venue }}</h4>
-                                            <ul>
-                                            {{ range $event := $events }}
-                                                <li>{{ . | markdownify }}</li>
-                                            {{ end }}
-                                            </ul>
+                                    {{ range $time, $venues := .times }}
+                                        <h3>{{ $time }}</h3>
+                                        {{ range $venue, $events := $venues }}
+                                            <h4>{{ $venue }}</h4>
+                                                <ul>
+                                                {{ range $event := $events }}
+                                                    <li>{{ . | markdownify }}</li>
+                                                {{ end }}
+                                                </ul>
+                                        {{ end }}
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
