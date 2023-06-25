@@ -15,7 +15,7 @@ jobs:
             submodules: 'recursive'
 
         - name: Deploy site
-          uses: seliger/hugo-s3-action@v1.4.1
+          uses: seliger/hugo-s3-action
           
           env:
             AWS_REGION: ${{ secrets.AWS_REGION }}
