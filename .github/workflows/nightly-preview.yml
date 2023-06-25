@@ -18,7 +18,7 @@ jobs:
           run: git checkout $(git tag | grep preview- | tail -1)
 
         - name: Deploy site
-          uses: seliger/hugo-s3-action
+          uses: seliger/hugo-s3-action@master
           
           env:
             AWS_REGION: ${{ secrets.AWS_REGION }}
