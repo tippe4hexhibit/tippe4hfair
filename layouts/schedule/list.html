@@ -23,9 +23,14 @@
 
                     <div class="col-md-4" id="blog-post">
 
+
+                        {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
+                        {{ $year := .Section }}
+                        {{ $schedules := printf "%s_%s" .Params.schedule_prefix $year }}
+
                         <div id="schedule">
                             {{ range $a, $b := .Site.Data.schedule }}
-                                {{ if eq (substr $a 0 5) (now.Format "s2006") }}
+                                {{ if strings.HasPrefix $a $schedules }}
                                     <h1>{{ .longdate }}</h1>
                                     {{ if .sponsors }}
                                         <h2>Sponsors of the Day:</h2>

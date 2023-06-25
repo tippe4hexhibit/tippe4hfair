@@ -95,19 +95,19 @@
 
 [[main]]
     name       = "Pre-fair Schedule"
-    url        = "/2022/prefair"
+    url        = "/prefair"
     weight     = 1
     parent     = "section.fair_schedule"
 
 [[main]]
     name       = "Fair Schedule"
-    url        = "/2022/schedule"
+    url        = "/schedule"
     weight     = 2
     parent     = "section.fair_schedule"
 
 [[main]]
-    name       = "Livestock Checkout"
-    url        = "/2022/livestock-checkout"
+    name       = "Livestock Schedule"
+    url        = "/livestock-schedule"
     weight     = 2
     parent     = "section.fair_schedule"
 

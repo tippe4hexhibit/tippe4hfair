@@ -59,7 +59,7 @@
                                 <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
                                 <h2 class="center">No events found for today!</h2>
                             {{ end }}
-                            <p class="center"><a href="/schedule">View Full Schedule</a></p>
+                            <p class="center"><a href="{{ .CurrentSection.RelPermalink }}">View Full Schedule</a></p>
                         </div>
                         <!-- /#post-content -->
                         {{ if .Site.DisqusShortname }}
