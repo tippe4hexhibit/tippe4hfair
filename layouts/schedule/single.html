@@ -47,11 +47,21 @@
                                     <h3>{{ $time }}</h3>
                                     {{ range $venue, $events := $venues }}
                                         <h4>{{ $venue }}</h4>
-                                            <ul>
+                                        <ul>
                                             {{ range $event := $events }}
-                                                <li>{{ . | markdownify }}</li>
+                                                <li>
+                                                    {{ $event.event_name | markdownify }}
+                                                    {{ if $event.event_end_time }}
+                                                        <b>(until {{ $event.event_end_time }})</b>
+                                                    {{ end }}
+                                                    <ul>
+                                                        {{ if $event.description }}
+                                                        <li>{{ $event.description | markdownify }}</li>
+                                                        {{ end }}
+                                                    </ul>
+                                                </li>
                                             {{ end }}
-                                            </ul>
+                                        </ul>
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
