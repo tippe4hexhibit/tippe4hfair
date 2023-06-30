@@ -279,7 +279,7 @@
 
 [[main]]
     name       = "Our Sponsors"
-    url        = "/2022/sponsors"
+    url        = "/2023/sponsors"
     weight     = 1
     parent     = "section.sponsors"
 
