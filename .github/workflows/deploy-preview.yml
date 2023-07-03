@@ -30,7 +30,7 @@ jobs:
         - name: Generate Schedule Data Files
           run: |
             pip install -r schedgen/requirements.txt
-            python -m schedgen/schedgen
+            python -m schedgen
           env:
             AIRTABLE_API_KEY: ${{ secrets. AIRTABLE_API_KEY }}
             AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
