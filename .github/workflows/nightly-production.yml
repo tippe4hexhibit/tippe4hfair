@@ -17,6 +17,29 @@ jobs:
         - name: Checkout latest release tag
           run: git checkout $(git tag | grep production- | tail -1)
 
+        - name: Checkout schedgen repo
+          uses: actions/checkout@v3
+          with:
+            repository: seliger/schedgen
+            path: schedgen
+  
+        - name: Setup Python environment
+          uses: actions/setup-python@v4 
+          with:
+            python-version: '3.10'
+            cache: 'pip'
+      
+        - name: Generate Schedule Data Files
+          run: |
+            pip install -r schedgen/requirements.txt
+            python -m schedgen
+          env:
+            AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+            AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
+            AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
+            OUTPUT_DIR: ${{ vars.OUTPUT_DIR }}
+            PYTHONPATH: ./schedgen
+
         - name: Deploy site
           uses: seliger/hugo-s3-action@master
           
