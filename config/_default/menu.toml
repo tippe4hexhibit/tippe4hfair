@@ -185,7 +185,7 @@
 
 [[main]]
     name       = "Commercial Booths"
-    url        = "/2022/commercial"
+    url        = "/2023/commercial"
     weight     = 4
     parent     = "section.exhibits"
 
