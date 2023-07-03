@@ -21,14 +21,21 @@ jobs:
             repository: seliger/schedgen
             path: schedgen
 
-        - name: Generate Schedule Data Files
+        - name: Setup Python environment
           uses: actions/setup-python@v4 
           with:
             python-version: '3.10'
             cache: 'pip'
+      
+        - name: Generate Schedule Data Files
           run: |
             pip install -r schedgen/requirements.txt
             python -m schedgen/schedgen
+          env:
+            AIRTABLE_API_KEY: ${{ secrets. AIRTABLE_API_KEY }}
+            AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
+            AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
+            OUTPUT_DIR: ${{ vars.OUTPUT_DIR }}
         
         - name: Deploy site
           uses: seliger/hugo-s3-action@master
