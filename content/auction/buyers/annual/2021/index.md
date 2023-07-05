@@ -1,8 +1,7 @@
 ---
-title: "Our Buyers"
-description: "Our Buyers"
-keywords: ["Auction","Buyers"]
-url: /auction/buyers/2021
+title: "2021 Auction Buyers"
+description: "2021 Auction Buyers"
+keywords: ["Auction","Buyers", "2021"]
 buyers:
   - name: 1st Source Bank
   - name: ABC U Store
@@ -169,12 +168,6 @@ buyers:
   - name: Wildcat Canoe & Kayak, Too
   - name: Wildcat Valley Farms – Carl & Josh Cox
 ---
-
-# Our Buyers
-
-Our auction buyers grant opportunities to 4-H members who work throughout the year on leadership, camaraderie, and their animals. Being a buyer is an important part of our community and ensuring our youth continue on a path to success. We take pride in our buyers and proudly display their names below.
-
-![Thank You!](/img/thankyou.png#center)
 
 ## 2021 Buyers
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+    <div id="all">
+        {{ partial "nav.html" . }}
+        {{ partial "breadcrumbs.html" . }}
+            <div class="container">
+                <div class="row">
+                    <!-- *** LEFT COLUMN *** -->
+                    <div class="col-md-9" id="blog-listing-medium">
+                        <div class="row">
+                            {{ .Content }}
+                        </div>
+                        <ul>
+                        {{ range .Data.Pages }}
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <li><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></li>
+                                </div>
+                            </div>
+                        {{ end }}
+                        </ul>
+                    </div>
+                    <!-- /.col-md-9 -->
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+                    <!-- *** RIGHT COLUMN ***
+       _________________________________________________________ -->
+
+                    <div class="col-md-3">
+                        <!-- *** MENUS AND WIDGETS *** -->
+
+                        {{ partial "sidebar.html" . }}
+
+                        <!-- *** MENUS AND FILTERS END *** -->
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <!-- *** RIGHT COLUMN END *** -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

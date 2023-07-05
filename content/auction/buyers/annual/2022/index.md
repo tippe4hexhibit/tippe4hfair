@@ -1,0 +1,186 @@
+---
+title: "2022 Auction Buyers"
+description: "2022 Auction Buyers"
+keywords: ["Auction","Buyers", "2022"]
+buyers:
+  - name: 1st Source Bank
+  - name: 3B Livestock Supply
+  - name: Acre Pro - Kyle Spray
+  - name: Agrisource - Kevin Pendleton
+  - name: Anderson's Fertilizer Service
+  - name: Andrew & Brenda Klinkhamer
+  - name: Ashcraft Orthodontics
+  - name: B & B Farm Enterprises LLC
+  - name: B and D Allterrain
+  - name: Baitz Family Livestock - Market Buyer
+  - name: Bane-Welker Equipment
+  - name: Bears Auto Sales
+  - name: Beck's Hybrids - Craig Spray
+  - name: Beck's Hybrids / Ben DeFreese
+  - name: Beck's Hybrids / Still Water Farms
+  - name: Bell Plaza LLC Paul & Linda Widmer
+  - name: Bell Plaza, LLC
+  - name: Bill & Pam Miller
+  - name: Bill and Katie Price
+  - name: Birge Farm Drainage
+  - name: Bk Management of Greater Lafayette
+  - name: Blake Herefords
+  - name: Bob and Elaine Lahrman
+  - name: Brad & Shail Royer
+  - name: Brand Accounting
+  - name: Brandy Myers
+  - name: Brian & Crystal Riehle
+  - name: Brian & Jeanne Benjamin
+  - name: Brian Riehle
+  - name: Brian Uerkwitz
+  - name: Bruce & Deb Sheets
+  - name: Bruce Brown
+  - name: Bryce Biddle
+  - name: Budreau Trucking, LLC
+  - name: Bundy McNear Insurance Agency Inc
+  - name: Byersland Dairy Farm
+  - name: Campell Ag Service
+  - name: Centre Bank
+  - name: Ceres Solutions Cooperative
+  - name: Co-Alliance LLP
+  - name: Craig Farms - Dean and Peter Craig
+  - name: Creative Floor Coverings
+  - name: Crop Insurance Specialists
+  - name: Crown Line Homes
+  - name: Dale & Tracy Inskeep Farms
+  - name: David Byers - County Commissioner
+  - name: David Rowe
+  - name: Dennis Keiser
+  - name: Denny & Joanie Keiser
+  - name: Deno Farms
+  - name: Don & Cindy Brown
+  - name: Don Whitehead / Whitehead Real Estate
+  - name: Dowell Automotive Repair
+  - name: Dr. Guthrie Carr Orthodontics
+  - name: Dr. Larry Horstman
+  - name: Dr. Nick O'Neil
+  - name: Dr. W. Kelley Carr
+  - name: Dwight Sheets
+  - name: Ellen Byers
+  - name: Erica monjon
+  - name: Erik Moore - Coldwell Banker Shook
+  - name: Farmin' Lahrmans
+  - name: Final Boss LLC
+  - name: First Farmers Bank & Trust
+  - name: First Merchant's Bank
+  - name: FJA Farms
+  - name: Gamble Family Farms
+  - name: Garrett Swine Farms
+  - name: Gentry Lehe - Becks Hybrids Dealership
+  - name: Goings Seed
+  - name: Grants House - Wabash Center
+  - name: Greener Lawn Care
+  - name: Greg Dice & Family
+  - name: Hack Excavating, Inc.
+  - name: Hamilton Creative Concrete, Inc.
+  - name: Hansen-Biggs Orthodontics (Jeff Biggs)
+  - name: Heart's Arrow Events
+  - name: Helena Products Group
+  - name: Hoosier Associates, Inc.
+  - name: Hoosier-Agrimatic
+  - name: Horizon Ag Consulting LLC
+  - name: Horstman Cattle Co.
+  - name: Hubbard GM Center
+  - name: Independent Scentsy Consultant
+  - name: Infinity Pork Inc
+  - name: J & P Buck Farms, Josh & Patty
+  - name: J. Pearl Farms
+  - name: James Livestock - Market Buyer
+  - name: Jason & Jeanise Buck
+  - name: Jay and Nicole Rosen and Family
+  - name: JC Buck Farms, Inc
+  - name: JDJ Grass Feed Beef
+  - name: Jeff Haan - Dekalb Asgrow
+  - name: Jennings Insurance Angency
+  - name: Jim Blake Farms
+  - name: Jim Moseley Farms
+  - name: Joe Daubenmier
+  - name: Joe Horstman Farm Bureau Ins
+  - name: Joel Huizar - Crop Insurance
+  - name: Johnson Bothers Show Stock
+  - name: Jordan Kinderman - Market Buyer
+  - name: Kerkhoff Ranch, Inc.
+  - name: Kevin & Lane VanSchepen
+  - name: Kirk & Ashley Miller
+  - name: Kokomo Grain, Inc.
+  - name: Kyle & Abi Bymaster
+  - name: Lewis Motor Sales
+  - name: Linda Leamon
+  - name: Main Street Staffing LLC
+  - name: Mann Chevrolet
+  - name: Maple Lane Farm
+  - name: Mark & Anne Nesbitt Family
+  - name: Martin Irrigation
+  - name: McAlpine, LLC
+  - name: McGraw Steak, Fish & Chop House
+  - name: Mike Jackson
+  - name: Mitchell Agency, Inc.
+  - name: Mulberry Feed & Supply LLC
+  - name: Newton Oil Co
+  - name: Northern Star Seed
+  - name: Nucor Steel
+  - name: Null Tank Lines
+  - name: Nutrien Ag Solutions - Attica
+  - name: Nutrien Ag Solutions - Clarks Hill
+  - name: Osborn Farms, Inc.
+  - name: Pamela Roberts
+  - name: Paul & Jennifer Riehle
+  - name: Polish & Pigtails, LLC
+  - name: Prairie View Farms - Beck's Hybrids
+  - name: Prestigious, Inc.
+  - name: Profile LLC
+  - name: Purdy Concrete
+  - name: R5R
+  - name: Rice Cattle Company
+  - name: River Valley Tile
+  - name: Rob & Lindsay
+  - name: Rogers Group Inc.
+  - name: Sam Beasley
+  - name: Sandy and Katie Weaver
+  - name: Scott & Robbin Greer
+  - name: Scott and Amber Miller
+  - name: Sheets, Inc.
+  - name: Show Time Cattle
+  - name: Sieber Trucking
+  - name: Sietsma's Heating & Air, Inc.
+  - name: Soller Baker Funeral Homes
+  - name: Specialty Hybrids - Chad Hoey
+  - name: Steve Brown Farms
+  - name: Stillwater Farms
+  - name: Stoney Pike and Boswell Livestock Auction - Market Buyer
+  - name: SWI Avaiation Inc
+  - name: Tamara House - Re/max Realty
+  - name: The BAT Group
+  - name: Tip Top Farms, Inc.
+  - name: Tippecanoe Youth Livestock Association
+  - name: Tom Hedrick
+  - name: Troy's Farm Tires
+  - name: Trudie's Bridal
+  - name: TTG Equipment
+  - name: Twin City Dodge-Jeep
+  - name: Underwood Farms, Inc
+  - name: United Animal Health
+  - name: United Packers Market Buyer
+  - name: Wade Bennett Farms
+  - name: Walters Seamless Gutters
+  - name: Welsh Grain Systems & Brock Bins
+  - name: Wendy's Old Fashioned Hamburgers
+  - name: Wildcat Valley Farms - Carl & Josh Cox
+  - name: Zach & Heather Beasley
+  - name: Zach Beasley for County Surveyor
+  - name: Ziegler Enterprises Inc
+  - name: Zippy's Sharpening Service
+---
+
+
+
+## 2022 Buyers
+
+{{< double-list foo=buyers >}}
+
+**Have a website or social media presence?** We're happy to link to it. Please contact us!

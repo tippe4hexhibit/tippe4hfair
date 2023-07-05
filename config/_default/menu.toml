@@ -230,7 +230,7 @@
 
 [[main]]
     name       = "Our Buyers"
-    url        = "/auction/buyers/2021"
+    url        = "/auction/buyers/annual"
     weight     = 2
     parent     = "section.auction_buyers"
 
@@ -309,7 +309,7 @@
 
 [[main]]
     name       = "Auction Buyers"
-    url        = "/auction/buyers/2021/"
+    url        = "/auction/buyers/annual/"
     weight     = 2
     parent     = "section.donors"
 
