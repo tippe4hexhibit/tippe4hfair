@@ -155,13 +155,13 @@
 
 [[main]]
     name       = "Queen Contest"
-    url        = "/2022/shows/queen"
+    url        = "/2023/shows/queen"
     weight     = 3
     parent     = "section.shows"
 
 [[main]]
     name       = "Little Miss/Mr. Tippecanoe County"
-    url        = "/2022/shows/little-miss-mr"
+    url        = "/2023/shows/little-miss-mr"
     weight     = 4
     parent     = "section.shows"
 
