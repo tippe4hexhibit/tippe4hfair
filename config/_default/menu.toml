@@ -125,13 +125,13 @@
 
 [[main]]
     name       = "Fairgrounds Map"
-    url        = "/2022/map"
+    url        = "/2023/map"
     weight     = 1
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Dining Options"
-    url        = "/2022/dining"
+    url        = "/2023/dining"
     weight     = 2
     parent     = "section.at_fair"
 
