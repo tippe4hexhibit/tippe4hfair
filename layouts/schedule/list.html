@@ -21,14 +21,14 @@
 
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-4" id="blog-post">
+                    <div class="col-md-8" id="blog-post">
 
 
                         {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
                         {{ $year := .Section }}
                         {{ $schedules := printf "%s_%s" .Params.schedule_prefix $year }}
 
-                        <div id="schedule">
+                        <div id="">
                             {{ range $a, $b := .Site.Data.schedule }}
                                 {{ if strings.HasPrefix $a $schedules }}
                                     <h1>{{ .longdate }}</h1>
@@ -45,13 +45,12 @@
                                             <p>&#8212; {{ . | markdownify }}</p>
                                         {{ end }}
                                     {{ end }}
-
-                                    {{ range $time, $venues := .times }}
-                                        <h3>{{ $time }}</h3>
-                                        {{ range $venue, $events := $venues }}
-                                            <h4>{{ $venue }}</h4>
-                                                <ul>
-                                                {{ range $event := $events }}
+                                    {{ range $i, $times := $b.times }}
+                                        <h3>{{ $times.time }}</h3>
+                                        {{ range $venue_name, $venue := $times.venues }}
+                                            <h4>{{ $venue_name }}</h4>
+                                            <ul>
+                                                {{ range $event := $venue }}
                                                     <li>
                                                         {{ $event.event_name | markdownify }}
                                                         {{ if $event.event_end_time }}
@@ -59,13 +58,13 @@
                                                         {{ end }}
                                                         <ul>
                                                             {{ if $event.description }}
-                                                            <li>{{ $event.description | markdownify }}</li>
+                                                                <li>{{ $event.description | markdownify }}</li>
                                                             {{ end }}
                                                         </ul>
                                                     </li>
                                                 {{ end }}
                                                 </ul>
-                                        {{ end }}
+                                            {{ end }}
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
