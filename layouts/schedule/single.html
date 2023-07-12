@@ -16,15 +16,21 @@
 
         <div id="content">
             <div class="container">
+                <div class="row">
+                    <div class="col-md-8" id="blog-post">
+                        {{ .Content }}
+                    </div>
+                </div>
 
                 <div class="row">
 
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-3" id="blog-post">
+                    <div class="col-md-8" id="blog-post">
 
-                        <div id="schedule">
-                            {{ $date := now.Format "s20060102"}}
+                        <div id="">
+                            {{ $year := .Section }}
+                            {{ $date := printf "%s_%s" .Params.schedule_prefix (now.Format "20060102") }}
                             {{ $data := (index .Site.Data.schedule $date) }}
 
                             {{ with $data }}
@@ -42,13 +48,12 @@
                                         <p>&#8212; {{ . | markdownify }}</p>
                                     {{ end }}
                                 {{ end }}
-
-                                {{ range $time, $venues := .times }}
-                                    <h3>{{ $time }}</h3>
-                                    {{ range $venue, $events := $venues }}
-                                        <h4>{{ $venue }}</h4>
+                                {{ range $i, $times := .times }}
+                                    <h3>{{ $times.time }}</h3>
+                                    {{ range $venue_name, $venue := $times.venues }}
+                                        <h4>{{ $venue_name }}</h4>
                                         <ul>
-                                            {{ range $event := $events }}
+                                            {{ range $event := $venue }}
                                                 <li>
                                                     {{ $event.event_name | markdownify }}
                                                     {{ if $event.event_end_time }}
@@ -56,20 +61,20 @@
                                                     {{ end }}
                                                     <ul>
                                                         {{ if $event.description }}
-                                                        <li>{{ $event.description | markdownify }}</li>
+                                                            <li>{{ $event.description | markdownify }}</li>
                                                         {{ end }}
                                                     </ul>
                                                 </li>
                                             {{ end }}
-                                        </ul>
-                                    {{ end }}
-                                {{ end }}
+                                            </ul>
+                                        {{ end }}
+                                {{ end }}                                
                             {{ end }}
                             {{ if not $data }}
                                 <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
-                                <h2 class="center">No events found for today!</h2>
+                                <h2>No events found for today!</h2>
                             {{ end }}
-                            <p class="center"><a href="{{ .CurrentSection.RelPermalink }}">View Full Schedule</a></p>
+                            <p><br><a href="{{ .CurrentSection.RelPermalink }}">View Full Schedule</a></p>
                         </div>
                         <!-- /#post-content -->
                         {{ if .Site.DisqusShortname }}
