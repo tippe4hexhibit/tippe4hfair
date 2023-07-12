@@ -88,7 +88,7 @@
 [[main]]
     name       = "Carnival"
     identifier = "section.carnival"
-    url        = "/2022/carnival"
+    url        = "/2023/carnival"
     weight     = 5
     parent     = "menu.fair_info"
     post       = 2
@@ -137,7 +137,7 @@
 
 [[main]]
     name       = "Special Events"
-    url        = "/2022/special-events"
+    url        = "/2023/special-events"
     weight     = 3
     parent     = "section.at_fair"
 
@@ -191,7 +191,7 @@
 
 [[main]]
     name       = "Carnival"
-    url        = "/2022/carnival"
+    url        = "/2023/carnival"
     weight     = 1
     parent     = "section.carnival"
 
