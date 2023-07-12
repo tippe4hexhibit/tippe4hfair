@@ -148,21 +148,15 @@
     parent     = "section.shows"
 
 [[main]]
-    name       = "Animal Shows"
-    url        = "/2022/shows/animal"
-    weight     = 2
-    parent     = "section.shows"
-
-[[main]]
     name       = "Queen Contest"
     url        = "/2023/shows/queen"
-    weight     = 3
+    weight     = 2
     parent     = "section.shows"
 
 [[main]]
     name       = "Little Miss/Mr. Tippecanoe County"
     url        = "/2023/shows/little-miss-mr"
-    weight     = 4
+    weight     = 3
     parent     = "section.shows"
 
 [[main]]
@@ -179,7 +173,7 @@
 
 [[main]]
     name       = "Home and Family Arts Show"
-    url        = "/2022/home-arts"
+    url        = "/2023/shows/home-arts"
     weight     = 3
     parent     = "section.exhibits"
 
