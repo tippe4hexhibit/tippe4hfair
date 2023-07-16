@@ -19,7 +19,7 @@
 <script>
   var marker, circle, lat, long, accuracy;
 
-  var imageUrl1 = '{{ "/img/fairgrounds-map-1.png" | absURL }}',
+  var imageUrl1 = '{{ "/img/fairgrounds-map-1.png" }}',
     imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
     maxImageBounds = [[40.39790, -86.8837], [40.3948, -86.87626]],
     imageOptions = {
@@ -32,7 +32,7 @@
 
   // 40.397674516978164, -86.88353016570049
   // 40.39558617779395, -86.87673634707778
-  var imageUrl2 = '{{ "/img/fairgrounds-map-2.png" | absURL }}',
+  var imageUrl2 = '{{ "/img/fairgrounds-map-2.png" }}',
     imageBounds = [[40.39768, -86.8837], [40.39523, -86.87626]],
     maxImageBounds = [[40.39790, -86.8837], [40.3948, -86.87626]],
     imageOptions = {
@@ -56,7 +56,7 @@
       .openPopup();
 
   L.marker([40.39673, -86.8831]).addTo(map)
-      .bindPopup('<b>Dairy Cow & Llama Barn</b>', {closeOnClick: false, autoClose: false})
+      .bindPopup('<b>Dairy Cow Barn</b>', {closeOnClick: false, autoClose: false})
       .openPopup();
 
   L.marker([40.3965, -86.8832]).addTo(map)
@@ -91,29 +91,27 @@
           .bindPopup('<b>Carnival</b>', {closeOnClick: false, autoClose: false})
           .openPopup();
   L.marker([40.3971, -86.8814]).addTo(map)
-          .bindPopup('<b>Commercial Booths</b>', {closeOnClick: false, autoClose: false})
+          .bindPopup('<b>Llama Barn</b>', {closeOnClick: false, autoClose: false})
           .openPopup();
   L.marker([40.3964, -86.8820]).addTo(map)
         .bindPopup('<b>West Wing</b><br>Swine', {closeOnClick: false, autoClose: false})
         .openPopup();
 
   var indoor_pins = [
-    L.marker([40.3967, -86.8815])
+    L.marker([40.39667, -86.88135])
             .bindPopup('<b>North Wing</b><br>4-H Projects', {closeOnClick: false, autoClose: false}),
-    L.marker([40.3967, -86.88128])
-            .bindPopup('<b>North Wing</b><br>Commercial Booths', {closeOnClick: false, autoClose: false}),
     L.marker([40.3962, -86.8814])
             .bindPopup('<b>Coliseum</b>', {closeOnClick: false, autoClose: false}),
     L.marker([40.3962, -86.88098])
-            .bindPopup('<b>East Wing 2</b><br>4-H Projects', {closeOnClick: false, autoClose: false}),
+            .bindPopup('<b>East Wing 2</b><br>Commercial Booths', {closeOnClick: false, autoClose: false}),
     L.marker([40.3962, -86.88079])
-            .bindPopup('<b>East Wing 1</b><br>4-H Projects<br>Home and Arts Show', {closeOnClick: false, autoClose: false}),
+            .bindPopup('<b>East Wing 1</b><br>Home and Arts Show<br>4-H Projects:<br>&nbsp;&nbsp; - Cake Decorating<br>&nbsp;&nbsp; - Home Environment <br>&nbsp;&nbsp; - Woodworking', {closeOnClick: false, autoClose: false}),
     L.marker([40.39605, -86.8814])
             .bindPopup('<b>Gallery</b><br>Commercial Booths', {closeOnClick: false, autoClose: false}),
     L.marker([40.39637, -86.8811])
             .bindPopup('<b>Popstand</b><br>Jr. Leaders', {closeOnClick: false, autoClose: false}),
     L.marker([40.39644, -86.88105])
-            .bindPopup("<b>Breakfast & Dinner</b><br>BT Humbles<br>Trish's Red Bird Cafe<br>The Homestead<br>Life Church<br>The End Zone", {closeOnClick: false, autoClose: false}),
+            .bindPopup("<b>Breakfast & Dinner</b><br>BT Humbles<br>Eddie Joe's Icehouse<br>Trish's Red Bird Cafe<br>The Homestead<br>Knights of Columbus<br>Life Church<br>The End Zone", {closeOnClick: false, autoClose: false}),
     L.marker([40.39642, -86.8808])
             .bindPopup('<b>Milkshake Stand</b><br>Dairy Producers', {closeOnClick: false, autoClose: false}),
     L.marker([40.39669, -86.88089])
@@ -122,8 +120,6 @@
             .bindPopup('<b>Extension Office</b>', {closeOnClick: false, autoClose: false}),
     L.marker([40.3965, -86.88176])
             .bindPopup('<b>Exhibit Association Office</b>', {closeOnClick: false, autoClose: false}),
-    L.marker([40.39638, -86.88177])
-            .bindPopup('<b>Flex Room</b><br>(closed to public)', {closeOnClick: false, autoClose: false}),
   ];
 
   // var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

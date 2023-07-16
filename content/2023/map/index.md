@@ -7,8 +7,4 @@ type = "map"
 
 ## Fair Map
 
-Coming soon!
-
-<!-- 
 {{< map >}}
--->
