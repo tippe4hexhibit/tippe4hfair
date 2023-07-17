@@ -73,6 +73,12 @@
                             {{ if not $data }}
                                 <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
                                 <h2>No events found for today!</h2>
+                                <p>
+                                    Looking for project check-in dates and time? 
+                                    Check out the 
+                                    <a href="/{{ now.Format "2006" }}/prefair/">Pre-Fair Schedule</a> 
+                                    for more information.
+                                </p>
                             {{ end }}
                             <p><br><a href="{{ .CurrentSection.RelPermalink }}">View Full Schedule</a></p>
                         </div>
