@@ -28,7 +28,7 @@ Need help with add-ons? Follow this tutorial video:
 
 The link below will take you to our Auction website:
 
-* [Buyer Registration](https://tippecanoe.fairwire.com/default.aspx)
+* [Buyer Registration](https://tippecanoe.fairwire.com/login.aspx)
 
 ### Help with Registering and Updating Your Information
 
