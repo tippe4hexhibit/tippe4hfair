@@ -62,4 +62,4 @@ Family Day is Tuesday, all rides take one ticket each!
 
 ### What is the sale order for this year's auction?
 
-Please check the * [Auction Information](/2023/schedule) page for the Sale Order and all other information.
+Please check the [Auction Information](/auction/) page for the Sale Order and all other information.
