@@ -13,7 +13,7 @@ type = "page"
   * July 14 - 15
   * July 17 - 20
 * Fair Week (Full Breakfast)
-  * July 15 - 22
+  * July 21 - 27
   
 ## HUMBLES ON WHEELS - Delivery Service
 
