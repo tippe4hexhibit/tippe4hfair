@@ -1,3 +1,5 @@
+<br/>
 <div class="center">
-{{ replace .Inner "\n" "<br/>" | safeHTML }}
+{{ $a := .Inner | markdownify }}
+{{ replace $a "\n" "<br/>" | safeHTML }}
 </div>

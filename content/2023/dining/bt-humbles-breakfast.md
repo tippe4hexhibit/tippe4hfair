@@ -10,8 +10,8 @@ type = "page"
 ## Availability
 
 * Pre-Fair (Continental Breakfast)
-  * July 8 - 9
-  * July 11 - 13
+  * July 14 - 15
+  * July 17 - 20
 * Fair Week (Full Breakfast)
   * July 15 - 22
   
