@@ -53,7 +53,7 @@ type = "page"
 
 - [Tippecanoe Livestock Producers (Menu)](livestock)
 
-#### 4:30 pm - 8:00 pm (or sold out)
+#### 4:00 pm - 8:00 pm
 
 {{< figure src="/img/logo_bt-humbles.svg" width="150px" class="bumped-4" >}}
 
@@ -325,7 +325,7 @@ type = "page"
 
 ### Throughout the Day
 
-#### 11:00 am - 9:00 pm
+#### 11:00 am - 5:00 pm
 
 - [Tippecanoe Livestock Producers (Menu)](livestock)
 - Dairy Milkshakes

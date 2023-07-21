@@ -6,12 +6,24 @@ keywords = ["Exhibits", "Projects"]
 
 
 ## North Wing
-* Animal Posters (excluding Llamas)
+
+* Aerospace
+* Animal Posters
+* Aquatic Science
+* Bee Keeping
+* Child Development
+* Communications Results
+* Computers
+* Consumer Clothing
 * Crafts
-    - Models
-    - Baskets
-    - Miscellaneous Needlecraft
+  * Models
+  * Baskets
+  * Miscellaneous Needlecraft
+* Creative Writing
 * Dog Show Results
+* Electric
+* Entomology
+* Farm Scenes
 * Fire Safety
 * Floriculture
 * Forestry
@@ -19,11 +31,16 @@ keywords = ["Exhibits", "Projects"]
 * Gardening
 * Genealogy Results
 * Geology
+* Gift Wrapping
 * Health & Safety
 * LEGO
 * Photography
 * Pocket Pets
+* Llama Crafts & Posters
 * Mini 4-H
+* Scrapbooking
+* Sewing
+* Shooting Sports
 * Soil & Water
 * Sports Fishing
 * Sports Posters
@@ -33,36 +50,19 @@ keywords = ["Exhibits", "Projects"]
 * Wildlife
 
 ## East Wing 1
-#### Southeast Corner
+
+### Southeast Corner
+
+* Cake Decorating
 * Home & Family Arts Open Show
-    - Collectibles
-    - Creative Recycling
-    - Fiber Arts
-    - Flowers & Gardening
-    - Foods
-    - Hobbies & Crafts
-    - Photography
-    - Quilting
-    - Sewing
+  * Collectibles
+  * Creative Recycling
+  * Fiber Arts
+  * Flowers & Gardening
+  * Foods
+  * Hobbies & Crafts
+  * Photography
+  * Quilting
+  * Sewing
 * Home Environment
 * Woodworking
-
-## East Wing 2
-#### Southeast Side (closer to Coliseum)
-* Aerospace
-* Aquatic Science
-* Bee Keeping
-* Cake Decorating
-* Child Development
-* Communications Results
-* Computers
-* Consumer Clothing
-* Creative Writing
-* Electric
-* Entomology
-* Farm Scenes
-* Gift Wrapping
-* Llama Crafts & Posters
-* Scrapbooking
-* Sewing
-* Shooting Sports
