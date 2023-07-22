@@ -15,8 +15,8 @@ keywords = ["Map","Parking", "Shuttle"]
 |Day|Time|
 |:--|:--:|
 |Friday, July 21    |5:00 pm|
-|Saturday, July 22  |4:30 pm|
-|Sunday, July 23    |5:00 pm|
+|Saturday, July 22  |4:00 pm|
+|Sunday, July 23    |4:00 pm|
 |Monday, July 24    |5:00 pm|
 |Tuesday, July 25   |1:00 pm|
 |Wednesday, July 26 |1:00 pm|
