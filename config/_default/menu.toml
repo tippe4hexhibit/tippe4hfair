@@ -108,7 +108,13 @@
 [[main]]
     name       = "Livestock Schedule"
     url        = "/livestock-schedule"
-    weight     = 2
+    weight     = 3
+    parent     = "section.fair_schedule"
+
+[[main]]
+    name       = "Livestock Livestream"
+    url        = "/2023/shows/livestream"
+    weight     = 4
     parent     = "section.fair_schedule"
 
 [[main]]
