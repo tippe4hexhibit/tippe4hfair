@@ -166,7 +166,11 @@ type = "page"
 {{< figure src="/img/sponsor-homestead.png" width="150px" class="bumped-4" >}}
 
 - [The Homestead](https://homesteadbuttery.com/)
-  - Chicken Alfredo or Spaghetti Meat Sauce with Penne Pasta
+  - Penne Pasta with Spaghetti Sauce or Chicken Alfredo ($12.00)
+    - Olive Garden Salad  
+    - 3-Cheese Roll
+    - Strawberry Tapioca Salad
+  - Cheesecake (+$5.00)
 
 ### Throughout the Day
 
