@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+  <body>
+    <div id="all">
+      {{ partial "nav.html" . }}
+      {{ partial "breadcrumbs.html" . }}
+      <div id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" id="blog-post">
+              {{ $data := (index .Site.Data.sponsorship .Section) }}
+              <div id="post-content">
+                {{ .Content }}
+                {{ range $index, $tier_list := $data }}
+                  {{ range $tier, $sponsors := $tier_list }}
+                    <div class="row">
+                      <h2>{{ $tier }}</h2>
+                      <div class="row center-row-cols same-height-row">
+                        {{ range $index, $sponsor := $sponsors }}
+                          {{ $width := "0" }}
+                          {{ if eq $tier "Platinum" }}
+                            <div class="col-xs-12 col-md-12">
+                            {{ $width = "700px" }}
+                          {{ else if eq $tier "Gold" }}
+                            <div class="col-xs-12 col-md-6">
+                            {{ $width = "500px" }}
+                          {{ else if eq $tier "Silver" }}
+                            <div class="col-xs-12 col-md-4">
+                            {{ $width = "300px" }}
+                          {{ else if eq $tier "Bronze" }}
+                            <div class="col-xs-12 col-md-3">
+                            {{ $width = "200px" }}
+                          {{ else }}
+                            <div class="col-xs-12 col-md-2">
+                            {{ $width = "100px" }}
+                          {{ end }}
+                              <a href="{{ .url }}" style="color: #000">
+                              <div class="box-simple box-white same-height d-flex">
+                                  <div class="my-auto">
+                                    <img src="{{ .image }}" width="{{ $width }}">
+                                    <br><br>
+                                    <span>
+                                      <strong>{{ .name }}</strong>
+                                    </span>
+                                  </div>
+                              </div>
+                              </a>
+                            </div>
+                        {{ end }}
+                      </div>
+                    </div>
+                  {{ end }}
+                {{ end }}
+                {{ if not $data }}
+                  <h2 class="center">Check back soon for our {{ .Section }} sponsors!.</h2>
+                {{ end }}  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#content -->
+    {{ partial "footer.html" . }}
+    </div>
+    <!-- /#all -->
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
