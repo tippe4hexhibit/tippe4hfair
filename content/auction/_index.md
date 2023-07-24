@@ -46,3 +46,5 @@ Tippecanoe County Exhibit Association
 - Goats
 
 ## Auction Information Pages
+
+**NOTE:** If you are having technical difficulties with registering or updating your information, please contact us at [auction@tippe4hfair.org](mailto:auction@tippe4hfair.org)

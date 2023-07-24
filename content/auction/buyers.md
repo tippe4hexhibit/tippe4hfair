@@ -32,5 +32,7 @@ The link below will take you to our Auction website:
 
 ### Help with Registering and Updating Your Information
 
+**NOTE:** If you are having technical difficulties with registering or updating your information, please contact us at [auction@tippe4hfair.org](mailto:auction@tippe4hfair.org)
+
 * [New Registration Guide](/auction/buyers/register)
 * [Update Registration Guide](/auction/buyers/update)
