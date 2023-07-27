@@ -318,15 +318,6 @@ type = "page"
 
 ### Friday, July 28
 
-### Breakfast
-
-#### 6:00 am - 10:30 am
-
-{{< figure src="/img/logo_bt-humbles.svg" width="150px" class="bumped-4" >}}
-
-- [BT Humbles Catering](http://www.bthumbles.com/)
-  - **[Breakfast Menu](bt-humbles-breakfast/)**
-
 ### Throughout the Day
 
 #### 11:00 am - 5:00 pm
