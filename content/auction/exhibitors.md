@@ -14,7 +14,7 @@ This page is the one-stop-shop for registering and submitting auction informatio
 
 The Online Entry Portal is open! Registration is due by **11:59 pm on Tuesday, July 25, 2023**.
 
-* [Exhibitor Registration](https://tippecanoe.fairwire.com/login.aspx)
+* Exhibitor Registration (Closed)
 
 ## Step-by-Step Instructions
 

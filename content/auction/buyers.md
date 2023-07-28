@@ -16,7 +16,7 @@ When available, the link below contains the current auction bill for the auction
 
 The link below will take you to our Auction website:
 
-* [Buyer Registration](https://tippecanoe.fairwire.com/login.aspx)
+* Buyer Registration (Closed, please register on-site!)
 
 ### Help with Registering and Updating Your Information
 
