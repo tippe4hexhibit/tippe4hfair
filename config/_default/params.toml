@@ -78,7 +78,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 [topbar]
     enable = true
     text = """
-    <p class="dates">July 21 - July 29 2023</p>
+    <p class="dates">July 19 - July 27, 2024</p>
     """
 
 # Enable and disable widgets for the right sidebar
