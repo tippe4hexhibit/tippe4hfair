@@ -47,3 +47,4 @@ jobs:
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             MINIFY: 'true'
             TZ: America/New_York
+
