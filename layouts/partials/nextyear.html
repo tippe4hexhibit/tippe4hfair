@@ -1,21 +1,25 @@
-<section class="bar no-mb"  style="background-color: #339966;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading text-center">
-                    <p style="font-size:36pt;font-weight:bold;color:#ffffff;">Thank you for a great Fair!</p>
-                </div>
-                <div class="text-center" style="margin-bottom:40px;">
-                    <img src="/img/2024-fairlogo.svg" width="35%" alt="Tippecanoe County 4-H Fair July 19 - 27, 2024">
-                </div>
-                <div class="heading text-center">
-                    <p style="font-size:36pt;font-weight:bold;color:#ffffff;">
-                        See you next year!
-                        <br>
-                        July 19 - 27, 2024
-                    </p>
+{{ if isset .Site.Params "nextyear" }}
+    {{ if .Site.Params.nextyear.enable }}
+    <section class="bar no-mb"  style="background-color: #339966;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading text-center">
+                        <p style="font-size:36pt;font-weight:bold;color:#ffffff;">Thank you for a great Fair!</p>
+                    </div>
+                    <div class="text-center" style="margin-bottom:40px;">
+                        <img src="/img/2024-fairlogo.svg" width="35%" alt="Tippecanoe County 4-H Fair July 19 - 27, 2024">
+                    </div>
+                    <div class="heading text-center">
+                        <p style="font-size:36pt;font-weight:bold;color:#ffffff;">
+                            See you next year!
+                            <br>
+                            July 19 - 27, 2024
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    {{ end }}
+{{ end }}
