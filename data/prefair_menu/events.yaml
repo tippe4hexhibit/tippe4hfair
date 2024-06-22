@@ -1,0 +1,5 @@
+weight: 2
+name: "Fair Week Schedule"
+icon: "/img/icons/icon-events.png"
+url: "/schedule/"
+description: "Preview the Fair Schedule"
