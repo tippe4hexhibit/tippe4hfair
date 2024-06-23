@@ -88,7 +88,7 @@
 [[main]]
     name       = "Carnival"
     identifier = "section.carnival"
-    url        = "/2023/carnival"
+    url        = "/2024/carnival"
     weight     = 5
     parent     = "menu.fair_info"
     post       = 2
@@ -113,7 +113,7 @@
 
 [[main]]
     name       = "Livestock Livestream"
-    url        = "/2023/shows/livestream"
+    url        = "/2024/shows/livestream"
     weight     = 4
     parent     = "section.fair_schedule"
 
@@ -131,37 +131,37 @@
 
 [[main]]
     name       = "Fairgrounds Map"
-    url        = "/2023/map"
+    url        = "/2024/map"
     weight     = 1
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Dining Options"
-    url        = "/2023/dining"
+    url        = "/2024/dining"
     weight     = 2
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Special Events"
-    url        = "/2023/special-events"
+    url        = "/2024/special-events"
     weight     = 3
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Senior Member Recognition Program"
-    url        = "/2023/shows/senior"
+    url        = "/2024/shows/senior"
     weight     = 1
     parent     = "section.shows"
 
 [[main]]
     name       = "Queen Contest"
-    url        = "/2023/shows/queen"
+    url        = "/2024/shows/queen"
     weight     = 2
     parent     = "section.shows"
 
 [[main]]
     name       = "Little Miss/Mr. Tippecanoe County"
-    url        = "/2023/shows/little-miss-mr"
+    url        = "/2024/shows/little-miss-mr"
     weight     = 3
     parent     = "section.shows"
 
@@ -179,19 +179,19 @@
 
 [[main]]
     name       = "Home and Family Arts Show"
-    url        = "/2023/shows/home-arts"
+    url        = "/2024/shows/home-arts"
     weight     = 3
     parent     = "section.exhibits"
 
 [[main]]
     name       = "Commercial Booths"
-    url        = "/2023/commercial"
+    url        = "/2024/commercial"
     weight     = 4
     parent     = "section.exhibits"
 
 [[main]]
     name       = "Carnival"
-    url        = "/2023/carnival"
+    url        = "/2024/carnival"
     weight     = 1
     parent     = "section.carnival"
 
@@ -279,7 +279,7 @@
 
 [[main]]
     name       = "Our Sponsors"
-    url        = "/2023/sponsors"
+    url        = "/2024/sponsors"
     weight     = 1
     parent     = "section.sponsors"
 
