@@ -44,8 +44,8 @@ July 22nd at 1 pm. The sign up form will be in the 4-H Extension Office, East Wi
 
 Operating hours for the fair and carnival vary slightly throughout the week. Please check the following resources for more information:
 
-* [Carnival Schedule](/2023/carnival)
-* [Fair Schedule](/2023/schedule)
+* [Carnival Schedule](/2024/carnival)
+* [Fair Schedule](/2024/schedule)
 
 ### How much does the carnival cost?
 

@@ -10,6 +10,8 @@ twitter_site = "tippe4hfair" # the Twitter handle of your site (without the '@')
 instagram_site = "tippe4hfair"
 default_sharing_image = "img/sharing-default.png"
 
+fair_year = "2024"
+
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
 enableGoogleMaps = false
 googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"

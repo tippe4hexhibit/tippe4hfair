@@ -8,9 +8,9 @@ keywords = ["Shows", "Animals", "Animal", "Animal Shows", "Livestock", "Livestoc
 
 Several of our show will be live streamed and archived for later watching. Use the links below to access those shows.
 
-### Saturday, July 22
+### Saturday, July 20
 
-* 4-H goat Show
+* 4-H Goat Show
   * Dairy Goats
     * [Watch the Show](https://youtube.com/live/-DY6V9LbaGc?feature=share)
   * Meat Goats
@@ -18,28 +18,28 @@ Several of our show will be live streamed and archived for later watching. Use t
 * 4-H Champion Meat & Dairy Goat Selection
   * [Watch the Show](https://youtube.com/live/ArGX8Zl2trM?feature=share)
 
-### Sunday, July 23
+### Sunday, July 21
 
 * 4-H Sheep Show
   * [Watch the Show](https://youtube.com/live/_t4DEqH_kdc?feature=share)
 * 4-H Sheep Champion Selection
   * [Watch the Show](https://youtube.com/live/6OEypYNhh0c?feature=share)
 
-### Monday, July 24
+### Monday, July 22
 
 * 4-H Dairy Cattle Show
   * [Watch the Show](https://youtube.com/live/3kiOJLk7kFo?feature=share)
 * 4-H Llama Show
   * [Watch the Show](https://youtube.com/live/i6KwACokRtI?feature=share)
 
-### Tuesday, July 25
+### Tuesday, July 23
 
 * 4-H Beef Show
   * [Watch the Show](https://youtube.com/live/SVPrlXSjvds?feature=share)
 * 4-H Champion Beef Selection
   * [Watch the Show](https://youtube.com/live/1jn-bnpgidc?feature=share)
 
-### Wednesday, July 26
+### Wednesday, July 24
 
 * 4-H Hog Show
   * [Watch the Show](https://youtube.com/live/jrFmRbiCQAI?feature=share)

@@ -18,7 +18,7 @@ type = "page"
 
 ## Daily Dining
 
-### Friday, July 21
+### Friday, July 19
 
 ### Breakfast
 
@@ -66,7 +66,7 @@ type = "page"
     - Unsweet Tea or Lemonade
     - Slice of Pie (+$3.00)
 
-### Saturday, July 22
+### Saturday, July 20
 
 ### Breakfast
 
@@ -107,7 +107,7 @@ type = "page"
   - **Brisket Nachos**
     - (or Meatless Nachos)
 
-### Sunday, July 23
+### Sunday, July 21
 
 ### Breakfast
 
@@ -148,7 +148,7 @@ type = "page"
   - **Loaded Tater Tots**
     - (or Meatless Tater Tots)
 
-### Monday, July 24
+### Monday, July 22
 
 ### Breakfast
 
@@ -192,7 +192,7 @@ type = "page"
   - **Fish & Chips, Chicken Fingers, or Shrimp**
   - Fries
 
-### Tuesday, July 25
+### Tuesday, July 23
 
 ### Breakfast
 
@@ -232,7 +232,7 @@ type = "page"
   - Chicken and Noodles
   - Assorted Desserts
 
-### Wednesday, July 26
+### Wednesday, July 24
 
 ### Breakfast
 
@@ -274,7 +274,7 @@ type = "page"
     - Street Corn
     - Fried Ice Cream
 
-### Thursday, July 27
+### Thursday, July 25
 
 ### Breakfast
 
@@ -316,7 +316,7 @@ type = "page"
   - Loaded Fries
   - Fried Ice Cream
 
-### Friday, July 28
+### Friday, July 26
 
 ### Throughout the Day
 
@@ -330,4 +330,4 @@ type = "page"
 
 ### Other Options
 
-- During Carnival hours, several food trailers are available. See the [Carnival](/2023/carnival) page for information regarding hours.
+- During Carnival hours, several food trailers are available. See the [Carnival](/2024/carnival) page for information regarding hours.
