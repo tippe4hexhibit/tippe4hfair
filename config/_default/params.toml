@@ -163,7 +163,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
     title = "Our Sponsors"
-    subtitle = "We are able to have the fair each year and support youth in our community beause of the generosity of our wonderful sponsors! Don't see your name on the list? [Contact Us](/contact) to become a sponsor today!"
+    subtitle = "We are able to have the fair each year and support youth in our community beause of the generosity of our wonderful sponsors! Don't see your name on the list? [Contact Us](/sponsorship) to become a sponsor today!"
 
 [recent_posts]
     enable = false
