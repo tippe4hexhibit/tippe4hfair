@@ -1,0 +1,150 @@
+- Platinum:
+  - image: /img/sponsors/2024/logo-tipmont.svg
+    level: Platinum
+    level_rank: 1
+    name: Tipmont
+    url: https://tipmont.com/
+  - image: /img/sponsors/2024/logo_macallister.svg
+    level: Platinum
+    level_rank: 1
+    name: MacAllister Rentals
+    url: https://www.macallisterrentals.com/
+  - image: /img/sponsors/2024/logo_rohrman-OPT.svg
+    level: Platinum
+    level_rank: 1
+    name: Rohrman Auto Group
+    url: https://www.rohrman.com/
+- Gold:
+  - image: /img/sponsors/2024/logo_farmers-national-OPT.svg
+    level: Gold
+    level_rank: 2
+    name: Farmer's National
+    url: https://www.farmersnational.com/
+  - image: /img/sponsors/2024/logo-kensington-OPT.svg
+    level: Gold
+    level_rank: 2
+    name: Kensington Traveler Services
+    url: https://www.kensingtontraveler.com/
+  - image: /img/sponsors/2024/logo_exterior-view-OPT.svg
+    level: Gold
+    level_rank: 2
+    name: 'Exterior View '
+    url: https://www.exteriorviewinc.com/
+  - image: /img/sponsors/2024/logo-fcma.png
+    level: Gold
+    level_rank: 2
+    name: Farm Credit Mid-America
+    url: https://www.fcma.com/
+  - image: /img/sponsors/2024/logo_knoy-apparel-OPT.svg
+    level: Gold
+    level_rank: 2
+    name: 'Knoy Apparel '
+    url: https://www.facebook.com/people/Knoy-Apparel/100057476528969/
+  - image: /img/sponsors/2024/logo-geenex-OPT.svg
+    level: Gold
+    level_rank: 2
+    name: Geenex Solar
+    url: https://www.geenexsolar.com/
+- Silver:
+  - image: /img/sponsors/2024/logo_3B-livestock-supply.png
+    level: Silver
+    level_rank: 3
+    name: 3B Livestock Supply
+    url: https://www.facebook.com/3BLivestockSupply/
+  - image: /img/sponsors/2024/logo-lhc-OPT.svg
+    level: Silver
+    level_rank: 3
+    name: Lafayette Heating & Cooling
+    url: https://www.lafayetteheating.com/
+  - image: /img/sponsors/2024/logo_geswein-OPT.svg
+    level: Silver
+    level_rank: 3
+    name: Geswein Farm & Land
+    url: https://gfarmland.com/
+  - image: /img/sponsors/2024/logo_fbi-buildings.svg
+    level: Silver
+    level_rank: 3
+    name: Fbi Buildings
+    url: https://www.fbibuildings.com/
+  - image: /img/sponsors/2024/logo-northstarsystems.png
+    level: Silver
+    level_rank: 3
+    name: North Star Systems
+    url: https://northstarsystems.co/
+  - image: /img/sponsors/2024/logo-keystone-OPT.svg
+    level: Silver
+    level_rank: 3
+    name: Keystone Cooperative
+    url: https://www.keystonecoop.com/
+  - image: /img/sponsors/2024/logo-tkconstructors.gif
+    level: Silver
+    level_rank: 3
+    name: TK Contstructors
+    url: https://tkconstructors.com/
+  - image: /img/sponsors/2024/logo-discountroofing-OPT.svg
+    level: Silver
+    level_rank: 3
+    name: Discount Roof Inc
+    url: https://mydiscountroof.com/
+  - image: /img/sponsors/2024/logo-lawelding.jpg
+    level: Silver
+    level_rank: 3
+    name: L.A. Welding
+    url: .nan
+  - image: /img/sponsors/2024/logo_1st-Source-Bank-OPT.svg
+    level: Silver
+    level_rank: 3
+    name: 1st Source Bank
+    url: https://www.1stsource.com/
+  - image: /img/sponsors/2024/logo-jlblackerfarms-crop.png
+    level: Silver
+    level_rank: 3
+    name: JL Blacker Farms
+    url: https://jl-blacker-farms.square.site/
+- Bronze:
+  - image: /img/sponsors/2024/logo-erikmoore.jpg
+    level: Bronze
+    level_rank: 4
+    name: Erik Moore, Coldwell Banker Shook
+    url: https://www.erikmoorerealestate.com/
+  - image: /img/sponsors/2024/logo-21petals.webp
+    level: Bronze
+    level_rank: 4
+    name: 21 Petals Flower Market
+    url: https://21petalsflowerslafayette.com/
+  - image: /img/sponsors/2024/logo-wrederocks.png
+    level: Bronze
+    level_rank: 4
+    name: Wrede Rocks
+    url: https://www.wrederocks.com/
+  - image: /img/sponsors/2024/logo_triple-xxx.png
+    level: Bronze
+    level_rank: 4
+    name: Triple X Family Restaurant
+    url: https://www.triplexxxfamilyrestaurant.com/
+  - image: /img/sponsors/2024/logo-mulberryfeed.png
+    level: Bronze
+    level_rank: 4
+    name: Mulberry Feed
+    url: https://www.facebook.com/people/Mulberry-Feed-Supply/100057393583552/
+  - image: /img/sponsors/2024/logo_oneil-pm.webp
+    level: Bronze
+    level_rank: 4
+    name: O'Neil Property Management
+    url: https://www.place2rent.com/
+  - image: /img/sponsors/2024/logo_hunter-nutrition.png
+    level: Bronze
+    level_rank: 4
+    name: Hunter Nutrition
+    url: http://hunternutrition.com/
+- Friend of the Fair:
+  - image: /img/sponsors/2024/logo_merck-OPT.svg
+    level: Friend of the Fair
+    level_rank: 5
+    name: Merck Animal Health
+    url: https://www.merck-animal-health.com/
+  - image: /img/sponsors/2024/logo_tsc.svg
+    level: Friend of the Fair
+    level_rank: 5
+    name: Tractor Supply Co
+    url: https://www.tractorsupply.com/

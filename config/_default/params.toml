@@ -158,7 +158,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     link_text = "Check other homepages"
 
 [clients]
-    enable = false
+    enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.

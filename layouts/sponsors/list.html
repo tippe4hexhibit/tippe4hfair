@@ -24,24 +24,24 @@
                           {{ $width := "0" }}
                           {{ if eq $tier "Platinum" }}
                             <div class="col-xs-12 col-md-12">
-                            {{ $width = "80%" }}
+                            {{ $width = "60%" }}
                           {{ else if eq $tier "Gold" }}
                             <div class="col-xs-12 col-md-6">
-                            {{ $width = "80%" }}
+                            {{ $width = "50%" }}
                           {{ else if eq $tier "Silver" }}
                             <div class="col-xs-12 col-md-4">
-                            {{ $width = "50%" }}
+                            {{ $width = "40%" }}
                           {{ else if eq $tier "Bronze" }}
                             <div class="col-xs-12 col-md-3">
-                            {{ $width = "40%" }}
+                            {{ $width = "35%" }}
                           {{ else }}
                             <div class="col-xs-12 col-md-2">
                             {{ $width = "35%" }}
                           {{ end }}
                               <a href="{{ .url }}" style="color: #000">
                               <div class="box-simple box-white same-height d-flex">
-                                  <div class="my-auto">
-                                    <img src="{{ .image }}" width="{{ $width }}">
+                                  <div class="my-auto" style="width: {{ $width }}">
+                                    <img src="{{ .image }}" width="100%" height="100%" alt="{{ .name }}">
                                     <br><br>
                                     <span>
                                       <strong>{{ .name }}</strong>
