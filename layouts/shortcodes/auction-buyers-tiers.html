@@ -1,0 +1,10 @@
+{{ if .IsNamedParams }}
+    {{ range $k, $v := .Page.Param ( .Get "data" ) }}
+    <h3>{{ strings.FirstUpper $k }} Level</h3>
+      {{ range $v }}
+      <ul class="csscolumn">
+        <li>{{ .name }}</li>
+      </ul>
+      {{ end }}
+    {{ end }}
+{{ end }}
