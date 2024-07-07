@@ -18,6 +18,10 @@ Yes, the fair is be open to the public. Bring your friends and family!
 
 The fair itself is free. Parking is free and our shuttle service is also free. Other activities at the fair (carnival, dining, etc.) have additional costs associated with them. 
 
+### When is next year's fair?
+
+The 2025 Tippecanoe County 4-H Fair will be Friday, July 18 through Saturday, July 28th at the Tippecanoe County Fairgrounds.
+
 ## Projects
 
 ### Where do I enter to drop off my 4-H project?
