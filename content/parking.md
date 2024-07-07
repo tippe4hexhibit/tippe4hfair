@@ -14,18 +14,17 @@ keywords = ["Map","Parking", "Shuttle"]
 
 |Day|Time|
 |:--|:--:|
-|Friday, July 21    |5:00 pm|
-|Saturday, July 22  |4:00 pm|
-|Sunday, July 23    |4:00 pm|
-|Monday, July 24    |5:00 pm|
-|Tuesday, July 25   |1:00 pm|
-|Wednesday, July 26 |1:00 pm|
-|Thursday, July 27  |5:00 pm|
+|Saturday, July 20  |5:00 pm|
+|Sunday, July 21    |5:00 pm|
+|Monday, July 22    |5:00 pm|
+|Tuesday, July 23   |1:00 pm|
+|Wednesday, July 24 |5:30 pm|
+|Thursday, July 25  |5:30 pm|
 
 ## ALL SHUTTLES END AT 10:30 EVERY NIGHT!
 
 * You need to be on the Shuttle back to your car **BEFORE** 10:30 pm. **Don't miss the last chance to get to your car!**
-* There is **no Shuttle Service on Friday, July 28th, or Saturday, July 29th**. Park at the Fairgrounds.
+* There is **no Shuttle Service on Friday, July 26th, or Saturday, July 27th**. Park at the Fairgrounds.
 
 ## Parking Information
 
