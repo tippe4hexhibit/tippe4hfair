@@ -8,11 +8,11 @@ keywords = ["Questions","FAQ"]
 
 ### When is the fair?
 
-The 2023 Tippecanoe County 4-H Fair will be held on July 21st through July 29th.
+The 2024 Tippecanoe County 4-H Fair will be held on July 19th through July 27th.
 
 ### Is it open to the public?
 
-Yes, the fair will once again be open to the public. Bring your friends and family!
+Yes, the fair is be open to the public. Bring your friends and family!
 
 ### How much does it cost to attend the fair?
 
@@ -32,11 +32,11 @@ The green folders and record sheets are for your records. Please keep them with 
 
 ### When is the Pie Eating Contest and how do I sign up?
 
-July 27th at 5 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+July 25th at 5 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ### When is the Kiddie Tractor Pull and how do I sign up?
 
-July 22nd at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+July 21st at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ## Carnival
 
