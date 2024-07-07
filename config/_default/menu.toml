@@ -289,16 +289,11 @@
     weight     = 2
     parent     = "section.sponsors"
 
-[[main]]
-    name       = "Our Wonderful Volunteers"
-    url        = "/2022/volunteers"
-    weight     = 1
-    parent     = "section.volunteering"
 
 [[main]]
     name       = "Volunteer with Us!"
     url        = "/volunteer"
-    weight     = 2
+    weight     = 1
     parent     = "section.volunteering"
 
 [[main]]
@@ -385,7 +380,7 @@
 
 [[main]]
     name       = "Meet the Team"
-    url        = "https://extension.purdue.edu/county/tippecanoe/about.html"
+    url        = "https://extension.purdue.edu/county/tippecanoe/meet-the-team.html"
     weight     = 2
     parent     = "section.tippe_extension"
 
@@ -397,25 +392,25 @@
 
 [[main]]
     name       = "Livestock"
-    url        = "/files/2022-handbook.pdf#page%3D197"
+    url        = "/files/2024-handbook.pdf#page%3d189"
     weight     = 1
     parent     = "section.projects"
 
 [[main]]
     name       = "Static Projects"
-    url        = '/files/2022-handbook.pdf#page%3D53'
+    url        = '/files/2024-handbook.pdf#page%3d56'
     weight     = 2
     parent     = "section.projects"
 
 [[main]]
     name       = "Mini 4-H"
-    url        = "/files/2022-handbook.pdf#page%3D257"
+    url        = "/files/2024-handbook.pdf#page%3d260"
     weight     = 3
     parent     = "section.projects"
 
 [[main]]
     name       = "Handbook"
-    url        = "/files/2022-handbook.pdf"
+    url        = "/files/2024-handbook.pdf"
     weight     = 4
     parent     = "section.projects"
 
