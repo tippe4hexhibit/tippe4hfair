@@ -18,7 +18,7 @@ jobs:
         - name: Checkout schedgen repo
           uses: actions/checkout@v4
           with:
-            repository: seliger/schedgen
+            repository: tippe4hexhbit/schedgen
             path: schedgen
   
         - name: Setup Python environment
