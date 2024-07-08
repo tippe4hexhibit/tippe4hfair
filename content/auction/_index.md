@@ -8,7 +8,7 @@ keywords = ["Auction", "Auction Information", "Buyer", "Seller", "Exhibitor", "L
 
 {{< center-lines >}}
 <strong>4-H LIVESTOCK AUCTION
-Friday, July 26, 2023 at 1:00p.m.
+Friday, July 26, 2024 at 1:00p.m.
 Tippecanoe County Fairgrounds – Coliseum
 1406 Teal Road, Lafayette, IN 47905</strong>
 
