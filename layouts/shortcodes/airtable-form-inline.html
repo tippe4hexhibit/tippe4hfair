@@ -1,0 +1,17 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
+<iframe onload="resizeIframe(this);"
+  src="https://airtable.com/embed/{{ index .Params 0 }}/{{ index .Params 1 }}/form"
+  width="100%"
+  height="{{ index .Params 2 }}"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+  onmousewheel=""
+  title="{{ index .Params 3 }}" 
+  style="background: transparent; min-height: {{ index .Params 2 }};">
+</iframe>
