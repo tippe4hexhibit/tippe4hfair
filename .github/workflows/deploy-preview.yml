@@ -66,6 +66,7 @@ jobs:
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             HUGO_ENVIRONMENT: 'preview'
+            HUGO_VERSION: ${{ vars.HUGO_VERSION }}
             MINIFY: 'false'
             TZ: America/New_York
 
