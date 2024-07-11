@@ -53,7 +53,7 @@ jobs:
           env:
             AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
             AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
-            TABLE_DINING_VENDORS: ${{ vars.AIRTABLE_TABLE }}
+            TABLE_DINING_VENDORS: ${{ vars.TABLE_DINING_VENDORS }}
             TABLE_DINING_EVENTS: ${{ vars.TABLE_DINING_EVENTS }}
             TABLE_DINING_EVENTMENUITEMS: ${{ vars.TABLE_DINING_EVENTMENUITEMS }}
             MENU_OUTPUT_DIR: ${{ vars.MENU_OUTPUT_DIR }}
