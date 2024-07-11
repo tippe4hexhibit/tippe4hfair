@@ -41,7 +41,7 @@
                                     {{ $category := "" }}
                                     {{ range $b.events }}
                                         <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
-                                        <h3>hello {{ ( index (index . "Food Vendor Data") "Name") }}</h3>
+                                        <h3>{{ ( index (index . "Food Vendor Data") "Name") }}</h3>
                                         <h4>{{ (index . "Meal Headline") }}</h4>
                                         {{ $category := "" }}
                                         {{ range (index . "Menu Items") }}
