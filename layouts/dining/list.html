@@ -41,7 +41,7 @@
                                     {{ $category := "" }}
                                     {{ range $b.events }}
                                         <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
-                                        <h3>{{ ( index (index . "Food Vendor Data") "Name") }}</h3>
+                                        <h3>{{ ( index (index . "Food Vendor Data") "Name") }} {{ (index . "Venue Name") }}</h3>
                                         <h4>{{ (index . "Meal Headline") }}</h4>
                                         {{ $category := "" }}
                                         {{ range (index . "Menu Items") }}
@@ -53,7 +53,12 @@
                                                 <h5>{{ (index .Tag 0) }}</h5>
                                                 <ul>
                                             {{ end }}
-                                            <li>
+                                            {{ if (index . "Combo Item")}}
+                                                <ul><li>
+                                            {{ else }}
+                                                <li>
+                                            {{ end }}
+
                                                 {{ (index . "Food Item") }}
                                                 {{ if .Price }}
                                                  - ${{ printf "%.2f" (cast.ToFloat .Price) }}
@@ -61,6 +66,11 @@
                                                 {{ if .Notes }}
                                                 <ul><li>{{ .Notes }}</li></ul>
                                                 {{ end }}
+                                            {{ if (index . "Combo Item")}}
+                                                </li></ul>
+                                            {{ else }}
+                                                </li>
+                                            {{ end }}
                                             </li>
                                         {{ end }}
                                         </ul>
