@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8" id="blog-post">
+                        {{ .Content }}
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- *** LEFT COLUMN *** -->
+
+                    <div class="col-md-8" id="blog-post">
+
+                        <div id="">
+                            {{ $year := .Section }}
+                            {{ $date := printf "dining_%s" (now.Format "20060102") }}
+
+                            {{ $data := (index .Site.Data.dining $date) }}
+
+                            {{ with $data }}
+                                <h1>{{ .longdate }}</h1>
+
+                                {{ $category := "" }}
+                                {{ range .events }}
+                                    <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
+                                    <h3>{{ ( index (index . "Food Vendor Data") "Name") }}</h3>
+                                    <h4>{{ (index . "Meal Headline") }}</h4>
+                                    {{ $category := "" }}
+                                    {{ range (index . "Menu Items") }}
+                                        {{ if ne $category .Tag }}
+                                            {{ if ne $category "" }}
+                                            </ul>
+                                            {{ end }}
+                                            {{ $category = .Tag }}
+                                            <h5>{{ (index .Tag 0) }}</h5>
+                                            <ul>
+                                        {{ end }}
+                                        <li>
+                                            {{ (index . "Food Item") }}
+                                            {{ if .Price }}
+                                            - ${{ printf "%.2f" (cast.ToFloat .Price) }}
+                                            {{ end }}
+                                            {{ if .Notes }}
+                                            <ul><li>{{ .Notes }}</li></ul>
+                                            {{ end }}
+                                        </li>
+                                    {{ end }}
+                                    </ul>
+                                {{ end }}
+
+                            {{ end }}
+                            {{ if not $data }}
+                                <h1> {{ now.Format "Monday, January 2, 2006" }}</h1>
+                                <h2>No dining information found for today!</h2>
+                            {{ end }}
+                            <p><br><a href="{{ .CurrentSection.RelPermalink }}">View all Dining Options</a></p>
+                        </div>
+                        <!-- /#post-content -->
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
+
+                    </div>
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+                    <!-- *** RIGHT COLUMN *** -->
+
+                    <div class="col-md-3">
+
+                        <!-- *** MENUS AND WIDGETS *** -->
+
+                        {{ partial "sidebar.html" . }}
+
+                        <!-- *** MENUS AND FILTERS END *** -->
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <!-- *** RIGHT COLUMN END *** -->
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
