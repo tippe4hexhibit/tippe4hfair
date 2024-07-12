@@ -49,7 +49,6 @@ jobs:
           run: |
             pip install -r menugen/requirements.txt
             python -m menugen
-            cat ./data/dining/dining_20240720.yaml
           env:
             AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
             AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
