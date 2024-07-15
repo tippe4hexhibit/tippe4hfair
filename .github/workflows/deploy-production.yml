@@ -20,11 +20,18 @@ jobs:
           with:
             repository: tippe4hexhibit/schedgen
             path: schedgen
-  
+
+        - name: Checkout menugen repo
+          uses: actions/checkout@v4
+          with:
+            repository: tippe4hexhibit/menugen
+            path: menugen
+
+              
         - name: Setup Python environment
           uses: actions/setup-python@v5 
           with:
-            python-version: '3.10'
+            python-version: '3.12'
             cache: 'pip'
       
         - name: Generate Schedule Data Files
@@ -37,7 +44,20 @@ jobs:
             AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
             OUTPUT_DIR: ${{ vars.OUTPUT_DIR }}
             PYTHONPATH: ./schedgen
-          
+
+        - name: Generate Dining Menu Data Files
+          run: |
+            pip install -r menugen/requirements.txt
+            python -m menugen
+          env:
+            AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+            AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
+            TABLE_DINING_VENDORS: ${{ vars.TABLE_DINING_VENDORS }}
+            TABLE_DINING_EVENTS: ${{ vars.TABLE_DINING_EVENTS }}
+            TABLE_DINING_EVENTMENUITEMS: ${{ vars.TABLE_DINING_EVENTMENUITEMS }}
+            MENU_OUTPUT_DIR: ${{ vars.MENU_OUTPUT_DIR }}
+            PYTHONPATH: ./menugen            
+
         - name: Deploy site
           uses: seliger/hugo-s3-action@master
           
@@ -45,6 +65,6 @@ jobs:
             AWS_REGION: ${{ secrets.AWS_REGION }}
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            HUGO_VERSION: ${{ vars.HUGO_VERSION }}
             MINIFY: 'true'
             TZ: America/New_York
-
