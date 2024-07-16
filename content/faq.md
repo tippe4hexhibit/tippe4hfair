@@ -53,10 +53,7 @@ Operating hours for the fair and carnival vary slightly throughout the week. Ple
 
 ### How much does the carnival cost?
 
-* Regular ticket prices are $1.50 each or 22 for $30.00. Rides take 2 or more tickets.
-* Tuesday and Saturday tickets are $2.00 each or 12 for $20.00. All rides take one ticket.
-
-There are no bracelets or other offers.
+Please refer to the [Carnival](/2024/carnival) page for more information.
 
 ### When is Family Day?
 
