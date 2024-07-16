@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/hugo
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 
+### Data File Exclusions ###
+/data/schedule/
+/data/dining/
+
 ### Hugo ###
 # Generated files by hugo
 /public/
