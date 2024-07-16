@@ -1,7 +1,8 @@
 +++
-title = "Fair Week Schedule"
-description = "Fair Week Schedule"
-keywords = ["Schedule", "Events", "Daily"]
+title = "Today's Dining Options"
+description = "Today's Dining Options"
+keywords = ["Dining", "Food", "Meal", "Snacks", "Snack", "Daily"]
 type = "dining"
 aliases = ["/dining/today/"]
 +++
+    
