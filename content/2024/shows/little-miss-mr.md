@@ -4,7 +4,7 @@ description = "Little Miss and Mister Tippecanoe Contest"
 keywords = ["Shows", "Contest", "Little", "Miss", "Mister", "Little Miss", "Little Mister", "Tippecanoe"]
 +++
 
-## Saturday, July 15, 5:00 pm
+## Saturday, July 13, 5:00 pm
 
 ### Coliseum
 

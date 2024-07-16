@@ -356,7 +356,7 @@
 
 [[main]]
     name       = "Who We Are"
-    url        = "/files/2022-handbook.pdf#page%3D23"
+    url        = "/files/2024-handbook.pdf#page%3D24"
     weight     = 2
     parent     = "section.exhibit_assoc"
 

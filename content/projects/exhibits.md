@@ -11,6 +11,7 @@ keywords = ["Exhibits", "Projects"]
 * Animal Posters
 * Aquatic Science
 * Bee Keeping
+* Cake Decorating
 * Child Development
 * Communications Results
 * Computers
@@ -53,7 +54,6 @@ keywords = ["Exhibits", "Projects"]
 
 ### Southeast Corner
 
-* Cake Decorating
 * Home & Family Arts Open Show
   * Collectibles
   * Creative Recycling
