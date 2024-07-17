@@ -11,37 +11,35 @@ Several of our show will be live streamed and archived for later watching. Use t
 ### Saturday, July 20
 
 * 4-H Goat Show
-  * Dairy Goats
-    * [Watch the Show](https://youtube.com/live/-DY6V9LbaGc?feature=share)
-  * Meat Goats
-    * [Watch the Show](https://youtube.com/live/Somj60VD8II?feature=share)
+  * Dairy & Meat Goat Show
+    * [Watch the Show](https://youtube.com/live/XPgXzoA1yuo?feature=share)
 * 4-H Champion Meat & Dairy Goat Selection
-  * [Watch the Show](https://youtube.com/live/ArGX8Zl2trM?feature=share)
+  * [Watch the Show](https://youtube.com/live/9qb13y0gJ_M?feature=share)
 
 ### Sunday, July 21
 
 * 4-H Sheep Show
-  * [Watch the Show](https://youtube.com/live/_t4DEqH_kdc?feature=share)
+  * [Watch the Show](https://youtube.com/live/KsR0y5z37Sw?feature=share)
 * 4-H Sheep Champion Selection
-  * [Watch the Show](https://youtube.com/live/6OEypYNhh0c?feature=share)
+  * [Watch the Show](https://youtube.com/live/L5DzdXXpIg4?feature=share)
 
 ### Monday, July 22
 
 * 4-H Dairy Cattle Show
-  * [Watch the Show](https://youtube.com/live/3kiOJLk7kFo?feature=share)
+  * [Watch the Show](https://youtube.com/live/ww-aL6sAvTg?feature=share)
 * 4-H Llama Show
-  * [Watch the Show](https://youtube.com/live/i6KwACokRtI?feature=share)
+  * [Watch the Show](https://youtube.com/live/vzFBqMt_3l0?feature=share)
 
 ### Tuesday, July 23
 
 * 4-H Beef Show
-  * [Watch the Show](https://youtube.com/live/SVPrlXSjvds?feature=share)
+  * [Watch the Show](https://youtube.com/live/jJqz4c6F494?feature=share)
 * 4-H Champion Beef Selection
-  * [Watch the Show](https://youtube.com/live/1jn-bnpgidc?feature=share)
+  * [Watch the Show](https://youtube.com/live/3Qc_7nBZxYQ?feature=share)
 
 ### Wednesday, July 24
 
 * 4-H Hog Show
-  * [Watch the Show](https://youtube.com/live/jrFmRbiCQAI?feature=share)
+  * [Watch the Show](https://youtube.com/live/K9L9oBEFt8o?feature=share)
 * 4-H Champion Barrow & Gilt Selection
-  * [Watch the Show](https://youtube.com/live/7432VSWOcfQ?feature=share)
+  * [Watch the Show](https://youtube.com/live/9pIV-fSowPE?feature=share)
