@@ -297,21 +297,15 @@
     parent     = "section.volunteering"
 
 [[main]]
-    name       = "Our Donors"
-    url        = "/2022/donors"
-    weight     = 1
-    parent     = "section.donors"
-
-[[main]]
     name       = "Auction Buyers"
     url        = "/auction/buyers/annual/"
-    weight     = 2
+    weight     = 1
     parent     = "section.donors"
 
 [[main]]
     name       = "Donate Today!"
     url        = "/donate"
-    weight     = 3
+    weight     = 2
     parent     = "section.donors"
 
 #################################################
