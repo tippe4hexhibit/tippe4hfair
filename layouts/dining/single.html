@@ -37,9 +37,13 @@
                             {{ with $data }}
                                 <h1>{{ .longdate }}</h1>
 
+                                {{ $meal := "" }}
                                 {{ $category := "" }}
                                 {{ range .events }}
-                                    <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
+                                    {{ if ne .Meal $meal }}
+                                        {{ $meal = .Meal }}
+                                        <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
+                                    {{ end }}
                                     <h3>{{ ( index (index . "Food Vendor Data") "Name") }} {{ (index . "Venue Name") }}</h3>
                                     <h4>{{ (index . "Meal Headline") }}</h4>
                                     {{ $category := "" }}
