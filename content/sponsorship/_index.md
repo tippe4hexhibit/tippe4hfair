@@ -17,4 +17,4 @@ We welcome donations of any amount to bring this event to the community. Please 
 
 When you are ready, **[fill out our pledge form](/sponsorship/form)**!
 
-## 2024 Sponsorship Levels
+## {{< fair_year >}} Sponsorship Levels

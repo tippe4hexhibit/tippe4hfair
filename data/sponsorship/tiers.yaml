@@ -1,50 +1,48 @@
 tiers:
-  - tier: Friends of the Fair
-    icon: /img/icons/clovers/ico_clovers_1.png
-    range: $100 - $249
-    benefits:
-      - Name/Logo on Website
-
   - tier: Bronze
     icon: /img/icons/clovers/ico_clovers_2.png
     range: $250 - $999
     benefits:
       - Name/Logo on Website & Social Media
       - Name on T-shirt
-      - Name/Logo on One Banner
+      - Recognitiion on Bronze Sponsor Banner in Coliseum
+      - Listing in the Fair Booklet
       
   - tier: Silver
     icon: /img/icons/clovers/ico_clovers_3.png
     range: $1,000 - $2,499
     benefits:
       - Name/Logo on Website & Social Media
-      - Name/Logo on Banner in Coliseum
-      - Name/Logo on T-shirt
-      - Name Announced 1x/day
-      - (optional) Booth Space for Week (10' x 10')
+      - Recognition on Sliver Sponsor Banner in Coliseum
+      - Name on T-shirt
+      - Announcement during Coliseum Events
+      - Listing in the Fair Booklet
 
   - tier: Gold
     icon: /img/icons/clovers/ico_clovers_4.png
     range: $2,500 - $4,999
     benefits:
       - Name/Logo on Website & Social Media
-      - Name/Logo on Banner in Coliseum
-      - Name/Logo on T-shirt
-      - Name Announced 2x/day
+      - Name on T-shirt
+      - Individualized Sponsor Banner in Coliseum
       - Banner in Food Court
-      - Booth Space for Week (10' x 20')
-      - Additional Signage TBD
-
+      - Optional Booth Space for Week (10' x 20')
+      - Announcement during Coliseum Events
+      - Floor Decals
+      - Listing in the Fair Booklet
 
   - tier: Platinum
     icon: /img/icons/rosettes/ico_rosette_purple_1.png
     range: $5,000+
     benefits:
       - Name/Logo on Website & Social Media
-      - Name/Logo on Banner in Coliseum
-      - Name/Logo on T-shirt
-      - Name Announced 3x/day
+      - Name on T-shirt
+      - Individualized Sponsor Banner in Coliseum
       - Banner in Food Court
-      - Booth Space for Week (10' x 20')
-      - Additional Signage TBD
-      - Additional Advertisement Opportunities
+      - '"Named" Space Opportunity (Coliseum, Food Court, etc.)'
+      - Optional Booth Space for Week (10' x 20')
+      - Announcement during Coliseum Events
+      - Floor Decals
+      - Table Tents on Food Court Tables
+      - Logo on Junior Leader Stand Cups
+      - Listing in the Fair Booklet
