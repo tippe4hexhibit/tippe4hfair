@@ -17,4 +17,6 @@ We welcome donations of any amount to bring this event to the community. Please 
 
 When you are ready, **[fill out our pledge form](/sponsorship/form)**!
 
+If you are looking to become a Friend of the Fair or acknowledge your 4-H'er, check out our new **[Create a Clover](/sponsorship/clover)** program! For a low cost, you can purchase a clover and be recognized! 
+
 ## {{< fair_year >}} Sponsorship Levels
