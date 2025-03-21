@@ -289,6 +289,11 @@
     weight     = 2
     parent     = "section.sponsors"
 
+[[main]]
+    name       = "Create a Clover"
+    url        = "/sponsorship/clover"
+    weight     = 2
+    parent     = "section.sponsors"
 
 [[main]]
     name       = "Volunteer with Us!"
