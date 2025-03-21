@@ -4,7 +4,7 @@ description = "Sponsorship Pledge Form"
 keywords = ["Sponsorship", "Pledge"]
 +++
 
-Thank you for your desire to be a sponsor for the Tippecanoe 4-H fair. Sponsorship is as easy as filling out the form below. We will contact you and discuss options.
+Thank you for expressing interest in being a Tippecanoe 4-H Fair sponsor! Please complete the form below. We will be in touch to confirm your information and answer any questions you might have.
 
 Need more information? Review our [sponsorship levels](/sponsorship).
 
