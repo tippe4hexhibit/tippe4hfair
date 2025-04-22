@@ -8,7 +8,7 @@ keywords = ["Auction", "Auction Information", "Buyer", "Seller", "Exhibitor", "L
 
 {{< center-lines >}}
 <strong>4-H LIVESTOCK AUCTION
-Friday, July 26, 2024 at 1:00p.m.
+Friday, July 25, 2025 at 1:00p.m.
 Tippecanoe County Fairgrounds – Coliseum
 1406 Teal Road, Lafayette, IN 47905</strong>
 
@@ -19,7 +19,7 @@ Dear Friends of Tippecanoe County 4-H,
 
 {{< /single-lines >}}
 
-You are invited to join us for the Tippecanoe County 4-H Fair Livestock Auction on Friday, July 26th in the Tippecanoe County Fairgrounds Coliseum. The auction begins at 1:00 PM and will continue until all eligible 4-H members have the opportunity to sell one of their animals. Our auction is a __premium only auction__, meaning: the 4-H member will get market value for their animal. You will be bidding to give dollars above that market value. Buyers will not be able to keep any animals after the sale. 4-H members often use their money to go toward their college fund and buy animals for the next year. By being an Auction buyer, you get the opportunity to support our 4-H youth and be recognized in front of their families and the community.
+You are invited to join us for the Tippecanoe County 4-H Fair Livestock Auction on Friday, July 25th in the Tippecanoe County Fairgrounds Coliseum. The auction begins at 1:00 PM and will continue until all eligible 4-H members have the opportunity to sell one of their animals. Our auction is a __premium only auction__, meaning: the 4-H member will get market value for their animal. You will be bidding to give dollars above that market value. Buyers will not be able to keep any animals after the sale. 4-H members often use their money to go toward their college fund and buy animals for the next year. By being an Auction buyer, you get the opportunity to support our 4-H youth and be recognized in front of their families and the community.
 
 Becoming a buyer is easy. You can pre-register any time from now thru July 23 at https://tippe4hfair.org/auction/buyers/. There is also an opportunity to register at the Coliseum on the day of the auction. When the auction begins, you will have a card for live bidding. Once the gavel strikes “sold”, we allow multiple buyers. The bid will be split equally between the buyers who raise their cards, unless arrangements have been made in advance. You can pay the day of the auction or we will invoice you. We are able to take credit card payments with an additional 4% fee. All registered buyers will receive a coupon for a free sandwich and drink at the Tippecanoe County Livestock Producers booth.
 

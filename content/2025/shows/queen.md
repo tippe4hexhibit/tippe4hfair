@@ -12,7 +12,7 @@ We encourage you to become a contestant in the Miss Tippecanoe County 4-H Fair Q
 
 ## Event Venue and Time
 
-This year's Miss Tippecanoe County 4-H Fair Queen Pageant will be held on Friday, July 19th at 8:00 pm in the Coliseum at the Tippecanoe County Fairgrounds.
+This year's Miss Tippecanoe County 4-H Fair Queen Pageant will be held on Friday, July 18th at 8:00 pm in the Coliseum at the Tippecanoe County Fairgrounds.
 
 ## More Information
 

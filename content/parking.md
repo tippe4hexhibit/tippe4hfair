@@ -23,7 +23,7 @@ Save stress and frustration in construction traffic by taking our **FREE** Shutt
 ## ALL SHUTTLES END AT 10:30 EVERY NIGHT!
 
 - You need to be on the Shuttle back to your car **BEFORE** 10:30 pm. **Don't miss the last chance to get to your car!**
-- There is **no Shuttle Service on Friday, July 26th, or Saturday, July 27th**. Park at the Fairgrounds.
+- There is **no Shuttle Service on Friday, July 25th, or Saturday, July 26th**. Park at the Fairgrounds.
 
 ## Parking Information
 

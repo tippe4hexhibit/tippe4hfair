@@ -14,7 +14,7 @@ When available, the link below contains the current auction bill for the auction
 
 **NOTE:** This is subject to change.
 
-* [Auction Bill](/files/2024-auction-bill.pdf)
+* [Auction Bill](/files/2025-auction-bill.pdf)
 
 ## Online Registration Information
 

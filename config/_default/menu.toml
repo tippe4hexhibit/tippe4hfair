@@ -88,7 +88,7 @@
 [[main]]
     name       = "Carnival"
     identifier = "section.carnival"
-    url        = "/2024/carnival"
+    url        = "/2025/carnival"
     weight     = 5
     parent     = "menu.fair_info"
     post       = 2
@@ -113,7 +113,7 @@
 
 [[main]]
     name       = "Livestock Livestream"
-    url        = "/2024/shows/livestream"
+    url        = "/2025/shows/livestream"
     weight     = 4
     parent     = "section.fair_schedule"
 
@@ -131,37 +131,37 @@
 
 [[main]]
     name       = "Fairgrounds Map"
-    url        = "/2024/map"
+    url        = "/2025/map"
     weight     = 1
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Dining Options"
-    url        = "/2024/dining"
+    url        = "/2025/dining"
     weight     = 2
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Special Events"
-    url        = "/2024/special-events"
+    url        = "/2025/special-events"
     weight     = 3
     parent     = "section.at_fair"
 
 [[main]]
     name       = "Senior Member Recognition Program"
-    url        = "/2024/shows/senior"
+    url        = "/2025/shows/senior"
     weight     = 1
     parent     = "section.shows"
 
 [[main]]
     name       = "Queen Contest"
-    url        = "/2024/shows/queen"
+    url        = "/2025/shows/queen"
     weight     = 2
     parent     = "section.shows"
 
 [[main]]
     name       = "Little Miss/Mr. Tippecanoe County"
-    url        = "/2024/shows/little-miss-mr"
+    url        = "/2025/shows/little-miss-mr"
     weight     = 3
     parent     = "section.shows"
 
@@ -179,19 +179,19 @@
 
 [[main]]
     name       = "Home and Family Arts Show"
-    url        = "/2024/shows/home-arts"
+    url        = "/2025/shows/home-arts"
     weight     = 3
     parent     = "section.exhibits"
 
 [[main]]
     name       = "Commercial Booths"
-    url        = "/2024/commercial"
+    url        = "/2025/commercial"
     weight     = 4
     parent     = "section.exhibits"
 
 [[main]]
     name       = "Carnival"
-    url        = "/2024/carnival"
+    url        = "/2025/carnival"
     weight     = 1
     parent     = "section.carnival"
 
@@ -279,7 +279,7 @@
 
 [[main]]
     name       = "Our Sponsors"
-    url        = "/2024/sponsors"
+    url        = "/2025/sponsors"
     weight     = 1
     parent     = "section.sponsors"
 
@@ -355,7 +355,7 @@
 
 [[main]]
     name       = "Who We Are"
-    url        = "/files/2024-handbook.pdf#page%3D24"
+    url        = "/files/2025-handbook.pdf#page%3D24"
     weight     = 2
     parent     = "section.exhibit_assoc"
 
@@ -391,25 +391,25 @@
 
 [[main]]
     name       = "Livestock"
-    url        = "/files/2024-handbook.pdf#page%3d189"
+    url        = "/files/2025-handbook.pdf#page%3d189"
     weight     = 1
     parent     = "section.projects"
 
 [[main]]
     name       = "Static Projects"
-    url        = '/files/2024-handbook.pdf#page%3d56'
+    url        = '/files/2025-handbook.pdf#page%3d56'
     weight     = 2
     parent     = "section.projects"
 
 [[main]]
     name       = "Mini 4-H"
-    url        = "/files/2024-handbook.pdf#page%3d260"
+    url        = "/files/2025-handbook.pdf#page%3d260"
     weight     = 3
     parent     = "section.projects"
 
 [[main]]
     name       = "Handbook"
-    url        = "/files/2024-handbook.pdf"
+    url        = "/files/2025-handbook.pdf"
     weight     = 4
     parent     = "section.projects"
 
