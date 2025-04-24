@@ -45,6 +45,7 @@ jobs:
           AIRTABLE_BASE: ${{ vars.AIRTABLE_BASE }}
           AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
           OUTPUT_DIR: ${{ vars.OUTPUT_DIR }}
+          IMG_OUTPUT_DIR: ${{ vars.IMG_OUTPUT_DIR }}
           PYTHONPATH: ./schedgen
 
       - name: Generate Dining Menu Data Files
