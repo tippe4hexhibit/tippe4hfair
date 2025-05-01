@@ -13,12 +13,12 @@ Save stress and frustration in construction traffic by taking our **FREE** Shutt
 
 |Day|Time|
 |:--|:--:|
-|Saturday, July 20  |5:00 pm|
-|Sunday, July 21    |5:00 pm|
-|Monday, July 22    |5:00 pm|
-|Tuesday, July 23   |1:00 pm|
-|Wednesday, July 24 |5:30 pm|
-|Thursday, July 25  |5:30 pm|
+|Saturday, July 19  |5:00 pm|
+|Sunday, July 20    |5:00 pm|
+|Monday, July 21    |5:00 pm|
+|Tuesday, July 22   |1:00 pm|
+|Wednesday, July 23 |5:30 pm|
+|Thursday, July 24  |5:30 pm|
 
 ## ALL SHUTTLES END AT 10:30 EVERY NIGHT!
 
