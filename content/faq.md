@@ -20,7 +20,7 @@ The fair itself is free. Parking is free and our shuttle service is also free. O
 
 ### When is next year's fair?
 
-The 2026 Tippecanoe County 4-H Fair will be Friday, July 18 through Saturday, July 28th at the Tippecanoe County Fairgrounds.
+The 2026 Tippecanoe County 4-H Fair will be Friday, July 17 through Saturday, July 25th at the Tippecanoe County Fairgrounds.
 
 ## Projects
 
@@ -36,7 +36,7 @@ The green folders and record sheets are for your records. Please keep them with 
 
 ### When is the Pie Eating Contest and how do I sign up?
 
-Thursday, July 24th at 5 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Thursday, July 24th at 5:30 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ### When is the Kiddie Tractor Pull and how do I sign up?
 

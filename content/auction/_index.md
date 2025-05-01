@@ -38,13 +38,12 @@ Tippecanoe County Exhibit Association
 
 ## Sale Order
 
-- Rabbits
+- Rabbit
 - Poultry
-- Beef
-- Dairy
 - Sheep
 - Goats
 - Swine
+- Beef and Dairy 
 
 ## Auction Information Pages
 

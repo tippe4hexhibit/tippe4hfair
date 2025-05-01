@@ -12,4 +12,8 @@ Join us for the Little Miss & Mister Tippecanoe Contest! Contestants have partic
 
 ## Previous Winners
 
-{{< figure src="/img/littlemissmr-2022-001.jpg" class="center" height="45%" width="45%" title="2022 Little Miss and Mister, Elise Brown and Cade Burton" >}}
+{{< figure src="/img/littlemissmr-2024-001.jpg" class="center" height="45%" width="45%" title="2024 Little Miss and Mister, Anniston Keiser and Spencer Baitz" >}}
+
+{{< figure src="/img/littlemissmr-2023-001.jpg" class="center" height="45%" width="45%" title="2023 Little Miss and Mister, Charlotte Heerdink and Everett Linson" >}}
+
+{{< figure src="/img/littlemissmr-2022-001.jpg" class="center" height="45%" width="45%" title="2022 Little Miss and Mister, Elyse Brown and Cade Burton" >}}
