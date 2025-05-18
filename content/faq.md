@@ -8,7 +8,7 @@ keywords = ["Questions","FAQ"]
 
 ### When is the fair?
 
-The 2024 Tippecanoe County 4-H Fair will be held on July 19th through July 27th.
+The 2025 Tippecanoe County 4-H Fair will be held on July 18th through July 26th.
 
 ### Is it open to the public?
 
@@ -20,7 +20,7 @@ The fair itself is free. Parking is free and our shuttle service is also free. O
 
 ### When is next year's fair?
 
-The 2025 Tippecanoe County 4-H Fair will be Friday, July 18 through Saturday, July 28th at the Tippecanoe County Fairgrounds.
+The 2026 Tippecanoe County 4-H Fair will be Friday, July 17 through Saturday, July 25th at the Tippecanoe County Fairgrounds.
 
 ## Projects
 
@@ -36,11 +36,11 @@ The green folders and record sheets are for your records. Please keep them with 
 
 ### When is the Pie Eating Contest and how do I sign up?
 
-July 25th at 5 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Thursday, July 24th at 5:30 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ### When is the Kiddie Tractor Pull and how do I sign up?
 
-July 21st at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Sunday, July 20th at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ## Carnival
 
@@ -48,12 +48,12 @@ July 21st at 1 pm. The sign up form will be in the 4-H Extension Office, East Wi
 
 Operating hours for the fair and carnival vary slightly throughout the week. Please check the following resources for more information:
 
-* [Carnival Schedule](/2024/carnival)
-* [Fair Schedule](/2024/schedule)
+* [Carnival Schedule](/2025/carnival)
+* [Fair Schedule](/2025/schedule)
 
 ### How much does the carnival cost?
 
-Please refer to the [Carnival](/2024/carnival) page for more information.
+Please refer to the [Carnival](/2025/carnival) page for more information.
 
 ### When is Family Day?
 

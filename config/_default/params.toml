@@ -119,7 +119,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # For more information take a look at the README.
 
 [prefair_menu]
-    enable = false
+    enable = true
     title = "It's almost time for the fair!"
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
@@ -127,7 +127,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # For more information take a look at the README.
 
 [nextyear]
-    enable = true
+    enable = false
     title = ""
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
