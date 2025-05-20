@@ -146,34 +146,38 @@ header {
 }
 
 
-#schedule p {
-    font-size: 12pt;
-}
-
-#schedule ul {
-    font-size: 12pt;
-}
-
 #schedule:not(li) > ul {
     margin-top: 10px;
     margin-left: 1em;
 }
 
-#schedule h1 {
-    font-size: 20pt;
+#schedule p {
+    font-size: 12pt;
+}
+
+#schedule ul li {
+    font-size: 16pt;
+    list-style-type: none;
 }
 
 #schedule h2 {
-    font-size: 16pt;
+    font-size: 22pt;
     margin-bottom: 5px;
 }
 
 #schedule h3 {
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 #schedule h4 {
-    font-size: 12pt;
+    font-size: 17pt;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#schedule h5 {
+    font-size: 16pt;
     margin-top: 10px;
     margin-bottom: 0;
     padding-bottom: 0;
