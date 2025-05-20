@@ -27,36 +27,34 @@
                     <!-- *** LEFT COLUMN *** -->
 
                     <div class="col-md-8" id="blog-post">
-
-
                         {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
                         {{ $year := .Section }}
                         {{ $schedules := printf "%s_%s" .Params.schedule_prefix $year }}
 
-                        <div id="">
+                        <div id="schedule">
                             {{ range $a, $b := .Site.Data.schedule }}
                                 {{ if strings.HasPrefix $a $schedules }}
-                                    <h1>{{ .longdate }}</h1>
+                                    <h2>{{ .longdate }}</h2>
                                     {{ if .sponsors }}
-                                        <h2>Sponsors of the Day:</h2>
+                                        <h3>Sponsors of the Day:</h3>
                                         {{ range .sponsors }}
                                             <p>&#8212; <a href="{{ .link }}">{{ .sponsor }}</a></p>
                                         {{ end }}
                                     {{ end }}
 
                                     {{ if .specials }}
-                                        <h2>Specials & Notes:</h2>
+                                        <h3>Specials & Notes:</h3>
                                         {{ range .specials }}
                                             <p>&#8212; {{ . | markdownify }}</p>
                                         {{ end }}
                                     {{ end }}
                                     {{ range $i, $times := $b.times }}
-                                        <h3>{{ $times.time }}</h3>
+                                        <h4>{{ $times.time }}</h4>
                                         {{ range $venue_name, $venue := $times.venues }}
-                                            <h4>{{ $venue_name }}</h4>
+                                            <h5>{{ $venue_name }}</h5>
                                             <ul>
                                                 {{ range $event := $venue }}
-                                                    <li>
+                                                    <li class="schedule_list">
                                                         {{ $event.event_name | markdownify }}
                                                         {{ if $event.event_end_time }}
                                                             <b>(until {{ $event.event_end_time }})</b>

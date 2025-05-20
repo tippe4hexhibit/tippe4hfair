@@ -34,6 +34,11 @@
                         {{ $dining_options := printf "dining_%s" $year }}
 
                         <div id="">
+
+                            {{ if not .Site.Data.dining }}
+                                    <h1>Coming Soon!</h1>
+                                    <p>Dining options are being finalized. Check back soon for a full menu!</p>
+                            {{ end }}
                             {{ range $a, $b := .Site.Data.dining }}
                                 {{ if strings.HasPrefix $a $dining_options }}
                                     <h1>{{ .longdate }}</h1>
