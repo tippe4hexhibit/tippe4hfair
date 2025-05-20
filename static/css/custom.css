@@ -160,6 +160,10 @@ header {
     list-style-type: none;
 }
 
+#schedule ul li b {
+    font-size: 12pt;
+}
+
 #schedule h2 {
     font-size: 22pt;
     margin-bottom: 5px;
@@ -465,7 +469,7 @@ input:checked + .slider:before {
 .customers .item img {
     display: inline-block;
     filter: none;
-    -webkit-filter: none
+    -webkit-filter: none;
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
