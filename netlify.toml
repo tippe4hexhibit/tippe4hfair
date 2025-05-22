@@ -1,0 +1,6 @@
+[build]
+  publish = "public"                      # Output directory for Hugo
+  command = "git submodule update --init --recursive && hugo"  # Custom build command
+
+[build.environment]
+  HUGO_VERSION = "0.125.0"                # Match this to your Hugo version

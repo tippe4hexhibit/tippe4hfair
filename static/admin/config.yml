@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: netlify-test # or master, depending on your default branch
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "schedule"
+    label: "Schedule"
+    folder: "content/schedule"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
