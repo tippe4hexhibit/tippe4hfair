@@ -1,0 +1,28 @@
+- Platinum:
+  - image: /img/sponsors/2024/logo-tipmont.svg
+    level: Platinum
+    level_rank: 1
+    name: Tipmont
+    url: https://tipmont.com/
+- Gold:
+  - image: /img/sponsors/2024/logo_fbi-buildings.svg
+    level: Gold
+    level_rank: 1 
+    name: Fbi Buildings
+    url: https://www.fbibuildings.com/
+  - image: /img/sponsors/logo-rainbow_trout.png
+    level: Gold
+    level_rank: 2
+    name: Rainbow Trout Solar
+    url: https://www.rainbowtroutsolar.com/
+  - image: /img/sponsors/2024/logo_1st-Source-Bank-OPT.svg
+    level: Gold
+    level_rank: 3
+    name: 1st Source Bank
+    url: https://www.1stsource.com/
+- Silver:
+  - image: /img/sponsors/logo-ffbt-OPT.svg
+    level: Platinum
+    level_rank: 1
+    name: First Farmers Bank & Trust
+    url: https://ffbt.com/
