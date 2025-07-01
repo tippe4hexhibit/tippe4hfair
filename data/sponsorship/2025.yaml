@@ -4,25 +4,136 @@
     level_rank: 1
     name: Tipmont
     url: https://tipmont.com/
+  - image: /img//logo-macallister_rentals.svg
+    level: Platinum
+    level_rank: 2
+    name: MacAllister Rentals
+    url: https://www.macallisterrentals.com/about/locations/lafayette-equipment-rental/
+  - image: /img/sponsors/2023/logo_exterior-view-OPT.svg
+    level: Platinum
+    level_rank: 3
+    name: Exterior View
+    url: https://www.exteriorviewinc.com/
 - Gold:
+  - image: /img/sponsors/2024/logo-jlblackerfarms-crop.png
+    level: Gold
+    level_rank: 1
+    name: JL Blacker Farms
+    url: https://jl-blacker-farms.square.site/
   - image: /img/sponsors/2024/logo_fbi-buildings.svg
     level: Gold
-    level_rank: 1 
-    name: Fbi Buildings
+    level_rank: 2 
+    name: FBi Buildings
     url: https://www.fbibuildings.com/
   - image: /img/sponsors/logo-rainbow_trout.png
     level: Gold
-    level_rank: 2
+    level_rank: 3
     name: Rainbow Trout Solar
     url: https://www.rainbowtroutsolar.com/
   - image: /img/sponsors/2024/logo_1st-Source-Bank-OPT.svg
     level: Gold
-    level_rank: 3
+    level_rank: 4
     name: 1st Source Bank
     url: https://www.1stsource.com/
+  - image: /img/logo-rural_king-OPT.svg
+    level: Gold
+    level_rank: 5
+    name: Rural King
+    url: https://www.ruralking.com/
+  - image: /img/sponsors/2024/logo_farmers-national-OPT.svg
+    level: Gold
+    level_rank: 6
+    name: Farmer's National Company
+    url: https://www.farmersnational.com/
+  - image: /img/logo-legacy_pub.png
+    level: Gold
+    level_rank: 7
+    name: Legacy Pub
+    url: https://legacypublafayette.wixsite.com/legacypub
+  - image: /img/sponsors/2024/logo_knoy-apparel-OPT.svg
+    level: Gold
+    level_rank: 8
+    name: Knoy Apparel
+    url: https://www.facebook.com/people/Knoy-Apparel/100057476528969/
 - Silver:
-  - image: /img/sponsors/logo-ffbt-OPT.svg
-    level: Platinum
+  - image: /img/logo-the_andersons.svg
+    level: Silver
     level_rank: 1
-    name: First Farmers Bank & Trust
+    name: The Andersons
+    url: https://www.andersonsinc.com/
+  - image: /img/logo-final_boss-OPT.svg
+    level: Silver
+    level_rank: 1
+    name: FINAL BOSS Dumpster Rentals
+    url: https://www.facebook.com/final.bossllc/
+  - image: /img/sponsors/2023/logo_ffbt.svg
+    level: Silver
+    level_rank: 1
+    name: First Farmers Bank and Trust
     url: https://ffbt.com/
+  - image: /img/logo-longhornlawn.png
+    level: Silver
+    level_rank: 1
+    name: Longhorn Lawn & Landscape LLC
+    url: https://www.facebook.com/LonghornlawnLLC/
+  - image: /img/logo-pathway_realestategroup-OPT.svg
+    level: Silver
+    level_rank: 1
+    name: Pathway Real Estate Group - Chad Chism
+    url: https://www.chadchism.com/
+  - image: /img/logo-thestables-OPT.svg
+    level: Silver
+    level_rank: 1
+    name: The Stables Event Center
+    url: https://www.thestableseventcenter.com/
+  - image: /img/logo-geswein_fl.png
+    level: Silver
+    level_rank: 1
+    name: Geswein Farm & Land
+    url: https://gfarmland.com/
+  - image: /img/sponsors/2024/logo-fcma.svg
+    level: Silver
+    level_rank: 1
+    name: Farm Credit Mid-America
+    url: https://farmcredit.com/
+  - image: /img/sponsors/2023/logo_ind-farm-bureau-OPT.svg
+    level: Silver
+    level_rank: 1
+    name: Tippecanoe County Farm Bureau
+    url: https://www.facebook.com/TippecanoeCountyFarmBureau/
+- Bronze:
+  - image: /img/sponsors/2024/logo-21petals.webp
+    level: Bronze
+    level_rank: 1
+    name: 21 Petals Flower Market
+    url: https://the21petals.com/
+  - image: /img/logo-mullberry_feed.png
+    level: Bronze
+    level_rank: 1
+    name: Mulberry Feed & Supply
+    url: https://www.facebook.com/profile.php/?id=100057393583552
+  - image: /img/logo-prairie_farms.webp
+    level: Bronze
+    level_rank: 1
+    name: Prairie Farms
+    url: https://www.prairiefarms.com/
+  - image: /img/logo-trueland_equipment.png
+    level: Bronze
+    level_rank: 1
+    name: Trueland Farms Chuck Barr
+    url: https://www.trulandequip.com/about-us/locations/lafayette-indiana/
+  - image: /img/logo-erikmoore.jpg
+    level: Bronze
+    level_rank: 1
+    name: Erik Moore Tucker/Shook Realty
+    url: https://www.erikmoorerealestate.com/
+  - image: /img/logo-richland_farms-OPT.svg
+    level: Bronze
+    level_rank: 1
+    name: Richland Farms
+    url: https://www.richlandfarms.net/
+  - image: 
+    level: Bronze
+    level_rank: 1
+    name: Tony & Monica O'Neil
+    url: #
