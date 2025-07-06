@@ -18,7 +18,7 @@
                             {{ .Content }}
                         </div>
                         <ul>
-                        {{ range .Data.Pages }}
+                        {{ range (sort .Data.Pages "Title" "desc") }}
                             <div class="row">
                                 <div class="col-md-8">
                                     <li><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></li>
