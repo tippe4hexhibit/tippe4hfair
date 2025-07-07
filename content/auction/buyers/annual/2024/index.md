@@ -5,19 +5,202 @@ keywords: ["Auction","Buyers", "2024"]
 buyers:
   - tier: Platinum
     names:
-      - name: 
+      - name: Keystone Cooperative West Point
+      - name: Lewis Motor Sales
+      - name: Joe Horstman Farm Bureau Ins
+      - name: Wendy's Old Fashioned Hamburgers
+      - name: Wildcat Valley Farms - Carl & Josh Cox
+      - name: Scott and Amber Miller
+      - name: Anderson's Fertilizer Service
+      - name: Ashcraft Orthodontics
+      - name: Kokomo Grain, Inc.
+      - name: Prairie View Farms - Beck's Hybrids
   - tier: Gold
     names:
-      - name: 
+      - name: Bob & Elaine Lahrman
+      - name: Nutrien Ag Solutions - Clarks Hill
+      - name: Dr. Gerritt Smith
+      - name: Helena Products Group
+      - name: Newton Oil Co
+      - name: Nutrien Ag Solutions - Attica
+      - name: Hack Excavating, Inc.
+      - name: Bk Management of Greater Lafayette
+      - name: Greg Dice & Family
+      - name: 1st Source Bank
+      - name: Craig Farms - Dean and Peter Craig
+      - name: Bell Plaza, LLC
+      - name: Erik Moore - Coldwell Banker Shook
+      - name: Martin Irrigation
+      - name: Dr. Larry Horstman
+      - name: Horstman Cattle Co.
+      - name: Gilbert Farms - Greg & Natalie Gilbert
+      - name: Crop Insurance Specialists
+      - name: Welsh Grain Systems, LLC & Brock Bins
+      - name: Tempest Homes, LLC - Barney Scheumann
   - tier: Silver
     names:
-      - name: 
+      - name: Tip Top Farms, Inc.
+      - name: JK Drilling
+      - name: Jim Moseley Farms
+      - name: Birge Farm Drainage
+      - name: Purdy Concrete
+      - name: Greener Lawn Care LLC
+      - name: Soller Baker Funeral Homes
+      - name: Sietsma's Heating & Air, Inc.
+      - name: Kerkhoff Ranch, Inc.
+      - name: First Farmers Bank & Trust
+      - name: Knoy Apparel
+      - name: Crown Line Homes
+      - name: Keystone Co-op
+      - name: Beck's Hybrids / Still Water Farms
+      - name: Underwood Farms, Inc
+      - name: Helena Agri Enterprises, LLC
+      - name: Heads Up Irrigation
+      - name: Everbowl Purdue
+      - name: Dr. W. Kelley Carr
+      - name: Lindenman Farms
+      - name: Commodity Transport LLC
+      - name: DM Millwright
+      - name: Dwight Sheets
+      - name: Tamara House - Re/max Realty
+      - name: Okos Family Farms
+      - name: Mitchell Agency, Inc.
+      - name: Pam Roberts
+      - name: Andrew & Brenda Klinkhamer
+      - name: Hoosier-Agrimatic
+      - name: Jennings Insurance Angency
+      - name: Budreau Trucking, LLC
+      - name: Farm Credit Mid America
+      - name: Legacy Pub
+      - name: Mulberry Feed
+      - name: Garrett Swine Farms
+      - name: Grants House - Wabash Center
+      - name: Horizon Bank
+      - name: Shelby Family Farms
+      - name: Jeff Haan - Dekalb Asgrow
+      - name: Truland Equipment
+      - name: McAlpine, LLC
+      - name: Redline Equipment
+      - name: Brian James
+      - name: SWI Avaiation Inc
+      - name: Centre Bank
+      - name: JC Buck Farms, Inc
+      - name: Bill and Katie Price
+      - name: Risk Management Commodities
+      - name: Rowe Truck Equipment - Lafayette
   - tier: Bronze
     names:
-      - name: 
+      - name: Kirk & Ashley Miller
+      - name: American Paving
+      - name: ICHIYA LLC
+      - name: Acre Pro - Kyle Spray
+      - name: Helena Agri Enterprises, LLC Linden
+      - name: Channel Seeds - Chad Hoey
+      - name: Beck's Hybrids / Ben DeFreese
+      - name: Northern Star Seed
+      - name: Advanced Drainage Systems, Inc.
+      - name: 3B Livestock Supply
+      - name: Linda Leamon
+      - name: Andy & Chrissy Wise
+      - name: Ade Family Farms, LLC - In Memory of Steven & Paul Ade
+      - name: Tim Reese
+      - name: David & Marie Rowe
+      - name: Nucor Steel
+      - name: Superior Structures
+      - name: 4R Livestock
+      - name: Brand Accounting
+      - name: Horizon Ag Consulting LLC
+      - name: Del & Grace Craig
+      - name: Walters Seamless Gutters
+      - name: Gamble Family Farms
+      - name: Fred & Joan Inskeep
+      - name: Byersland Dairy Farm
+      - name: Lafayette Lawn Works
+      - name: Dale & Tracy Inskeep Farms
+      - name: CP ABC Investments
+      - name: Zach Beasley for County Surveyor
+      - name: Joel Huizar - Crop Insurance
+      - name: Bryce Biddle
+      - name: Bears Auto Sales
+      - name: Campbell Ag Service
+      - name: Ziegler Enterprises Inc
+      - name: Wagner Water Systems
+      - name: The Carpenters Hands LLC
+      - name: B & B Farm Enterprises LLC
+      - name: Don Whitehead / Whitehead Real Estate
+      - name: J. Pearl Farms
+      - name: Sagamore Ag Source, LLC
+      - name: Johnson Bothers Show Stock
+      - name: Dr. Guthrie Carr Orthodontics
+      - name: Creative Floor Coverings
+      - name: Sheets, Inc.
+      - name: Troy's Farm Tires
+      - name: Sam Beasley
+      - name: David Byers - County Commissioner
+      - name: Mark Roberts & Family
+      - name: Mary Lou Donuts
+      - name: Keystone Cooperative Crop Insurance, Gary Duncan
+      - name: Bruce and Deb Sheets
+      - name: C & M Family Trucking
+      - name: Andrew & Emmy Dowden
+      - name: Kyle & Abi Bymaster
+      - name: Brandon & Rachel Huffer
+      - name: Budreau Family
+      - name: Tolen Crop Service Inc
+      - name: Curt and Cindy Hudson
+      - name: Bruce Brown
+      - name: Zach & Heather Beasley
+      - name: Maple Lane Farms
+      - name: AG Research Products
+      - name: R5R
+      - name: Brent and Stefanie Skelton
+      - name: Hansen-Biggs Orthodontics Jeff Biggs
+      - name: Sandy and Katie Weaver
+      - name: JVC
+      - name: Bryan & Dianna Matricia
+      - name: BJ Rule - Keller Williams
+      - name: Jackson Industrial Construction
+      - name: Rogers Group - Josh Trader
+      - name: Jason & Jeanise Buck
+      - name: Hearts Arrow Events
+      - name: Chad Chism - Pathway Real Estate Group
+      - name: C&R Seeds
+      - name: Jay & Nicole Rosen
+      - name: Wortley Trucking
+      - name: Derek Bollhoefer
+      - name: Null Tank Lines
+      - name: Rob & Lindsay Ford
   - tier: Friends of the Fair
     names:
-      - name: 
+      - name: Hedden Family Farms
+      - name: The Blessing Barn
+      - name: Elite Electrical Group
+      - name: Meadows Family
+      - name: Polish and Pigtails LLC
+      - name: McKinnis Family
+      - name: Newlin Farms LLC
+      - name: Tipmont
+      - name: Mann Chevrolet
+      - name: Jim Blake Farms
+      - name: Ellen Byers
+      - name: Elizabeth Byers
+      - name: MAZ
+      - name: Brad & Shail Royer
+      - name: Blake Herefords
+      - name: Steve Brown Farms
+      - name: Stillwater Farms
+      - name: Ag Producers Insurance
+      - name: Glade and Betsy Montgomery
+      - name: LA Welding
+      - name: Main Street Manufacturing
+      - name: Trudie's Bridal
+      - name: Hoosier Associates, Inc.
+      - name: Security Federal Savings Bank
+      - name: Jon Reichart Family
+      - name: Bob Dykstra
+      - name: Leamon Farm & Surplus
+      - name: Dean and Melanie Heaviland
+      - name: Dan Baker - Auctioneer
 ---
 
 
