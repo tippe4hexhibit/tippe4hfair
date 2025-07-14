@@ -107,6 +107,11 @@
     level_rank: 1
     name: 21 Petals Flower Market
     url: https://the21petals.com/
+  - image: /img/logo-vontobel.png
+    level: Bronze
+    level_rank: 1
+    name: Von Tobel
+    url: https://vontobels.com/von-tobel-lafayette-indiana/
   - image: /img/logo-mullberry_feed.png
     level: Bronze
     level_rank: 1
