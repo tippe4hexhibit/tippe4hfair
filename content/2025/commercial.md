@@ -8,43 +8,35 @@ Each year, various businesses and organizations host booths at the fair to inter
 
 ## Our Commercial Vendors
 
-- Cart Away Concrete (Property Solution Contractors)
 - Bobcat of Indiana
 - West Side Tractors
-- Bob RohrmanToyota 
 - Indiana Army National Guard, Lafayette Armory
 - North West IN Portable Buildings
-- Tippecanoe County Sherif
-- Attica Motor Sports
-- North Star System
-- Geswein Farm & Land
-- First Source Bank
-- Geenex Solar
-- Discount Roof Inc
-- First Farmers Bank and Trust
+- Tippecanoe County Sheriff
 - White Oak Construction
-- Gideon's International
-- Tippecanoe County Right to Life Indiana
-- Tipmont REMC
+- Gideons International
 - The Homestead
-- The Excel Center/Goodwill 
 - Leaf Filter
 - Superior Sleep
 - Gracie Mae's Trading
 - FBI Buildings Content Creator
-- Kingston Traveler
-- Indy Alarms
-- Captain Spiffy - Golf Carts
+- Rainbow Trout Solar
+- 1st Source Bank
 - Amos Exteriors
-- Kitchen’s & Bath By Sho-Pro of Indiana 
-- Cutco Cuttlery
-- TK Constuctors
-- Health Markets
+- Kitchen’s & Bath By Sho-Pro of Indiana 
+- Cutco Cutlery
 - Tippecanoe County Republican Party
-- Tippecanoe County Democratic Party
-- Tippecanoe County Libertarian Party
 - Church of the Blessed Sacrament
 - Evonik Corporation
 - Bath Experts
-- Lafayette SDA Church
 - Renewal by Andersen
+- Paramount Lafayette
+- Future Scholars Academy
+- Tipmont/Wintek
+- Truland Equipment
+- H&R Block
+- Rural King
+- Impact Air
+- Patio Enclosure
+- Fox Hauling
+- AT&T 
