@@ -62,12 +62,11 @@
                                                 <h5>{{ (index .Tag 0) }}</h5>
                                                 <ul>
                                             {{ end }}
-                                            {{ if (index . "Combo Item")}}
+                                            {{ if (index . "Combo Item?")}}
                                                 <ul><li>
                                             {{ else }}
                                                 <li>
                                             {{ end }}
-
                                                 {{ (index . "Food Item") }}
                                                 {{ if .Price }}
                                                  - ${{ printf "%.2f" (cast.ToFloat .Price) }}
@@ -75,7 +74,7 @@
                                                 {{ if .Notes }}
                                                 <ul><li>{{ .Notes }}</li></ul>
                                                 {{ end }}
-                                            {{ if (index . "Combo Item")}}
+                                            {{ if (index . "Combo Item?")}}
                                                 </li></ul>
                                             {{ else }}
                                                 </li>
