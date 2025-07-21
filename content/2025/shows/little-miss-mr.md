@@ -10,6 +10,10 @@ keywords = ["Shows", "Contest", "Little", "Miss", "Mister", "Little Miss", "Litt
 
 Join us for the Little Miss & Mister Tippecanoe Contest! Contestants have participated in two workshops learning skills to help them with interviewing, stage presence, friendship, and community service. Join us as we crown a new Little Miss and Mister Tippecanoe and celebrate learning and growing new skills in our young 3rd and 4th grade 4-H’ers.  
 
+## Current Winners
+
+{{< figure src="/img/littlemissmr-2025-001.jpg" class="center" height="45%" width="45%" title="2025 Little Miss and Mister, Kate Korty and Ezra Hayden" >}}
+
 ## Previous Winners
 
 {{< figure src="/img/littlemissmr-2024-001.jpg" class="center" height="45%" width="45%" title="2024 Little Miss and Mister, Anniston Keiser and Spencer Baitz" >}}
