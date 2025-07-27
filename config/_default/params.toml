@@ -10,7 +10,7 @@ twitter_site = "tippe4hfair" # the Twitter handle of your site (without the '@')
 instagram_site = "tippe4hfair"
 default_sharing_image = "img/sharing-default.png"
 
-fair_year = "2025"
+fair_year = "2026"
 
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
 enableGoogleMaps = false
@@ -111,7 +111,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     pagination_speed = 1000
 
 [features]
-    enable = true
+    enable = false
     title = "Fair at a Glance"
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
@@ -127,7 +127,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
     # For more information take a look at the README.
 
 [nextyear]
-    enable = false
+    enable = true
     title = ""
     cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
