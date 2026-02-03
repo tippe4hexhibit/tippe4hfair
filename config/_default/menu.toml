@@ -355,7 +355,7 @@
 
 [[main]]
     name       = "Who We Are"
-    url        = "/files/2025-handbook.pdf#page%3D24"
+    url        = "/"
     weight     = 2
     parent     = "section.exhibit_assoc"
 
@@ -390,26 +390,8 @@
     parent     = "section.tippe_extension"
 
 [[main]]
-    name       = "Livestock"
-    url        = "/files/2025-handbook.pdf#page%3d189"
-    weight     = 1
-    parent     = "section.projects"
-
-[[main]]
-    name       = "Static Projects"
-    url        = '/files/2025-handbook.pdf#page%3d56'
-    weight     = 2
-    parent     = "section.projects"
-
-[[main]]
-    name       = "Mini 4-H"
-    url        = "/files/2025-handbook.pdf#page%3d260"
-    weight     = 3
-    parent     = "section.projects"
-
-[[main]]
     name       = "Handbook"
-    url        = "/files/2025-handbook.pdf"
+    url        = "/files/2026handbookv3.pdf"
     weight     = 4
     parent     = "section.projects"
 
