@@ -3,27 +3,15 @@
 
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
 
   <body>
 
     <div id="all">
-
-        {{ partial "top.html" . }}
-
-        {{ partial "nav.html" . }}
-
         <!-- Adjust these three in params.toml -->
         {{ partial "prefair_menu.html" . }}
         {{ partial "features.html" . }}
         {{ partial "nextyear.html" . }}
-
-        {{ partial "testimonials.html" . }}
-
-        {{ partial "see_more.html" . }}
-
-        {{ partial "recent_posts.html" . }}
 
         {{ partial "sponsors.html" . }}
 
@@ -31,8 +19,5 @@
 
     </div>
     <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
   </body>
 </html>

@@ -9,6 +9,10 @@
 /data/schedule/
 /data/dining/
 
+### Node/NPM Dependencies ###
+# Installed Node modules
+/node_modules/
+
 ### Hugo ###
 # Generated files by hugo
 /public/
@@ -23,5 +27,8 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+### IDE Files
+/.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo

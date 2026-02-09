@@ -3,17 +3,12 @@
 
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
 
   <body>
-
-        {{ partial "nav.html" . }}
         {{ .Content }}
         <!-- /#content -->
     <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
 
   </body>
 </html>

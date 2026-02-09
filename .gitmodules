@@ -1,6 +1,6 @@
-[submodule "themes/universal"]
-	path = themes/universal
-	url = https://github.com/seliger/4h-universal-theme.git
 [submodule "themes/osm"]
 	path = themes/osm
 	url = https://github.com/Hanzei/hugo-component-osm.git
+[submodule "themes/dot-org-hugo-theme"]
+	path = themes/dot-org-hugo-theme
+	url = https://github.com/tippe4hexhibit/dot-org-hugo-theme.git

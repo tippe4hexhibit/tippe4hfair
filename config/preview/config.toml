@@ -1,6 +1,0 @@
-######################################
-# Development-specific Configuration
-######################################
-
-baseurl = "https://preview.tippe4hfair.org"
-googleAnalytics = ""

@@ -17,4 +17,4 @@ Thank you for your interest in volunteering with Tippecanoe County 4-H! Without 
 
 ## Connect with Us!
 
-Call the Tippecanoe County 4-H Extension Office at [765-474-0793](tel:+1-765-474-0793) to speak with one of our Extension Educators. You can also use our [Contact Us](/contact) page to connect. 
+Call the Tippecanoe County 4-H Extension Office at [765-474-0793](tel:+1-765-474-0793) to speak with one of our Extension Educators. You can also use our [Contact Us](/content/en/contact.md) page to connect. 

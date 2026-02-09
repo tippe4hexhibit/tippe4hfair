@@ -3,17 +3,11 @@
 
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
   </head>
 
   <body>
 
     <div id="all">
-
-        {{ partial "nav.html" . }}
-
-        {{ partial "breadcrumbs.html" . }}
-
         <div id="content">
             <div class="container">
                 <div class="row">
@@ -89,8 +83,6 @@
 
                         <!-- *** MENUS AND WIDGETS *** -->
 
-                        {{ partial "sidebar.html" . }}
-
                         <!-- *** MENUS AND FILTERS END *** -->
 
                     </div>
@@ -110,8 +102,5 @@
 
     </div>
     <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
   </body>
 </html>

@@ -3,7 +3,6 @@
 
   <head>
     {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
     <script>
       function deviceType() {
           const ua = navigator.userAgent;
@@ -23,14 +22,11 @@
   </head>
 
   <body>
-
-        {{ partial "nav.html" . }}
         {{ .Content }}
         <!-- /#content -->
     <!-- /#all -->
 
     {{ partial "footer.html" . }}
-    {{ partial "scripts.html" . }}
 
   </body>
 </html>

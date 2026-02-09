@@ -24,4 +24,4 @@ Enrollment for Indiana 4-H begins in October. We will post a link here when that
 
 However, please reach out to us today and we will gladly send you a reminder when the next 4-H season is set to begin!
 
-* [Contact us!](/contact)
+* [Contact us!](/content/en/contact.md)
