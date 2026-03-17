@@ -391,7 +391,7 @@
 
 [[main]]
     name       = "Handbook"
-    url        = "/files/2026handbookv3.pdf"
+    url        = "/files/2026-Handbook.pdf"
     weight     = 4
     parent     = "section.projects"
 
