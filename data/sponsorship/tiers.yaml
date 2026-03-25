@@ -1,4 +1,11 @@
 tiers:
+  - tier: Friends of the Fair
+    icon: /img/icons/clovers/ico_clovers_1.png
+    range: $25 - $249
+    benefits:
+      - Name on Website
+      - Listing in the Fair Booklet
+
   - tier: Bronze
     icon: /img/icons/clovers/ico_clovers_2.png
     range: $250 - $999
@@ -25,7 +32,6 @@ tiers:
       - Name/Logo on Website & Social Media
       - Name on T-shirt
       - Individualized Sponsor Banner in Coliseum
-      - Banner in Food Court
       - Optional Booth Space for Week (10' x 20')
       - Announcement during Coliseum Events
       - Floor Decals
@@ -39,7 +45,6 @@ tiers:
       - Name on T-shirt
       - Individualized Sponsor Banner in Coliseum
       - Banner in Food Court
-      - '"Named" Space Opportunity (Coliseum, Food Court, etc.)'
       - Optional Booth Space for Week (10' x 20')
       - Announcement during Coliseum Events
       - Floor Decals
