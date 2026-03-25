@@ -1,4 +1,11 @@
 tiers:
+  - tier: Friends of the Fair
+    icon: /img/icons/clovers/ico_clovers_1.png
+    range: $25 - $249
+    benefits:
+      - Name on Website
+      - Listing in the Fair Booklet
+
   - tier: Bronze
     icon: /img/icons/clovers/ico_clovers_2.png
     range: $250 - $999
