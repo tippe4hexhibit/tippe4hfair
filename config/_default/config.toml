@@ -11,7 +11,7 @@ summaryLength = 70
 pagination.pagerSize = 10
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year/:month/:day/:contentbasename/"
 
 [taxonomies]
   category = "categories"
