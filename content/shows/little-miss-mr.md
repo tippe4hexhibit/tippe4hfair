@@ -2,6 +2,7 @@
 title = "Little Miss and Mister Tippecanoe Contest"
 description = "Little Miss and Mister Tippecanoe Contest"
 keywords = ["Shows", "Contest", "Little", "Miss", "Mister", "Little Miss", "Little Mister", "Tippecanoe"]
+aliases = ["/2025/shows/little-miss-mr"]
 +++
 
 ## Saturday, July 12, 5:00 pm

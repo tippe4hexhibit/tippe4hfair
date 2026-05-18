@@ -2,6 +2,7 @@
 title = "Senior Recognition Program"
 description = "Senior Member Recognition Program"
 keywords = ["Senior", "10", "year", "10 year", "ten", "10-year", "recognition", "program"]
+aliases = ["/2025/shows/senior"]
 +++
 
 # Recognition Program

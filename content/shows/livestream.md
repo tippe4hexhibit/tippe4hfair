@@ -2,6 +2,7 @@
 title = "Livestock Livestreams"
 description = "Livestock Livestreams"
 keywords = ["Shows", "Animals", "Animal", "Animal Shows", "Livestock", "Livestock Shows", "Livestream", "Livestreams"]
+aliases = ["/2025/shows/livestream"]
 +++
 
 ## Livestock Show Livestreams

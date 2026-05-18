@@ -3,7 +3,7 @@ title = "Parking and Shuttle"
 description = "Parking"
 keywords = ["Map","Parking", "Shuttle"]
 type = "schedule"
-aliases = ["/parking"]
+aliases = ["/parking", "/2025/parking"]
 schedule_prefix = "shttl"
 +++
 

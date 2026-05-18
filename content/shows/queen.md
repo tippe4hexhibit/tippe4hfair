@@ -2,6 +2,7 @@
 title = "Queen Contest"
 description = "Queen Contest"
 keywords = ["Shows", "Contest", "Queen", "Tippecanoe"]
+aliases = ["/2025/shows/queen"]
 +++
 
 ## About the Pageant

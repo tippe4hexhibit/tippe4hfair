@@ -3,5 +3,5 @@ title = "Dining Options"
 description = "Dining Options"
 keywords = ["dining", "menu", "food", "breakfast", "lunch", "dinner"]
 type = "dining"
-aliases = ["/dining"]
+aliases = ["/dining", "/2025/dining"]
 +++

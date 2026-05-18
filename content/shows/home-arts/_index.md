@@ -4,6 +4,7 @@ description = "Home and Family Arts Open Show"
 keywords = ["Open Show", "Open", "Show", "Home", "Family", "Family Arts", "Home and Family Arts Show"]
 type = "schedule"
 schedule_prefix = "hmfmlyrtsshw"
+aliases = ["/2025/shows/home-arts"]
 +++
 
 This nonprofit exhibit was organized in 1980 to provide a showcase for the creative talents of families in the community.  This showcase also provides an added dimension to the Tippecanoe County 4-H Fair, encouraging quality home and family life.
