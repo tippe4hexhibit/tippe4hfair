@@ -20,19 +20,12 @@
 <section class="home-sponsors">
   <div class="container">
     <p class="home-sponsors__label">Thank You to Our {{ $year }} Sponsors</p>
-    <div class="sponsor-ticker-wrapper" role="region" aria-label="{{ $year }} sponsor logos">
-      <div class="sponsor-ticker__track">
+    <div class="sponsor-carousel" id="sponsor-carousel">
+      <div class="sponsor-carousel__track">
         {{- range $items }}
-        <div class="sponsor-ticker__item">
+        <div class="sponsor-carousel__item">
           <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
             <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
-          </a>
-        </div>
-        {{- end }}
-        {{- range $items }}
-        <div class="sponsor-ticker__item" aria-hidden="true">
-          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" tabindex="-1">
-            <img src="{{ .image }}" alt="" loading="lazy">
           </a>
         </div>
         {{- end }}
@@ -44,6 +37,132 @@
     </p>
   </div>
 </section>
+
+<script>
+(function () {
+  var wrap  = document.getElementById('sponsor-carousel');
+  if (!wrap) return;
+
+  var track     = wrap.querySelector('.sponsor-carousel__track');
+  var origItems = Array.from(track.children);
+  var total     = origItems.length;
+  if (!total) return;
+
+  var pos          = 0;
+  var timer        = null;
+  var transitioning = false;
+  var builtCols    = 0;   // cols count used when clones were last built
+
+  /* ── Responsive column count ─────────────────────────────────── */
+  function perRow() {
+    var w = wrap.offsetWidth;
+    if (w >= 1024) return 6;
+    if (w >= 640)  return 4;
+    return 2;
+  }
+
+  /* ── Per-item width (track items have box-sizing: border-box) ── */
+  function itemW() {
+    return Math.floor(wrap.offsetWidth / perRow());
+  }
+
+  /* ── Rebuild clones whenever column count changes ─────────────── */
+  function rebuild() {
+    var cols = perRow();
+    var iw   = itemW();
+
+    /* Resize all originals */
+    origItems.forEach(function (el) { el.style.width = iw + 'px'; });
+
+    if (cols === builtCols) return;   /* already correct */
+    builtCols = cols;
+
+    /* Remove stale clones */
+    track.querySelectorAll('[data-clone]').forEach(function (el) { el.remove(); });
+
+    /* Append clones of the first `cols` items so the wrap-around
+       transition slides smoothly into a visually identical set. */
+    for (var i = 0; i < cols; i++) {
+      var clone = origItems[i].cloneNode(true);
+      clone.dataset.clone = '1';
+      clone.setAttribute('aria-hidden', 'true');
+      clone.querySelectorAll('a').forEach(function (a) { a.tabIndex = -1; });
+      clone.style.width = iw + 'px';
+      track.appendChild(clone);
+    }
+  }
+
+  /* ── Move the track ──────────────────────────────────────────── */
+  function slideTo(index, animate) {
+    track.style.transition = animate
+      ? 'transform 0.45s ease-in-out'
+      : 'none';
+    track.style.transform = 'translateX(-' + (index * itemW()) + 'px)';
+    pos = index;
+  }
+
+  /* ── Advance one group ───────────────────────────────────────── */
+  function next() {
+    if (transitioning) return;
+
+    var cols    = perRow();
+    if (total <= cols) return;          /* everything fits — nothing to scroll */
+
+    var maxPos  = total - cols;         /* last position showing a full row */
+
+    if (pos >= maxPos) {
+      /* Slide into the clone region then instantly jump to real position 0 */
+      transitioning = true;
+      slideTo(total, true);
+      setTimeout(function () {
+        slideTo(0, false);
+        transitioning = false;
+      }, 480);
+      return;
+    }
+
+    slideTo(Math.min(pos + cols, maxPos), true);
+  }
+
+  /* ── Init / re-init ──────────────────────────────────────────── */
+  function setup() {
+    rebuild();
+    slideTo(0, false);
+  }
+
+  setup();
+
+  /* ── Timer helpers ───────────────────────────────────────────── */
+  function startTimer() {
+    if (timer) return;
+    timer = setInterval(next, 4000);
+  }
+
+  function stopTimer() {
+    clearInterval(timer);
+    timer = null;
+  }
+
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    startTimer();
+    wrap.addEventListener('mouseenter', stopTimer);
+    wrap.addEventListener('mouseleave', startTimer);
+  }
+
+  /* ── Resize: debounced ───────────────────────────────────────── */
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      stopTimer();
+      setup();
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        startTimer();
+      }
+    }, 200);
+  });
+})();
+</script>
 {{ end }}
 {{ end }}
 {{ end }}

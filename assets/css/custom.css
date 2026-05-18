@@ -52,7 +52,7 @@
   max-width: 140px;
 }
 
-/* ── Homepage sponsor ticker ───────────────────────────────────────────────── */
+/* ── Homepage sponsor carousel ─────────────────────────────────────────────── */
 
 .home-sponsors {
   padding: 1.25rem 1rem 1.75rem;
@@ -76,88 +76,44 @@
   margin: 0 0 0.75rem;
 }
 
-/* Fade edges so the strip doesn't look clipped */
-.sponsor-ticker-wrapper {
+.sponsor-carousel {
   overflow: hidden;
-  position: relative;
 }
 
-.sponsor-ticker-wrapper::before,
-.sponsor-ticker-wrapper::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 80px;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.sponsor-ticker-wrapper::before {
-  left: 0;
-  background: linear-gradient(to right, var(--gray-50, #f9fafb), transparent);
-}
-
-.sponsor-ticker-wrapper::after {
-  right: 0;
-  background: linear-gradient(to left, var(--gray-50, #f9fafb), transparent);
-}
-
-@keyframes sponsor-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
-.sponsor-ticker__track {
+.sponsor-carousel__track {
   display: flex;
   align-items: center;
-  gap: 3rem;
-  width: max-content;
-  padding: 0.75rem 0;
-  animation: sponsor-scroll 55s linear infinite;
+  /* transition injected by JS */
 }
 
-/* Pause on hover so users can read a logo */
-.sponsor-ticker-wrapper:hover .sponsor-ticker__track {
-  animation-play-state: paused;
-}
-
-.sponsor-ticker__item {
+.sponsor-carousel__item {
+  box-sizing: border-box;
+  padding: 0.25rem 0.75rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+  /* width set per-item by JS */
 }
 
-.sponsor-ticker__item img {
-  max-height: 56px;
-  max-width: 150px;
+.sponsor-carousel__item img {
+  max-height: 64px;
+  max-width: 100%;
   width: auto;
   height: auto;
   object-fit: contain;
   display: block;
-  opacity: 0.75;
-  transition: opacity 0.2s ease;
 }
 
-.sponsor-ticker__item:hover img {
-  opacity: 1;
-}
-
-/* Reduced motion: stop scrolling, wrap into a static grid */
+/* Reduced motion: collapse to a static centred grid, hide JS-appended clones */
 @media (prefers-reduced-motion: reduce) {
-  .sponsor-ticker__track {
-    animation: none;
+  .sponsor-carousel__track {
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
-    gap: 1.5rem;
   }
 
-  .sponsor-ticker-wrapper::before,
-  .sponsor-ticker-wrapper::after {
-    display: none;
-  }
-
-  /* Hide the duplicate set */
-  .sponsor-ticker__item[aria-hidden="true"] {
+  .sponsor-carousel__item[aria-hidden="true"] {
     display: none;
   }
 }
