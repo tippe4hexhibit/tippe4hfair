@@ -119,16 +119,22 @@
   weight = 1
 
 [[main]]
+  name   = "Our Sponsors"
+  url    = "/sponsors/"
+  parent = "menu.get_involved"
+  weight = 2
+
+[[main]]
   name   = "Donate"
   url    = "/donate/"
   parent = "menu.get_involved"
-  weight = 2
+  weight = 3
 
 [[main]]
   name   = "Volunteer"
   url    = "/volunteer/"
   parent = "menu.get_involved"
-  weight = 3
+  weight = 4
 
 # ── About / Help children ────────────────────────────────────────────────────
 

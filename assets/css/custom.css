@@ -1,0 +1,100 @@
+/* ── Sponsor logo grid (sponsors page) ────────────────────────────────────── */
+
+.sponsor-tier {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0 2.5rem;
+}
+
+.sponsor-entry {
+  text-align: center;
+  max-width: 220px;
+}
+
+.sponsor-entry img {
+  max-height: 80px;
+  max-width: 200px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+.sponsor-entry p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* ── Homepage sponsor showcase ─────────────────────────────────────────────── */
+
+.home-sponsors {
+  padding: 2.5rem 1rem 3rem;
+  background: var(--gray-50, #f9fafb);
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.home-sponsors .container {
+  max-width: var(--container-width, 1200px);
+  margin: 0 auto;
+}
+
+.home-sponsors h2 {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.home-sponsors .sponsor-tier-label {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-500, #6b7280);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.home-sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0 1rem;
+}
+
+.home-sponsor-grid--platinum .home-sponsor-item img {
+  max-height: 90px;
+  max-width: 240px;
+}
+
+.home-sponsor-grid--gold .home-sponsor-item img {
+  max-height: 70px;
+  max-width: 180px;
+}
+
+.home-sponsor-item img {
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: grayscale(15%);
+  transition: filter 0.2s ease;
+}
+
+.home-sponsor-item img:hover {
+  filter: none;
+}
+
+.sponsor-footer-links {
+  text-align: center;
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.sponsor-footer-links a + a::before {
+  content: " · ";
+  color: var(--gray-400, #9ca3af);
+}

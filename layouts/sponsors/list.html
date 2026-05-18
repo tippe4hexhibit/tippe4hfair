@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ .Content }}
 
-{{ $data := (index .Site.Data.sponsorship .Section) }}
+{{ $year := site.Params.fair_year }}
+{{ $data := index site.Data.sponsorship $year }}
 
 {{ range $index, $tier_list := $data }}
   {{ range $tier, $sponsors := $tier_list }}
@@ -9,8 +10,8 @@
     <div class="sponsor-tier">
       {{ range $sponsors }}
         <div class="sponsor-entry">
-          {{ if .url }}<a href="{{ .url }}">{{ end }}
-          {{ if .image }}<img src="{{ .image }}" alt="{{ .name }}">{{ end }}
+          {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ end }}
+          {{ if .image }}<img src="{{ .image }}" alt="{{ .name }}" loading="lazy">{{ end }}
           <p><strong>{{ .name }}</strong></p>
           {{ if .url }}</a>{{ end }}
         </div>
@@ -20,6 +21,6 @@
 {{ end }}
 
 {{ if not $data }}
-  <p>Check back soon for our {{ .Section }} sponsors!</p>
+  <p>Check back soon for our {{ $year }} sponsors!</p>
 {{ end }}
 {{ end }}
