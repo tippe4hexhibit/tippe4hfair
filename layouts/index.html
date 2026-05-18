@@ -4,32 +4,46 @@
 {{ $year := site.Params.fair_year }}
 {{ $sponsors := index site.Data.sponsorship $year }}
 {{ if $sponsors }}
+
+{{- $items := slice -}}
+{{- range $sponsors -}}
+  {{- range $tier, $entries := . -}}
+    {{- range $entries -}}
+      {{- if .image -}}
+        {{- $items = $items | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{ if $items }}
 <section class="home-sponsors">
   <div class="container">
-    <h2>Thank You to Our {{ $year }} Sponsors</h2>
-    {{ range $sponsors }}
-      {{ range $tier, $entries := . }}
-        {{ if or (eq $tier "Platinum") (eq $tier "Gold") }}
-          <p class="sponsor-tier-label">{{ $tier }}</p>
-          <div class="home-sponsor-grid home-sponsor-grid--{{ $tier | lower }}">
-            {{ range $entries }}
-              {{ if .image }}
-              <div class="home-sponsor-item">
-                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">
-                  <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
-                </a>
-              </div>
-              {{ end }}
-            {{ end }}
-          </div>
-        {{ end }}
-      {{ end }}
-    {{ end }}
+    <p class="home-sponsors__label">Thank You to Our {{ $year }} Sponsors</p>
+    <div class="sponsor-ticker-wrapper" role="region" aria-label="{{ $year }} sponsor logos">
+      <div class="sponsor-ticker__track">
+        {{- range $items }}
+        <div class="sponsor-ticker__item">
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
+            <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
+          </a>
+        </div>
+        {{- end }}
+        {{- range $items }}
+        <div class="sponsor-ticker__item" aria-hidden="true">
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+            <img src="{{ .image }}" alt="" loading="lazy">
+          </a>
+        </div>
+        {{- end }}
+      </div>
+    </div>
     <p class="sponsor-footer-links">
       <a href="/sponsors/">View all {{ $year }} sponsors</a>
       <a href="/sponsorship/">Become a sponsor</a>
     </p>
   </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}

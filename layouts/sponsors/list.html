@@ -6,8 +6,9 @@
 
 {{ range $index, $tier_list := $data }}
   {{ range $tier, $sponsors := $tier_list }}
+    {{ $tierClass := $tier | lower | replaceRE `\s+` `-` }}
     <h2>{{ $tier }}</h2>
-    <div class="sponsor-tier">
+    <div class="sponsor-tier sponsor-tier--{{ $tierClass }}">
       {{ range $sponsors }}
         <div class="sponsor-entry">
           {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ end }}

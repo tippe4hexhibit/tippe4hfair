@@ -1,9 +1,9 @@
-/* ── Sponsor logo grid (sponsors page) ────────────────────────────────────── */
+/* ── Sponsors page: logo grid ──────────────────────────────────────────────── */
 
 .sponsor-tier {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.75rem;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   margin: 0.75rem 0 2.5rem;
@@ -11,16 +11,14 @@
 
 .sponsor-entry {
   text-align: center;
-  max-width: 220px;
 }
 
 .sponsor-entry img {
-  max-height: 80px;
-  max-width: 200px;
-  width: auto;
-  object-fit: contain;
   display: block;
   margin: 0 auto 0.5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .sponsor-entry p {
@@ -28,10 +26,36 @@
   margin: 0;
 }
 
-/* ── Homepage sponsor showcase ─────────────────────────────────────────────── */
+/* Tier-based logo sizes: larger tiers get more real estate */
+.sponsor-tier--platinum .sponsor-entry img {
+  max-height: 120px;
+  max-width: 300px;
+}
+
+.sponsor-tier--gold .sponsor-entry img {
+  max-height: 90px;
+  max-width: 240px;
+}
+
+.sponsor-tier--silver .sponsor-entry img {
+  max-height: 70px;
+  max-width: 190px;
+}
+
+.sponsor-tier--bronze .sponsor-entry img {
+  max-height: 56px;
+  max-width: 160px;
+}
+
+.sponsor-tier--friends-of-the-fair .sponsor-entry img {
+  max-height: 44px;
+  max-width: 140px;
+}
+
+/* ── Homepage sponsor ticker ───────────────────────────────────────────────── */
 
 .home-sponsors {
-  padding: 2.5rem 1rem 3rem;
+  padding: 1.25rem 1rem 1.75rem;
   background: var(--gray-50, #f9fafb);
   margin-top: 2.5rem;
   border-top: 1px solid var(--gray-200, #e5e7eb);
@@ -42,56 +66,108 @@
   margin: 0 auto;
 }
 
-.home-sponsors h2 {
+.home-sponsors__label {
   text-align: center;
-  margin-bottom: 0.25rem;
-}
-
-.home-sponsors .sponsor-tier-label {
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--gray-500, #6b7280);
-  margin: 1.5rem 0 0.5rem;
+  margin: 0 0 0.75rem;
 }
 
-.home-sponsor-grid {
+/* Fade edges so the strip doesn't look clipped */
+.sponsor-ticker-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.sponsor-ticker-wrapper::before,
+.sponsor-ticker-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.sponsor-ticker-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, var(--gray-50, #f9fafb), transparent);
+}
+
+.sponsor-ticker-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, var(--gray-50, #f9fafb), transparent);
+}
+
+@keyframes sponsor-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.sponsor-ticker__track {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
   align-items: center;
-  justify-content: center;
-  margin: 0.5rem 0 1rem;
+  gap: 3rem;
+  width: max-content;
+  padding: 0.75rem 0;
+  animation: sponsor-scroll 55s linear infinite;
 }
 
-.home-sponsor-grid--platinum .home-sponsor-item img {
-  max-height: 90px;
-  max-width: 240px;
+/* Pause on hover so users can read a logo */
+.sponsor-ticker-wrapper:hover .sponsor-ticker__track {
+  animation-play-state: paused;
 }
 
-.home-sponsor-grid--gold .home-sponsor-item img {
-  max-height: 70px;
-  max-width: 180px;
+.sponsor-ticker__item {
+  flex-shrink: 0;
 }
 
-.home-sponsor-item img {
+.sponsor-ticker__item img {
+  max-height: 56px;
+  max-width: 150px;
   width: auto;
+  height: auto;
   object-fit: contain;
   display: block;
-  filter: grayscale(15%);
-  transition: filter 0.2s ease;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
 }
 
-.home-sponsor-item img:hover {
-  filter: none;
+.sponsor-ticker__item:hover img {
+  opacity: 1;
 }
+
+/* Reduced motion: stop scrolling, wrap into a static grid */
+@media (prefers-reduced-motion: reduce) {
+  .sponsor-ticker__track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .sponsor-ticker-wrapper::before,
+  .sponsor-ticker-wrapper::after {
+    display: none;
+  }
+
+  /* Hide the duplicate set */
+  .sponsor-ticker__item[aria-hidden="true"] {
+    display: none;
+  }
+}
+
+/* ── Shared footer links under sponsor sections ────────────────────────────── */
 
 .sponsor-footer-links {
   text-align: center;
-  margin-top: 1.75rem;
-  font-size: 0.95rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
 
 .sponsor-footer-links a + a::before {
