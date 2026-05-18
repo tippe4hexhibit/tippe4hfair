@@ -426,5 +426,5 @@
 [[topbar]]
     weight = 6
     name = "Email"
-    url = "mailto:tippy4exhibit@gmail.com"
+    url = "mailto:exhibit@tippe4hfair.org"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
