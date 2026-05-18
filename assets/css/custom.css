@@ -118,6 +118,39 @@
   }
 }
 
+/* ── Carousel dot indicators ───────────────────────────────────────────────── */
+
+.sponsor-carousel__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  min-height: 1.25rem;  /* reserve space so footer links don't jump */
+}
+
+.sponsor-carousel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gray-300, #d1d5db);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.sponsor-carousel__dot:hover {
+  background: var(--primary-400, #60a5fa);
+  transform: scale(1.2);
+}
+
+.sponsor-carousel__dot.is-active {
+  background: var(--primary-600, #2563eb);
+  transform: scale(1.2);
+}
+
 /* ── Shared footer links under sponsor sections ────────────────────────────── */
 
 .sponsor-footer-links {

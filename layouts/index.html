@@ -31,6 +31,7 @@
         {{- end }}
       </div>
     </div>
+    <div class="sponsor-carousel__dots" id="sponsor-carousel-dots"></div>
     <p class="sponsor-footer-links">
       <a href="/sponsors/">View all {{ $year }} sponsors</a>
       <a href="/sponsorship/">Become a sponsor</a>
@@ -40,7 +41,8 @@
 
 <script>
 (function () {
-  var wrap  = document.getElementById('sponsor-carousel');
+  var wrap      = document.getElementById('sponsor-carousel');
+  var dotsWrap  = document.getElementById('sponsor-carousel-dots');
   if (!wrap) return;
 
   var track     = wrap.querySelector('.sponsor-carousel__track');
@@ -51,7 +53,8 @@
   var pos          = 0;
   var timer        = null;
   var transitioning = false;
-  var builtCols    = 0;   // cols count used when clones were last built
+  var builtCols    = 0;
+  var pages        = [];   /* slide-stop positions for current col count */
 
   /* ── Responsive column count ─────────────────────────────────── */
   function perRow() {
@@ -61,34 +64,74 @@
     return 2;
   }
 
-  /* ── Per-item width (track items have box-sizing: border-box) ── */
   function itemW() {
     return Math.floor(wrap.offsetWidth / perRow());
   }
 
-  /* ── Rebuild clones whenever column count changes ─────────────── */
+  /* ── Compute page-stop positions ─────────────────────────────── */
+  function buildPageList(cols) {
+    var list   = [];
+    var maxPos = Math.max(0, total - cols);
+    var p      = 0;
+    while (true) {
+      list.push(Math.min(p, maxPos));
+      if (p >= maxPos) break;
+      p += cols;
+    }
+    /* dedupe — happens when total is an exact multiple of cols */
+    return list.filter(function (v, i, a) { return a.indexOf(v) === i; });
+  }
+
+  /* ── Dot buttons ─────────────────────────────────────────────── */
+  function buildDots(cols) {
+    pages = buildPageList(cols);
+    dotsWrap.innerHTML = '';
+
+    if (pages.length <= 1) return;   /* nothing to navigate */
+
+    pages.forEach(function (pagePos, i) {
+      var btn = document.createElement('button');
+      btn.className = 'sponsor-carousel__dot';
+      btn.setAttribute('aria-label', 'Sponsor page ' + (i + 1) + ' of ' + pages.length);
+      if (pagePos === pos) btn.classList.add('is-active');
+      btn.addEventListener('click', function () {
+        stopTimer();
+        slideTo(pagePos, true);
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) startTimer();
+      });
+      dotsWrap.appendChild(btn);
+    });
+  }
+
+  function updateDots() {
+    var dots = dotsWrap.querySelectorAll('.sponsor-carousel__dot');
+    dots.forEach(function (dot, i) {
+      dot.classList.toggle('is-active', pages[i] === pos);
+    });
+  }
+
+  /* ── Rebuild clones + dots when column count changes ─────────── */
   function rebuild() {
     var cols = perRow();
     var iw   = itemW();
 
-    /* Resize all originals */
     origItems.forEach(function (el) { el.style.width = iw + 'px'; });
 
-    if (cols === builtCols) return;   /* already correct */
-    builtCols = cols;
+    if (cols !== builtCols) {
+      builtCols = cols;
 
-    /* Remove stale clones */
-    track.querySelectorAll('[data-clone]').forEach(function (el) { el.remove(); });
+      track.querySelectorAll('[data-clone]').forEach(function (el) { el.remove(); });
 
-    /* Append clones of the first `cols` items so the wrap-around
-       transition slides smoothly into a visually identical set. */
-    for (var i = 0; i < cols; i++) {
-      var clone = origItems[i].cloneNode(true);
-      clone.dataset.clone = '1';
-      clone.setAttribute('aria-hidden', 'true');
-      clone.querySelectorAll('a').forEach(function (a) { a.tabIndex = -1; });
-      clone.style.width = iw + 'px';
-      track.appendChild(clone);
+      for (var i = 0; i < cols; i++) {
+        var clone = origItems[i].cloneNode(true);
+        clone.dataset.clone = '1';
+        clone.setAttribute('aria-hidden', 'true');
+        clone.querySelectorAll('a').forEach(function (a) { a.tabIndex = -1; });
+        clone.style.width = iw + 'px';
+        track.appendChild(clone);
+      }
+
+      buildDots(cols);
     }
   }
 
@@ -99,19 +142,19 @@
       : 'none';
     track.style.transform = 'translateX(-' + (index * itemW()) + 'px)';
     pos = index;
+    updateDots();
   }
 
   /* ── Advance one group ───────────────────────────────────────── */
   function next() {
     if (transitioning) return;
 
-    var cols    = perRow();
-    if (total <= cols) return;          /* everything fits — nothing to scroll */
+    var cols   = perRow();
+    if (total <= cols) return;
 
-    var maxPos  = total - cols;         /* last position showing a full row */
+    var maxPos = total - cols;
 
     if (pos >= maxPos) {
-      /* Slide into the clone region then instantly jump to real position 0 */
       transitioning = true;
       slideTo(total, true);
       setTimeout(function () {
@@ -156,9 +199,7 @@
     resizeTimer = setTimeout(function () {
       stopTimer();
       setup();
-      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        startTimer();
-      }
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) startTimer();
     }, 200);
   });
 })();
