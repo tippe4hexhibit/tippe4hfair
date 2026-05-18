@@ -1,131 +1,43 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "main" }}
+{{ .Content }}
 
-  <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
-  </head>
+{{ $year := .Site.Params.fair_year }}
+{{ $dining_options := printf "dining_%s" $year }}
 
-  <body>
+{{ if not .Site.Data.dining }}
+  <h2>Coming Soon!</h2>
+  <p>Dining options are being finalized. Check back soon for a full menu!</p>
+{{ end }}
 
-    <div id="all">
-
-        {{ partial "nav.html" . }}
-
-        {{ partial "breadcrumbs.html" . }}
-
-        <div id="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8" id="blog-post">
-                        {{ .Content }}
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <!-- *** LEFT COLUMN *** -->
-
-                    <div class="col-md-8" id="blog-post">
-
-
-                        {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
-                        {{ $year := .Section }}
-                        {{ $dining_options := printf "dining_%s" $year }}
-
-                        <div id="">
-
-                            {{ if not .Site.Data.dining }}
-                                    <h1>Coming Soon!</h1>
-                                    <p>Dining options are being finalized. Check back soon for a full menu!</p>
-                            {{ end }}
-                            {{ range $a, $b := .Site.Data.dining }}
-                                {{ if strings.HasPrefix $a $dining_options }}
-                                    <h1>{{ .longdate }}</h1>
-
-                                    {{ $category := "" }}
-                                    {{ $meal := "" }}
-                                    {{ range $b.events }}
-                                        {{ if ne .Meal $meal }}
-                                            {{ $meal = .Meal }}
-                                            <h2>{{ .Meal }} {{ (index . "Time Period") }} </h2>
-                                        {{ end }}
-                                        <h3>{{ ( index (index . "Food Vendor Data") "Name") }} {{ (index . "Venue Name") }}</h3>
-                                        <h4>{{ (index . "Meal Headline") }}</h4>
-                                        {{ $category := "" }}
-                                        {{ range (index . "Menu Items") }}
-                                            {{ if ne $category .Tag }}
-                                                {{ if ne $category "" }}
-                                                  </ul>
-                                                {{ end }}
-                                                {{ $category = .Tag }}
-                                                <h5>{{ (index .Tag 0) }}</h5>
-                                                <ul>
-                                            {{ end }}
-                                            {{ if (index . "Combo Item?")}}
-                                                <ul><li>
-                                            {{ else }}
-                                                <li>
-                                            {{ end }}
-                                                {{ (index . "Food Item") }}
-                                                {{ if .Price }}
-                                                 - ${{ printf "%.2f" (cast.ToFloat .Price) }}
-                                                {{ end }}
-                                                {{ if .Notes }}
-                                                <ul><li>{{ .Notes }}</li></ul>
-                                                {{ end }}
-                                            {{ if (index . "Combo Item?")}}
-                                                </li></ul>
-                                            {{ else }}
-                                                </li>
-                                            {{ end }}
-                                            </li>
-                                        {{ end }}
-                                        </ul>
-                                    {{ end }}
-                                {{ end }}
-                            {{ end }}
-                        </div>
-                        <!-- /#post-content -->
-                        {{ if .Site.Config.Services.Disqus.Shortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
-
-                    </div>
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN *** -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>
+{{ range $a, $b := .Site.Data.dining }}
+  {{ if strings.HasPrefix $a $dining_options }}
+    <h2>{{ .longdate }}</h2>
+    {{ $meal := "" }}
+    {{ range $b.events }}
+      {{ if ne .Meal $meal }}
+        {{ $meal = .Meal }}
+        <h3>{{ .Meal }} {{ (index . "Time Period") }}</h3>
+      {{ end }}
+      <h4>{{ (index (index . "Food Vendor Data") "Name") }} — {{ (index . "Venue Name") }}</h4>
+      <p><em>{{ (index . "Meal Headline") }}</em></p>
+      {{ $category := "" }}
+      {{ range (index . "Menu Items") }}
+        {{ if ne $category .Tag }}
+          {{ if ne $category "" }}</ul>{{ end }}
+          {{ $category = .Tag }}
+          <h5>{{ (index .Tag 0) }}</h5>
+          <ul>
+        {{ end }}
+        {{ if (index . "Combo Item?") }}<ul>{{ end }}
+        <li>
+          {{ (index . "Food Item") }}
+          {{ if .Price }} — ${{ printf "%.2f" (cast.ToFloat .Price) }}{{ end }}
+          {{ if .Notes }}<ul><li>{{ .Notes }}</li></ul>{{ end }}
+        </li>
+        {{ if (index . "Combo Item?") }}</ul>{{ end }}
+      {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ end }}

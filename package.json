@@ -1,0 +1,15 @@
+{
+  "name": "tippe4hfair",
+  "version": "1.0.0",
+  "description": "Tippecanoe County 4-H Fair website",
+  "scripts": {
+    "start": "PATH=$(pwd)/node_modules/sass-embedded-linux-x64/dart-sass:$PATH hugo serve --buildDrafts --buildFuture --disableFastRender",
+    "build": "PATH=$(pwd)/node_modules/sass-embedded-linux-x64/dart-sass:$PATH hugo"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "sass-embedded": "^1.89.2"
+  }
+}

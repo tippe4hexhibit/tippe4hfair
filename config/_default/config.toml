@@ -1,14 +1,21 @@
 title = "Tippecanoe County 4-H Fair"
-theme = ["universal", "osm"]
+theme = ["dot-org-hugo-theme"]
 languageCode = "en-us"
 defaultContentLanguage = "en"
 timeZone = "America/New_York"
-
-# number of words of summarized post content (default 70)
 summaryLength = 70
-
-# Define the number of posts per page
 pagination.pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+  [privacy.vimeo]
+    enableDNT = true
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:contentbasename/"
@@ -17,4 +24,4 @@ pagination.pagerSize = 10
   category = "categories"
   tag = "tags"
   author = "authors"
-  
+

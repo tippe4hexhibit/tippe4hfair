@@ -59,6 +59,18 @@ jobs:
             MENU_OUTPUT_DIR: ${{ vars.MENU_OUTPUT_DIR }}
             PYTHONPATH: ./menugen            
 
+        - name: Set up Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '20'
+            cache: 'npm'
+
+        - name: Install Node dependencies
+          run: npm ci
+
+        - name: Add dart-sass to PATH
+          run: echo "$GITHUB_WORKSPACE/node_modules/sass-embedded-linux-x64/dart-sass" >> $GITHUB_PATH
+
         - name: Deploy site
           uses: seliger/hugo-s3-action@master
           
