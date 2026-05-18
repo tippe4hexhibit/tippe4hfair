@@ -59,6 +59,10 @@
   background: var(--gray-50, #f9fafb);
   margin-top: 2.5rem;
   border-top: 1px solid var(--gray-200, #e5e7eb);
+  /* Theme's .content applies max-width: 895px to direct children.
+     Override so the sponsor strip fills the full container width. */
+  max-width: 100%;
+  width: 100%;
 }
 
 .home-sponsors .container {
