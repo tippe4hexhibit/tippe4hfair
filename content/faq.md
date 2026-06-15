@@ -48,12 +48,12 @@ Sunday, July 20th at 1 pm. The sign up form will be in the 4-H Extension Office,
 
 Operating hours for the fair and carnival vary slightly throughout the week. Please check the following resources for more information:
 
-* [Carnival Schedule](/2025/carnival)
-* [Fair Schedule](/2025/schedule)
+* [Carnival Schedule](/carnival)
+* [Fair Schedule](/schedule)
 
 ### How much does the carnival cost?
 
-Please refer to the [Carnival](/2025/carnival) page for more information.
+Please refer to the [Carnival](/carnival) page for more information.
 
 ### When is Family Day?
 
