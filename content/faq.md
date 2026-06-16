@@ -36,11 +36,11 @@ The green folders and record sheets are for your records. Please keep them with 
 
 ### When is the Pie Eating Contest and how do I sign up?
 
-Thursday, July 24th at 5:30 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Please check the [Special Events](/special-events) page for the time and location. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ### When is the Kiddie Tractor Pull and how do I sign up?
 
-Sunday, July 20th at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Please check the [Special Events](/special-events) page for the time and location. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ## Carnival
 
@@ -63,4 +63,4 @@ Family Day is Tuesday, all rides take one ticket each!
 
 ### What is the sale order for this year's auction?
 
-Please check the [Auction Information](/auction/) page for the Sale Order and all other information.
+Please check the [Auction Information](/auction) page for the Sale Order and all other information.
