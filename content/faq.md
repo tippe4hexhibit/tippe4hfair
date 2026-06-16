@@ -8,7 +8,7 @@ keywords = ["Questions","FAQ"]
 
 ### When is the fair?
 
-The 2025 Tippecanoe County 4-H Fair will be held on July 17th through July 25th.
+The 2026 Tippecanoe County 4-H Fair will be held on July 17th through July 25th.
 
 ### Is it open to the public?
 
