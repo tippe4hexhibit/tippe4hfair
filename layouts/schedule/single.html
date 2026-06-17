@@ -29,7 +29,7 @@
                     <div class="col-md-8" id="blog-post">
 
                         <div id="">
-                            {{ $year := .Section }}
+                            {{ $year := .Site.Params.fair_year }}
                             {{ $date := printf "%s_%s" .Params.schedule_prefix (now.Format "20060102") }}
                             {{ $data := (index .Site.Data.schedule $date) }}
 

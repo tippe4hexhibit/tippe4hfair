@@ -27,10 +27,8 @@
                     <!-- *** LEFT COLUMN *** -->
 
                     <div class="col-md-8" id="blog-post">
-                        {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
-                        {{ $year := .Section }}
+                        {{ $year := .Site.Params.fair_year }}
                         {{ $schedules := printf "%s_%s" .Params.schedule_prefix $year }}
-
                         <div id="schedule">
                             {{ range $a, $b := .Site.Data.schedule }}
                                 {{ if strings.HasPrefix $a $schedules }}
