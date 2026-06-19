@@ -12,7 +12,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12" id="blog-post">
-              {{ $data := (index .Site.Data.sponsorship .Section) }}
+              {{ $data := (index .Site.Data.sponsorship .Site.Params.fair_year) }}
               <div id="post-content">
                 {{ .Content }}
                 {{ range $index, $tier_list := $data }}
@@ -62,7 +62,7 @@
                   {{ end }}
                 {{ end }}
                 {{ if not $data }}
-                  <h2 class="center">Check back soon for our {{ .Section }} sponsors!.</h2>
+                  <h2 class="center">Check back soon for our {{ .Site.Params.fair_year }} sponsors!</h2>
                 {{ end }}  
               </div>
             </div>

@@ -1,5 +1,5 @@
 +++
-title = "2025 Fair Sponsors"
+title = "Fair Sponsors"
 description = "Sponsors"
 keywords = ["Sponsors"]
 type = "sponsors"
