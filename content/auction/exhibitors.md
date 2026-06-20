@@ -14,5 +14,5 @@ This page is the one-stop-shop for registering and submitting auction informatio
 
 The Online Entry Portal is open! Registration is due by **11:59 pm on Tuesday, July 22, 2025**.
 
-* [Exhibitor Registration](/auction/exhibitors/register)
+* [Exhibitor Registration]() - COMING SOON
 

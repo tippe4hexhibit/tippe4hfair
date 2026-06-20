@@ -8,11 +8,11 @@ keywords = ["Questions","FAQ"]
 
 ### When is the fair?
 
-The 2025 Tippecanoe County 4-H Fair will be held on July 18th through July 26th.
+The 2026 Tippecanoe County 4-H Fair will be held on July 17th through July 25th.
 
 ### Is it open to the public?
 
-Yes, the fair is be open to the public. Bring your friends and family!
+Yes, the fair is open to the public. Bring your friends and family!
 
 ### How much does it cost to attend the fair?
 
@@ -20,7 +20,7 @@ The fair itself is free. Parking is free and our shuttle service is also free. O
 
 ### When is next year's fair?
 
-The 2026 Tippecanoe County 4-H Fair will be Friday, July 17 through Saturday, July 25th at the Tippecanoe County Fairgrounds.
+The 2027 Tippecanoe County 4-H Fair will be Friday, July 16 through Saturday, July 24th at the Tippecanoe County Fairgrounds.
 
 ## Projects
 
@@ -36,11 +36,11 @@ The green folders and record sheets are for your records. Please keep them with 
 
 ### When is the Pie Eating Contest and how do I sign up?
 
-Thursday, July 24th at 5:30 pm in the Coliseum. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Please check the [Special Events](/special-events) page for the time and location. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ### When is the Kiddie Tractor Pull and how do I sign up?
 
-Sunday, July 20th at 1 pm. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
+Please check the [Special Events](/special-events) page for the time and location. The sign up form will be in the 4-H Extension Office, East Wing, in the Main Fairgrounds Building.
 
 ## Carnival
 
@@ -48,12 +48,12 @@ Sunday, July 20th at 1 pm. The sign up form will be in the 4-H Extension Office,
 
 Operating hours for the fair and carnival vary slightly throughout the week. Please check the following resources for more information:
 
-* [Carnival Schedule](/2025/carnival)
-* [Fair Schedule](/2025/schedule)
+* [Carnival Schedule](/carnival)
+* [Fair Schedule](/schedule)
 
 ### How much does the carnival cost?
 
-Please refer to the [Carnival](/2025/carnival) page for more information.
+Please refer to the [Carnival](/carnival) page for more information.
 
 ### When is Family Day?
 
@@ -63,4 +63,4 @@ Family Day is Tuesday, all rides take one ticket each!
 
 ### What is the sale order for this year's auction?
 
-Please check the [Auction Information](/auction/) page for the Sale Order and all other information.
+Please check the [Auction Information](/auction) page for the Sale Order and all other information.
