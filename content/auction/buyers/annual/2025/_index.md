@@ -1,0 +1,215 @@
+---
+title: "2025 Auction Buyers"
+description: "2025 Auction Buyers"
+keywords: ["Auction","Buyers", "2025"]
+buyers:
+  - tier: Platinum
+    names:
+      - name: John Basham Tipp. County Councilman
+      - name: Keystone Cooperative West Point
+      - name: Joe Horstman Farm Bureau Ins
+      - name: Newton Oil Co
+      - name: Lewis Motor Sales
+      - name: Prairie View Farms - Beck's Hybrids
+      - name: Wendy's Old Fashioned Hamburgers
+      - name: Wildcat Valley Farms
+      - name: Ashcraft Orthodontics
+      - name: Martin Irrigation
+  - tier: Gold
+    names:
+      - name: Anderson's Fertilizer Service
+      - name: Dr. W. Kelley Carr
+      - name: Kokomo Grain, Inc.
+      - name: Dr. Gerritt Smith
+      - name: Keystone Mulberry
+      - name: Dr. Larry Horstman
+      - name: Gilbert Farms - Greg & Natalie Gilbert
+      - name: Bk Management of Greater Lafayette
+      - name: Nutrien Ag Solutions - Clarks Hill
+      - name: Craig Farms - Dean and Peter Craig
+      - name: Helena Products Group
+      - name: Greg & Sierra Dice
+      - name: Tip Top Farms, Inc.
+      - name: Helena Agri Enterprises, LLC
+      - name: Soller Baker Funeral Homes
+      - name: Erik Moore - Tucker Shook
+      - name: Kokopelli LLC
+      - name: Bob & Elaine Lahrman
+      - name: Welsh Grain Systems, LLC & Brock Bins
+      - name: 1st Source Bank
+      - name: Purdy Concrete
+      - name: Sietsma's Heating & Air, Inc.
+      - name: Bell Plaza, LLC
+      - name: Crop Insurance Specialists
+      - name: Tempest Homes, LLC - Barney Scheumann
+      - name: Kerkhoff Ranch, Inc.
+  - tier: Silver
+    names:
+      - name: Crown Line Homes
+      - name: Knoy Apparel
+      - name: The National Group
+      - name: Hack Excavating, Inc.
+      - name: Horstman Cattle Co.
+      - name: Okos Family Farms
+      - name: Jedele Enterprises, McDonalds Restaurants
+      - name: Overmyer Grain Co
+      - name: Fox Hauling & Construction, Inc
+      - name: Beck's Hybrids / Still Water Farms
+      - name: Bears Auto Sales
+      - name: Wilkinson Roofing
+      - name: Tamara House - Re/max Realty
+      - name: Zurcher Tire
+      - name: Dwight Sheets
+      - name: Helena Agri Enterprises, LLC Linden
+      - name: Heads Up Irrigation
+      - name: Birge Farm Drainage
+      - name: Nucor Steel
+      - name: Jim Moseley Farms
+      - name: Pathway Real Estate Group -Chad Chism
+      - name: Mulberry Feed
+      - name: First Farmers Bank & Trust
+      - name: Rowe Truck Equipment - Lafayette
+      - name: Jennings Insurance Angency
+      - name: Farm Credit Mid America
+      - name: Mitchell Agency, Inc.
+      - name: Underwood Farms, Inc
+      - name: Risk Management Commodities
+      - name: Infinity Pork Inc, Duane and Jennifer Keiser
+      - name: Pendleton Ag Solutions
+      - name: Beck's Hybrids / Ben DeFreese
+      - name: Nutrien Ag Solutions - Attica
+      - name: Bill and Katie Price
+      - name: Andrew & Brenda Klinkhamer
+      - name: Robert Lahrman Farms
+      - name: Jeff Haan - Dekalb Asgrow
+      - name: Bruce and Deb Sheets
+      - name: Channel Seeds - Chad Hoey
+      - name: Elevated Site Services
+      - name: McAlpine, LLC
+      - name: Del & Grace Craig
+      - name: Lindenman Farms
+      - name: Billy Guynn
+      - name: Brian James
+      - name: Garrett Swine Farms
+      - name: Hoosier-Agrimatic
+      - name: Creative Floor Coverings
+      - name: The Carpenters Hands LLC
+  - tier: Bronze
+    names:
+      - name: Zach Beasley for County Surveyor
+      - name: Zach & Heather Beasley
+      - name: Spray Family Farms
+      - name: Final Boss LLC
+      - name: ICHIYA LLC
+      - name: Everbowl Purdue
+      - name: Kirk & Ashley Miller
+      - name: 4R Livestock
+      - name: Grants House - Wabash Center
+      - name: Acre Pro - Kyle Spray
+      - name: Lafayette Lawn Works
+      - name: Bryce Biddle Farms
+      - name: SWI Avaiation Inc
+      - name: Ziegler Enterprises Inc
+      - name: Wagner Water Systems
+      - name: Dale & Tracy Inskeep Farms
+      - name: Redline Equipment
+      - name: Campbell Ag Service
+      - name: Alexanders Land and Resort
+      - name: Carl and Kathy Cox
+      - name: Elite Electrical Group- David Hedden
+      - name: Superior Structures
+      - name: Shelby Family Farms
+      - name: Mary Lou Donuts
+      - name: Griff & Jagger Quirk
+      - name: Horizon Ag Consulting LLC
+      - name: Keystone Co-op Goodland
+      - name: Jackson Industrial Construction
+      - name: Bymaster Farms - Kyle and Abi Bymaster
+      - name: Walters Seamless Gutters
+      - name: Linda Leamon
+      - name: Tipmont
+      - name: The Blessing Barn
+      - name: Pam Roberts
+      - name: Wagner Hauling, Inc.
+      - name: Sagamore Ag Source, LLC
+      - name: David Destefano
+      - name: Wyandotte Acre Swine
+      - name: Angie Fitzmorris- Stucky RAECO Realty
+      - name: Sam Beasley
+      - name: B & B Farm Enterprises LLC
+      - name: JC Buck Farms, Inc
+      - name: Don Whitehead / Whitehead Real Estate
+      - name: Dowell Automotive Repair
+      - name: Brad and Kim Giroux
+      - name: Hedden Family Farms
+      - name: Jason Leigh
+      - name: Scott and Amber Miller
+      - name: Brand Accounting
+      - name: Byersland Dairy Farm
+      - name: Fred & Joan Inskeep
+      - name: John Vanderkolk Construction
+      - name: Steve Brown Farms
+      - name: Zach and Audra Martin
+      - name: David Byers - County Commissioner
+      - name: BJ Rule-Keller Williams
+      - name: Truland Equipment
+      - name: Gary and Sandy Duncan
+      - name: Ag Producers Insurance Inc
+      - name: LMB Contracting
+      - name: Chuck & Jenny Rooze
+      - name: Tippecanoe Co 4-H Exhibit Association
+      - name: Ade Family Farms, LLC - In Memory of Steven & Paul Ade
+      - name: Tim Reese
+      - name: Brent and Stefanie Skelton
+      - name: AG Research Products
+      - name: Null Tank Lines
+      - name: Tim & Kristen Rooze
+      - name: Chad & Amanda Lade
+      - name: Simplot Grower Solutions
+      - name: The Andersons, INC
+      - name: Sandy and Katie Weaver
+      - name: Will-O-AYR Farm Willoughby
+      - name: Newlin Farms LLC
+      - name: Tolen Crop Service- Berry Tolen & Joel Huff
+      - name: Nate & Paula Holmes
+      - name: Johnson Bothers Show Stock
+      - name: Gregory Farms
+      - name: Glade and Betsy Montgomery
+      - name: Interface Automation LLC
+      - name: Calgie Electric LTD
+      - name: Missi Findley
+  - tier: Friends of the Fair
+    names:
+      - name: Spitznagle Show Lambs
+      - name: Don & Cindy Brown
+      - name: Ellen Byers
+      - name: Mann Chevrolet
+      - name: AgPerspective Inc
+      - name: Maple Lane Farms
+      - name: Main Street Manufacturing
+      - name: Trudie's Bridal
+      - name: Trudie's Alterations LLC
+      - name: Topside Ag LLC
+      - name: LA Welding
+      - name: Jason & Jeanise Buck
+      - name: Rob & Lindsay Ford
+      - name: Stillwater Farms
+      - name: Bruce Brown
+      - name: Wolff  K-9 Academy
+      - name: House Farms
+      - name: Bob Dykstra
+      - name: S+S Restoration LLC
+      - name: Hoosier Associates, Inc.
+      - name: Gamble Family Farms
+      - name: Action Exteriors
+      - name: Jackie Scott
+      - name: Tyler & Paige Britton
+      - name: Dan Baker- auctioneer
+      - name: Elizabeth Byers
+---
+
+
+
+## {{% param "Title" %}}
+
+{{< auction-buyers-tiers data=buyers >}}
