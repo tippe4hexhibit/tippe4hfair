@@ -78,7 +78,7 @@
   - image: /img/logo-raeco-realty.svg
     level: Gold
     level_rank: 10
-    name: Raeco Realty (Josh Shives)
+    name: Raeco Realty - Josh Shives
     url: https://www.raecorealty.com/AgentSearch/JoshShives-23044397
 - Silver:
   - image: /img/logo-the_andersons.svg
@@ -128,7 +128,7 @@
     url: https://www.explorationacres.com/
   - image: 
     level: Silver
-    level_rank: 10
+    level_rank: 11
     name: Dice Family
     url: #
 - Bronze:
