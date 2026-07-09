@@ -70,6 +70,16 @@
     level_rank: 8
     name: Tippecanoe County Farm Bureau
     url: https://www.facebook.com/TippecanoeCountyFarmBureau/
+  - image: /img/logo-franklin-pest-solutions.png
+    level: Gold
+    level_rank: 9
+    name: Franklin Pest Solutions
+    url: https://www.franklinpestsolutions.com/locations/lafayette-pest-control-services/
+  - image: /img/logo-raeco-realty.svg
+    level: Gold
+    level_rank: 10
+    name: Raeco Realty (Josh Shives)
+    url: https://www.raecorealty.com/AgentSearch/JoshShives-23044397
 - Silver:
   - image: /img/logo-the_andersons.svg
     level: Silver
@@ -111,6 +121,16 @@
     level_rank: 8
     name: Beck's Hybrids
     url: https://www.beckshybrids.com/
+  - image: /img/logo-exploration-acres.png
+    level: Silver
+    level_rank: 9
+    name: Exploration Acres
+    url: https://www.explorationacres.com/
+  - image: 
+    level: Silver
+    level_rank: 10
+    name: Dice Family
+    url: #
 - Bronze:
   - image: /img/logo-prairie_farms.webp
     level: Bronze
@@ -178,3 +198,8 @@
     level_rank: 1
     name: Merck Animal Health
     url: https://www.merck-animal-health.com/
+  - image: /img/sponsor-fresh-thyme.png
+    level: Friends of the Fair
+    level_rank: 2
+    name: Fresh Thyme
+    url: https://ww2.freshthyme.com/
