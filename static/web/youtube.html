@@ -17,7 +17,11 @@
         overflow: hidden;
         background: black;
       }
-      iframe {
+      #player-container {
+        width: 100%;
+        height: 100%;
+      }
+      #player-container iframe {
         width: 100%;
         height: 100%;
         border: none;
@@ -25,19 +29,22 @@
     </style>
   </head>
   <body>
-    <iframe
-      id="youtube-iframe"
-      referrerpolicy="strict-origin-when-cross-origin"
-      src=""
-      allowfullscreen
-      allow="autoplay; encrypted-media"
-    ></iframe>
+    <div id="player-container"></div>
 
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
       /*
         - Tested on series 5 OS 9.0.211, 9.1.92
         - Tested on series 4 OS 8.5.64, 9.1.92
         - Tested on series 3 OS 8.5.64, 9.1.92
+
+        BrightSign does not support the Chromium autoplay-policy flags,
+        so instead of relying on the ?autoplay=1 URL parameter, this
+        version loads the YouTube IFrame Player API and calls
+        playVideo() directly once the player reports it's ready. That
+        mirrors BrightSign's own recommended fix for native <video>
+        elements (start muted, then trigger playback with JS rather
+        than an attribute).
       */
 
       // --- DEFAULTS ---
@@ -53,12 +60,10 @@
       const urlParams = new URLSearchParams(queryString);
       const videoId = urlParams.get("videoId");
 
-      // TO DO: Add logic to display error if videoId is missing
       if (!videoId) {
         console.error("videoId parameter is missing");
       }
 
-      // Get configuration parameters from URL or set defaults
       const playlistId = urlParams.get("playlist")
         ? urlParams.get("playlist")
         : videoId;
@@ -76,31 +81,82 @@
         : AUTOPLAY_DEFAULT;
 
       const mute = urlParams.get("mute") ? urlParams.get("mute") : MUTE_DEFAULT;
-
       const rel = urlParams.get("rel") ? urlParams.get("rel") : REL_DEFAULT;
-
       const controls = urlParams.get("controls")
         ? urlParams.get("controls")
         : CONTROLS_DEFAULT;
-
       const showInfo = urlParams.get("showinfo")
         ? urlParams.get("showinfo")
         : SHOWINFO_DEFAULT;
-
       const loop = urlParams.get("loop") ? urlParams.get("loop") : LOOP_DEFAULT;
 
-      let srcUrl;
-      if (isMultiVideoPlaylist) {
-        // Build video player URL for playlist
-        srcUrl = `https://www.youtube.com/embed/${videoId}?listType=playlist&list=${listId}&autoplay=${autoplay}&mute=${mute}&rel=${rel}&controls=${controls}&showinfo=${showInfo}&loop=${loop}`;
-      } else {
-        // Build video player URL for single video
-        srcUrl = `https://www.youtube.com/embed/${videoId}?playlist=${playlistId}&autoplay=${autoplay}&mute=${mute}&rel=${rel}&controls=${controls}&showinfo=${showInfo}&loop=${loop}`;
+      let player;
+      let retryTimer;
+
+      // Called automatically by the IFrame API script once it has loaded.
+      function onYouTubeIframeAPIReady() {
+        const playerVars = {
+          autoplay: parseInt(autoplay, 10),
+          mute: parseInt(mute, 10),
+          rel: parseInt(rel, 10),
+          controls: parseInt(controls, 10),
+          showinfo: parseInt(showInfo, 10), // deprecated by YouTube, kept for parity with legacy URLs
+          playsinline: 1,
+          enablejsapi: 1,
+          loop: parseInt(loop, 10),
+          origin: window.location.origin,
+        };
+
+        if (isMultiVideoPlaylist) {
+          playerVars.listType = "playlist";
+          playerVars.list = listId;
+        } else {
+          playerVars.playlist = playlistId; // needed for single-video looping
+        }
+
+        player = new YT.Player("player-container", {
+          videoId: videoId,
+          playerVars: playerVars,
+          events: {
+            onReady: onPlayerReady,
+            onStateChange: onPlayerStateChange,
+          },
+        });
       }
 
-      // MAGIC!
-      const youTubeIframe = document.getElementById("youtube-iframe");
-      youTubeIframe.setAttribute("src", srcUrl);
+      function onPlayerReady(event) {
+        if (mute === "1") {
+          event.target.mute();
+        }
+
+        if (autoplay !== "1") {
+          return; // respect an explicit autoplay=0 override
+        }
+
+        event.target.playVideo();
+
+        // Belt and suspenders: some BrightSign OS/browser combinations
+        // ignore the first playVideo() call if it lands before the
+        // player is fully painted. Retry briefly until playback
+        // actually starts, then stop.
+        let attempts = 0;
+        retryTimer = setInterval(() => {
+          attempts += 1;
+          const state = player.getPlayerState();
+          if (state === YT.PlayerState.PLAYING || attempts > 10) {
+            clearInterval(retryTimer);
+          } else {
+            player.playVideo();
+          }
+        }, 500);
+      }
+
+      // Handles looping for a single video without a "list" playlist.
+      function onPlayerStateChange(event) {
+        if (loop === "1" && !isMultiVideoPlaylist && event.data === YT.PlayerState.ENDED) {
+          player.playVideo();
+        }
+      }
     </script>
   </body>
 </html>
