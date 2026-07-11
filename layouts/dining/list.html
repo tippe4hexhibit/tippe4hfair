@@ -30,7 +30,7 @@
 
 
                         {{/* $year := replace .FirstSection.Page.RelPermalink "/" "" */}}
-                        {{ $year := .Section }}
+                        {{ $year := .Site.Params.fair_year }}
                         {{ $dining_options := printf "dining_%s" $year }}
 
                         <div id="">
