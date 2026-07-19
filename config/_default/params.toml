@@ -11,6 +11,9 @@ instagram_site = "tippe4hfair"
 default_sharing_image = "img/sharing-default.png"
 
 fair_year = "2026"
+fair_dates = "July 17 - 25, 2026"
+fair_nextyear = "2027"
+fair_nextyear_dates = "July 16 - Saturday, July 24"
 
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
 enableGoogleMaps = false
@@ -81,7 +84,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 [topbar]
     enable = true
     text = """
-    <p class="dates">July 17 - 25, 2026</p>
+    <p class="dates">{{< params fair_dates >}}</p>
     """
 
 # Enable and disable widgets for the right sidebar

@@ -6,4 +6,4 @@ keywords = ["Senior", "10", "year", "10 year", "ten", "10-year", "recognition", 
 
 # Recognition Program
 
-This year's Senior and Ten-year Recognition program will be held on Friday, July 17th at 7:00 pm in the Coliseum.
+This year's Senior and Ten-year Recognition program will be held on Friday, {{< firstday.inline >}}{{- .Site.Params.fair_dates | truncate 7 "" -}}{{< /firstday.inline >}} at 7:00 pm in the Coliseum.
