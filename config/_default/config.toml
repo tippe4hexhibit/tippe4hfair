@@ -18,3 +18,5 @@ pagination.pagerSize = 10
   tag = "tags"
   author = "authors"
   
+[security]
+  enableInlineShortcodes = true
