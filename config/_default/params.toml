@@ -84,7 +84,7 @@ address = """<p class="text-uppercase"><strong>Tippecanoe County Exhibit Associa
 [topbar]
     enable = true
     text = """
-    <p class="dates">{{< params fair_dates >}}</p>
+    <p class="dates">July 17 - July 25, 2026</p>
     """
 
 # Enable and disable widgets for the right sidebar
