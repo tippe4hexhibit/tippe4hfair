@@ -13,7 +13,7 @@ default_sharing_image = "img/sharing-default.png"
 fair_year = "2026"
 fair_dates = "Friday, July 17 through Saturday, July 25, 2026"
 fair_nextyear = "2027"
-fair_nextyear_dates = "Friday, July 16 through Saturday, July 24, 2026"
+fair_nextyear_dates = "Friday, July 16 through Saturday, July 24, 2027"
 
 # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
 enableGoogleMaps = false
