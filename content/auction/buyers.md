@@ -20,7 +20,7 @@ When available, the link below contains the current auction bill for the auction
 
 **NOTE:** This is subject to change.
 
-- [Auction Bill]() - COMING SOON
+- [Auction Bill](https://docs.google.com/document/d/1QZtndVhEFXwOcR10HuBoHlwxdsaVJ83UFigNxsJvP5E/edit?usp=sharing)
 
 ## Add-on Form
 
