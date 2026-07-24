@@ -26,5 +26,5 @@ When available, the link below contains the current auction bill for the auction
 
 Please use the following form to apply add-ons this year:
 
-- [Add-on Form]() - COMING SOON
+- [Add-on Form](/files/2026-addon-form.pdf) - COMING SOON
 
