@@ -1,3 +1,8 @@
+{{ $year := .Site.Params.fair_year }}
+{{ $data := index .Site.Data.sponsorship (string $year) }}
+{{ if not $data }}
+  {{ $year = sub (int $year) 1 }}
+{{ end }}
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
@@ -9,10 +14,14 @@
       {{ partial "nav.html" . }}
       {{ partial "breadcrumbs.html" . }}
       <div id="content">
+
         <div class="container">
+          <p>
+          Thank you to our {{ $year }} sponsors for their generous support of the Tippecanoe County 4-H Fair! Without your dedication, we would not be able to provide the best possible experience for our 4-H members and their families. We are grateful for your continued support and look forward to seeing you at the fair!
+          </p>
           <div class="row">
             <div class="col-md-12" id="blog-post">
-              {{ $data := (index .Site.Data.sponsorship .Site.Params.fair_year) }}
+              {{ $data := (index .Site.Data.sponsorship (string $year)) }}
               <div id="post-content">
                 {{ .Content }}
                 {{ range $index, $tier_list := $data }}

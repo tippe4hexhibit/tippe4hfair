@@ -20,7 +20,7 @@ The fair itself is free. Parking is free and our shuttle service is also free. O
 
 ### When is next year's fair?
 
-The 2027 Tippecanoe County 4-H Fair will be {{< param fair_nextyear_dates >}} at the Tippecanoe County Fairgrounds.
+The {{< param fair_nextyear >}} Tippecanoe County 4-H Fair will be {{< param fair_nextyear_dates >}} at the Tippecanoe County Fairgrounds.
 
 ## Projects
 
